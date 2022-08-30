@@ -1,0 +1,5 @@
+\babel@toc {portuguese}{}\relax 
+\contentsline {chapter}{\numberline {1}INTRODUÇÃO}{3}{chapter.1}%
+\contentsline {section}{\numberline {1.1}Um Pouco Sobre Ondas}{3}{section.1.1}%
+\contentsline {section}{\numberline {1.2}Sobre o Maxima}{5}{section.1.2}%
+\contentsline {section}{\numberline {1.3}Como instalar o Maxima}{5}{section.1.3}%
