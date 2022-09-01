@@ -105,7 +105,7 @@ ferramentas desse software adequadas para transcrever a linguagem da física par
 \section{Um Pouco Sobre Ondas}
 Há várias situações no dia a dia nas quais as coisas acontecem repentinamente, ou inesperadamente, vindo, depois a cessar seus efeitos, ou, em outros casos, repercutem mais além. É comum nos referirmos a isso com a expressão: "isso é apenas uma onda, logo passará". Isso, claro, devido a que tais situações são transitórias, exemplos: pandemias, endemias, o preço de commodities, tsunamis, terremotos, até notícias ou eventos cotidianos. Algumas vezes tais situações apresentam comportamento oscilante, como na superfície de um líquido em uma piscina, ou mesmo em fontes naturais de água, como em rios, mares e oceanos durante a passagem de uma embarcação.
 
-É importante notar que existem características diferentes em tais situações. Alguns simplesmente oscilam ou vibram e em outros, além de oscilar ou vibrar, essa condição é posteriormente transmitida para outros locais do ambiente onde tais situações ocorrem. Neste segundo caso, diz-se que há uma propagação do fenômeno. De tal forma que, oscilação, onda, propagação são termos correlacionados.
+É importante notar que existem características diferentes em tais situações. Alguns simplesmente oscilam ou vibram e em outros casos, além de oscilar ou vibrar, essa condição é posteriormente transmitida para outros locais do ambiente onde tais situações ocorrem. Neste segundo caso, diz-se que há uma propagação do fenômeno. De tal forma que, oscilação, onda, propagação são termos correlacionados.
 
 Etimologicamente, a palavra onda teria a ver com o significado de algo que flutua na água. As descobertas e desenvolvimentos neste tema em seus primórdios derivaram do estudo dos sons musicais. Diz-se que o estudo moderno de ondas e acústica se originou com \emph{Galileu Galilei}.
 
@@ -169,5 +169,14 @@ S. No. & Column\#1 & Column\#2 & Column\#3 \\ [0.5ex]
 \label{table:nonlin} % is used to refer this table in the text
 \end{table}
 \section{Como instalar o Maxima}
+Instalar um software é uma tarefa que a maioria de usuários de PC já fizeram alguma vez, e instalar o Maxima é uma tarefa que não haverá muita dificuldade. O primeiro passo é obeter o arquivo instalador. Uma opção é fazer o processo de \emph{download} do endereço da internet (sugestão do autor): maxima.sourceforge.io/windows-install.html (\ref{fig:site-maxima}). 
+\begin{figure}[htbp!]
+    \centering
+    \caption{Entrando com o endereço do site para buscar o arquivo instaldor do Maxima no \emph{Google}.}
+        \label{fig:site-maxima}
+    %\begin{Center}
+    \includegraphics[]{site-maxima.jpg}
+	%\end{Center}
+\end{figure}
 
 \end{document}

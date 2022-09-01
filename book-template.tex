@@ -10,6 +10,47 @@
 \usepackage[left=2cm,right=1cm,top=2cm,bottom=2cm,headheight=1cm]{geometry}
 \usepackage{graphicx}
 \usepackage{lmodern}
+\usepackage{blindtext}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Configurações para o Maxima %
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\usepackage{graphicx}
+\usepackage{color}
+\usepackage{amsmath}
+\usepackage{grffile}
+\usepackage{ifthen}
+\newsavebox{\picturebox}
+\newlength{\pictureboxwidth}
+\newlength{\pictureboxheight}
+\newcommand{\includeimage}[1]{
+    \savebox{\picturebox}{\includegraphics{#1}}
+    \settoheight{\pictureboxheight}{\usebox{\picturebox}}
+    \settowidth{\pictureboxwidth}{\usebox{\picturebox}}
+    \ifthenelse{\lengthtest{\pictureboxwidth > .95\linewidth}}
+    {
+        \includegraphics[width=.95\linewidth,height=.80\textheight,keepaspectratio]{#1}
+    }
+    {
+        \ifthenelse{\lengthtest{\pictureboxheight>.80\textheight}}
+        {
+            \includegraphics[width=.95\linewidth,height=.80\textheight,keepaspectratio]{#1}
+            
+        }
+        {
+            \includegraphics{#1}
+        }
+    }
+}
+\newlength{\thislabelwidth}
+\DeclareMathOperator{\abs}{abs}
+
+\definecolor{labelcolor}{RGB}{100,0,0}
+
+
+
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Source: http://en.wikibooks.org/wiki/LaTeX/Hyperlinks %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -169,5 +210,160 @@ S. No. & Column\#1 & Column\#2 & Column\#3 \\ [0.5ex]
 \label{table:nonlin} % is used to refer this table in the text
 \end{table}
 \section{Como instalar o Maxima}
+Instalar um software é uma tarefa que a maioria de usuários de PC já fizeram alguma vez, e instalar o Maxima é uma tarefa que não haverá muita dificuldade. O primeiro passo é obter o arquivo instalador. Uma opção é fazer o processo de \emph{download} do endereço da internet ou URL (sugestão do autor): maxima.sourceforge.io/windows-install.html (\ref{fig:site-maxima}). 
+\begin{figure}[htbp!]
+    \centering
+    \caption{Entrando com a URL, para buscar a página do Maxima no \emph{Google}.}
+        \label{fig:site-maxima}
+    %\begin{Center}
+    \includegraphics[]{site-maxima.jpg}
+	%\end{Center}
+\end{figure}
+
+\noindent A página na figura \ref{fig:pagina-maxima} contém um passo a passo, que é recomendável que seja lido. Entretando, por ora seguiremos mais focados no processo operacional de instalação em si. 
+Assim, localize o link, nessa página com o texto: \href{sourceforge.net/projects/maxima/files/Maxima-Windows/5.46.0-Windows/}{5.46.0-Windows}, como mostrado nessa imagem.
+
+\begin{figure}[htbp!]
+    \centering
+    \caption{Página encontrada do Maxima no navegador da Internet.}
+        \label{fig:pagina-maxima}
+    %\begin{Center}
+    \includegraphics[]{pagina-maxima.jpg}
+	%\end{Center}	
+\end{figure}
+\newpage
+\noindent	Como forma de gerenciar o processo de instalação são apresentadas a seguir as janelas que interagem nas diversa etapas dessa instalação.
+	\begin{figure}[htbp!]
+    \centering
+    \caption{Janela que apresenta o início do processo de instalação.}
+        \label{fig:maxima-ist-1}
+    %\begin{Center}
+    \includegraphics[]{maxima-ist-1.jpg}
+	%\end{Center}
+\end{figure}
+
+
+	\begin{figure}[htbp!]
+    \centering
+    \caption{Janela que apresenta os termos de uso.}
+        \label{fig:maxima-ist-2}
+    %\begin{Center}
+    \includegraphics[]{maxima-ist-2.jpg}
+	%\end{Center}
+\end{figure}
+
+	\begin{figure}[htbp!]
+    \centering
+    \caption{Janela que apresenta o diretório local para instalação de arquivos.}
+        \label{fig:maxima-ist-3}
+    %\begin{Center}
+    \includegraphics[]{maxima-ist-3.jpg}
+	%\end{Center}
+\end{figure}
+
+	\begin{figure}[htbp!]
+    \centering
+    \caption{Janela de configuração de atalhos.}
+        \label{fig:maxima-ist-4}
+    %\begin{Center}
+    \includegraphics[]{maxima-ist-4.jpg}
+	%\end{Center}
+\end{figure}
+
+	\begin{figure}[htbp!]
+    \centering
+    \caption{Janela de configuração do escopo de funções do programa.}
+        \label{fig:maxima-ist-5}
+    %\begin{Center}
+    \includegraphics[]{maxima-ist-5.jpg}
+	%\end{Center}
+\end{figure}
+
+	\begin{figure}[htbp!]
+    \centering
+    \caption{Janela de status do processo de instalação.}
+        \label{fig:maxima-ist-6}
+    %\begin{Center}
+    \includegraphics[]{maxima-ist-6.jpg}
+	%\end{Center}
+\end{figure}
+
+	\begin{figure}[htbp!]
+    \centering
+    \caption{Janela de confirmação da instalação.}
+        \label{fig:maxima-ist-7}
+    %\begin{Center}
+    \includegraphics[]{maxima-ist-7.jpg}
+	%\end{Center}
+\end{figure}
+
+	\begin{figure}[htbp!]
+    \centering
+    \caption{Aspecto do comando de menu na janela inicial do Windows.}
+        \label{fig:menu-windows}
+    %\begin{Center}
+    \includegraphics[scale=0.7]{menu-windows.jpg}
+	%\end{Center}
+\end{figure}
+\newpage
+\section{Conhecendo a \emph{interface} do aplicativo}
+A janela do aplicativo Maxima é idêntica a um editor de texto. Ao abrir a janela, esta já fornece de imediato um prompt para a entrada de comandos de programação, ou textos descritivos. 
+	\begin{figure}[htbp!]
+    \centering
+    \caption{Aspecto da janela do aplicativo Maxima.}
+        \label{fig:tela-inicial}
+    %\begin{Center}
+    \includegraphics[scale=0.6]{tela-inicial.jpg}
+	%\end{Center}
+\end{figure}
+
+
+\noindent A figura \ref{fig:selecao-tipos} mostra como escolhar as opções de tipo de entrada no prompt para o caso de texto
+	\begin{figure}[htbp!]
+    \centering
+    \caption{Pré-seleção para inserir texto no prompt.}
+        \label{fig:selecao-tipos}
+    %\begin{Center}
+    \includegraphics[scale=0.6]{selecao-tipos.jpg}
+	%\end{Center}
+\end{figure}
+
+\noindent A figura \ref{fig:selecao-texto} mostra como escolher as opções de tipo de entrada no prompt para o caso de texto. Já a figura \ref{fig:selecao-math} mostra como escolher as opções de tipo de entrada no prompt para o caso de texto
+	\begin{figure}[htbp!]
+    \centering
+    \caption{Pré-seleção para inserir texto no prompt.}
+        \label{fig:selecao-texto}
+    %\begin{Center}
+    \includegraphics[scale=0.6]{selecao-texto.jpg}
+	%\end{Center}
+\end{figure}
+
+
+	\begin{figure}[htbp!]
+    \centering
+    \caption{Pré-seleção para inserir expressão algébrica no prompt.}
+        \label{fig:selecao-math}
+    %\begin{Center}
+    \includegraphics[scale=0.6]{selecao-math.jpg}
+	%\end{Center}
+\end{figure}
+Até agora nos ativemos a apresentar generalidades que subsidiarão o leitor durante sua jornada no aprendizado ou mesmo na utilização das técnica aqui apresntadas de simulação no Maxima. Assunto que será objeto dos próximos capítulos.
+
+\chapter{Trabalhando com o Maxima}
+
+\noindent
+%%%%%%%%
+%% INPUT:
+\begin{minipage}[t]{4.000000em}\color{red}\bfseries
+(\% i1)	
+\end{minipage}
+\begin{minipage}[t]{\textwidth}\color{blue}
+pitg:c\^\ 2+b\^\ 2=a\^\ 2;
+\end{minipage}
+%%%% OUTPUT:
+\[\displaystyle \tag{\% o1} 
+{{c}^{2}}+{{b}^{2}}={{a}^{2}}\mbox{}
+\]
+%%%%%%%%%%%%%%%%
 
 \end{document}
