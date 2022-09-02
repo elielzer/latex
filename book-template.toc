@@ -4,4 +4,5 @@
 \contentsline {section}{\numberline {1.2}Sobre o Maxima}{5}{section.1.2}%
 \contentsline {section}{\numberline {1.3}Como instalar o Maxima}{6}{section.1.3}%
 \contentsline {section}{\numberline {1.4}Conhecendo a \emph {interface} do aplicativo}{10}{section.1.4}%
-\contentsline {chapter}{\numberline {2}Trabalhando como o Maxima}{13}{chapter.2}%
+\contentsline {chapter}{\numberline {2}Trabalhando com o Maxima}{13}{chapter.2}%
+\contentsline {chapter}{\numberline {3}Dicas sobre o Maxima}{15}{chapter.3}%

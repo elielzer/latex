@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.8.30)  1 SEP 2022 00:59
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.8.30)  2 SEP 2022 00:26
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -385,7 +385,7 @@ Package babel Info: Importing font and identification data for portuguese
 (babel)             from babel-pt.ini. Reported on input line 11.
 )
 LaTeX Font Info:    Trying to load font information for T1+lmr on input line 10
-7.
+6.
 
 (c:/texlive/2022/texmf-dist/tex/latex/lm/t1lmr.fd
 File: t1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
@@ -398,24 +398,24 @@ File: l3backend-pdftex.def 2022-08-23 L3 backend support: PDF output (pdfTeX)
 (./book-template.aux)
 \openout1 = `book-template.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 107.
-LaTeX Font Info:    ... okay on input line 107.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 107.
-LaTeX Font Info:    ... okay on input line 107.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 107.
-LaTeX Font Info:    ... okay on input line 107.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 107.
-LaTeX Font Info:    ... okay on input line 107.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 107.
-LaTeX Font Info:    ... okay on input line 107.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 107.
-LaTeX Font Info:    ... okay on input line 107.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 107.
-LaTeX Font Info:    ... okay on input line 107.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 107.
-LaTeX Font Info:    ... okay on input line 107.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 107.
-LaTeX Font Info:    ... okay on input line 107.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 106.
+LaTeX Font Info:    ... okay on input line 106.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 106.
+LaTeX Font Info:    ... okay on input line 106.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 106.
+LaTeX Font Info:    ... okay on input line 106.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 106.
+LaTeX Font Info:    ... okay on input line 106.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 106.
+LaTeX Font Info:    ... okay on input line 106.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 106.
+LaTeX Font Info:    ... okay on input line 106.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 106.
+LaTeX Font Info:    ... okay on input line 106.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 106.
+LaTeX Font Info:    ... okay on input line 106.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 106.
+LaTeX Font Info:    ... okay on input line 106.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -481,56 +481,56 @@ G,.JBIG2,.JB2,.eps]
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
-Package hyperref Info: Link coloring OFF on input line 107.
+Package hyperref Info: Link coloring OFF on input line 106.
 
 (./book-template.out) (./book-template.out)
 \@outlinefile=\write3
 \openout3 = `book-template.out'.
 
 LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 1
-11.
+10.
 
 (c:/texlive/2022/texmf-dist/tex/latex/lm/ot1lmr.fd
 File: ot1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    Trying to load font information for OML+lmm on input line 1
-11.
+10.
 
 (c:/texlive/2022/texmf-dist/tex/latex/lm/omllmm.fd
 File: omllmm.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 
-111.
+110.
 
 (c:/texlive/2022/texmf-dist/tex/latex/lm/omslmsy.fd
 File: omslmsy.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 
-111.
+110.
 
 (c:/texlive/2022/texmf-dist/tex/latex/lm/omxlmex.fd
 File: omxlmex.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <24.88> on input line 111.
+(Font)              <24.88> on input line 110.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <20.74> on input line 111.
+(Font)              <20.74> on input line 110.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <17.28> on input line 111.
+(Font)              <17.28> on input line 110.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <14.4> on input line 111.
+(Font)              <14.4> on input line 110.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10> on input line 111.
+(Font)              <10> on input line 110.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <7> on input line 111.
+(Font)              <7> on input line 110.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10.95> on input line 111.
+(Font)              <10.95> on input line 110.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <8> on input line 111.
+(Font)              <8> on input line 110.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <6> on input line 111.
+(Font)              <6> on input line 110.
 LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 1
-11.
+10.
 
 (c:/texlive/2022/texmf-dist/tex/latex/lm/t1lmtt.fd
 File: t1lmtt.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
@@ -572,119 +572,140 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 
 ]
  1.
-<sounds.jpg, id=126, 752.0597pt x 891.33pt>
+<sounds.jpg, id=138, 752.0597pt x 891.33pt>
 File: sounds.jpg Graphic file (type jpg)
 <use sounds.jpg>
-Package pdftex.def Info: sounds.jpg  used on input line 161.
+Package pdftex.def Info: sounds.jpg  used on input line 160.
 (pdftex.def)             Requested size: 486.5494pt x 694.67699pt.
 [3] [4 <./sounds.jpg>]
 LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 1
-72.
+71.
  (c:/texlive/2022/texmf-dist/tex/latex/lm/ts1lmr.fd
 File: ts1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
-<site-maxima.jpg, id=137, 373.395pt x 60.97781pt>
+<site-maxima.jpg, id=149, 373.395pt x 60.97781pt>
 File: site-maxima.jpg Graphic file (type jpg)
 <use site-maxima.jpg>
-Package pdftex.def Info: site-maxima.jpg  used on input line 220.
+Package pdftex.def Info: site-maxima.jpg  used on input line 219.
 (pdftex.def)             Requested size: 373.39409pt x 60.97765pt.
 
 [5]
-<pagina-maxima.jpg, id=147, 446.41782pt x 253.69781pt>
+<pagina-maxima.jpg, id=159, 446.41782pt x 253.69781pt>
 File: pagina-maxima.jpg Graphic file (type jpg)
 <use pagina-maxima.jpg>
-Package pdftex.def Info: pagina-maxima.jpg  used on input line 232.
+Package pdftex.def Info: pagina-maxima.jpg  used on input line 231.
 (pdftex.def)             Requested size: 446.41672pt x 253.69719pt.
  [6 <./site-maxima.jpg> <./pagina-maxima.jpg>]
-<maxima-ist-1.jpg, id=152, 255.20343pt x 201.00093pt>
+<maxima-ist-1.jpg, id=165, 255.20343pt x 201.00093pt>
 File: maxima-ist-1.jpg Graphic file (type jpg)
 <use maxima-ist-1.jpg>
-Package pdftex.def Info: maxima-ist-1.jpg  used on input line 242.
+Package pdftex.def Info: maxima-ist-1.jpg  used on input line 241.
 (pdftex.def)             Requested size: 255.2028pt x 201.00043pt.
-<maxima-ist-2.jpg, id=153, 244.66406pt x 191.9672pt>
+<maxima-ist-2.jpg, id=166, 244.66406pt x 191.9672pt>
 File: maxima-ist-2.jpg Graphic file (type jpg)
 <use maxima-ist-2.jpg>
-Package pdftex.def Info: maxima-ist-2.jpg  used on input line 252.
+Package pdftex.def Info: maxima-ist-2.jpg  used on input line 251.
 (pdftex.def)             Requested size: 244.66345pt x 191.96672pt.
-<maxima-ist-3.jpg, id=154, 247.67531pt x 194.22563pt>
+<maxima-ist-3.jpg, id=167, 247.67531pt x 194.22563pt>
 File: maxima-ist-3.jpg Graphic file (type jpg)
 <use maxima-ist-3.jpg>
-Package pdftex.def Info: maxima-ist-3.jpg  used on input line 261.
+Package pdftex.def Info: maxima-ist-3.jpg  used on input line 260.
 (pdftex.def)             Requested size: 247.6747pt x 194.22514pt.
-<maxima-ist-4.jpg, id=155, 236.38312pt x 183.68625pt>
+<maxima-ist-4.jpg, id=168, 236.38312pt x 183.68625pt>
 File: maxima-ist-4.jpg Graphic file (type jpg)
 <use maxima-ist-4.jpg>
-Package pdftex.def Info: maxima-ist-4.jpg  used on input line 270.
+Package pdftex.def Info: maxima-ist-4.jpg  used on input line 269.
 (pdftex.def)             Requested size: 236.38254pt x 183.68578pt.
-<maxima-ist-5.jpg, id=156, 225.84375pt x 176.91093pt>
+<maxima-ist-5.jpg, id=169, 225.84375pt x 176.91093pt>
 File: maxima-ist-5.jpg Graphic file (type jpg)
 <use maxima-ist-5.jpg>
-Package pdftex.def Info: maxima-ist-5.jpg  used on input line 279.
+Package pdftex.def Info: maxima-ist-5.jpg  used on input line 278.
 (pdftex.def)             Requested size: 225.84319pt x 176.91049pt.
-<maxima-ist-6.jpg, id=157, 229.60782pt x 178.41656pt>
+<maxima-ist-6.jpg, id=170, 229.60782pt x 178.41656pt>
 File: maxima-ist-6.jpg Graphic file (type jpg)
 <use maxima-ist-6.jpg>
-Package pdftex.def Info: maxima-ist-6.jpg  used on input line 288.
+Package pdftex.def Info: maxima-ist-6.jpg  used on input line 287.
 (pdftex.def)             Requested size: 229.60725pt x 178.4161pt.
-<maxima-ist-7.jpg, id=158, 228.855pt x 179.16937pt>
+<maxima-ist-7.jpg, id=171, 228.855pt x 179.16937pt>
 File: maxima-ist-7.jpg Graphic file (type jpg)
 <use maxima-ist-7.jpg>
-Package pdftex.def Info: maxima-ist-7.jpg  used on input line 297.
+Package pdftex.def Info: maxima-ist-7.jpg  used on input line 296.
 (pdftex.def)             Requested size: 228.85443pt x 179.16893pt.
-<menu-windows.jpg, id=159, 486.31688pt x 383.18156pt>
+<menu-windows.jpg, id=172, 486.31688pt x 383.18156pt>
 File: menu-windows.jpg Graphic file (type jpg)
 <use menu-windows.jpg>
-Package pdftex.def Info: menu-windows.jpg  used on input line 306.
+Package pdftex.def Info: menu-windows.jpg  used on input line 305.
 (pdftex.def)             Requested size: 340.4195pt x 268.22525pt.
  [7 <./maxima-ist-1.jpg> <./maxima-ist-2.jpg>] [8 <./maxima-ist-3.jpg> <./maxim
 a-ist-4.jpg> <./maxima-ist-5.jpg>] [9 <./maxima-ist-6.jpg> <./maxima-ist-7.jpg>
  <./menu-windows.jpg>]
-<tela-inicial.jpg, id=174, 757.32938pt x 446.41782pt>
+<tela-inicial.jpg, id=186, 757.32938pt x 446.41782pt>
 File: tela-inicial.jpg Graphic file (type jpg)
 <use tela-inicial.jpg>
-Package pdftex.def Info: tela-inicial.jpg  used on input line 317.
+Package pdftex.def Info: tela-inicial.jpg  used on input line 316.
 (pdftex.def)             Requested size: 454.40114pt x 267.85275pt.
-<selecao-tipos.jpg, id=176, 761.84625pt x 450.18187pt>
+<selecao-tipos.jpg, id=188, 761.84625pt x 450.18187pt>
 File: selecao-tipos.jpg Graphic file (type jpg)
 <use selecao-tipos.jpg>
-Package pdftex.def Info: selecao-tipos.jpg  used on input line 328.
+Package pdftex.def Info: selecao-tipos.jpg  used on input line 327.
 (pdftex.def)             Requested size: 457.11128pt x 270.1112pt.
-<selecao-texto.jpg, id=179, 758.835pt x 448.67625pt>
+<selecao-texto.jpg, id=191, 758.835pt x 448.67625pt>
 File: selecao-texto.jpg Graphic file (type jpg)
 <use selecao-texto.jpg>
-Package pdftex.def Info: selecao-texto.jpg  used on input line 338.
+Package pdftex.def Info: selecao-texto.jpg  used on input line 337.
 (pdftex.def)             Requested size: 455.30452pt x 269.20782pt.
-<selecao-math.jpg, id=180, 763.35187pt x 453.19313pt>
+<selecao-math.jpg, id=192, 763.35187pt x 453.19313pt>
 File: selecao-math.jpg Graphic file (type jpg)
 <use selecao-math.jpg>
-Package pdftex.def Info: selecao-math.jpg  used on input line 348.
+Package pdftex.def Info: selecao-math.jpg  used on input line 347.
 (pdftex.def)             Requested size: 458.01465pt x 271.91797pt.
 
 [10 <./tela-inicial.jpg> <./selecao-tipos.jpg>] [11 <./selecao-texto.jpg> <./se
 lecao-math.jpg>] [12]
  2.
 
-Overfull \hbox (49.6104pt too wide) in paragraph at lines 355--365
-[] [] 
+! LaTeX Error: \mathrm allowed only in math mode.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.354 ...ras da seguinte forma, no prompt: \mathrm
+                                                  {pitg:c\^\ 2+b\^\ 2=a\^\ 2}
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+<pitagoras.jpg, id=206, 757.32938pt x 446.41782pt>
+File: pitagoras.jpg Graphic file (type jpg)
+<use pitagoras.jpg>
+Package pdftex.def Info: pitagoras.jpg  used on input line 361.
+(pdftex.def)             Requested size: 454.40114pt x 267.85275pt.
+
+Overfull \hbox (67.23521pt too wide) in paragraph at lines 369--376
+[][] [] 
  []
 
 [13
 
-] (./book-template.aux)
+ <./pitagoras.jpg>] [14
 
-Package rerunfilecheck Warning: File `book-template.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
+]
+ 3.
 
-Package rerunfilecheck Info: Checksums for `book-template.out':
-(rerunfilecheck)             Before: 6FC9CE6619143F8429FB8352EA1B0C82;811
-(rerunfilecheck)             After:  C0A6E7CF8D3DBA732DBD11BCD2921C51;988.
+Overfull \hbox (14.24219pt too wide) in paragraph at lines 383--384
+\T1/lmr/m/n/12 Se seu cál-culo está de-mo-rando de mais para exe-cu-tar, você p
+ode ten-tar os me-nus 'Maxima->Interromper'
+ []
+
+[15] (./book-template.aux)
+Package rerunfilecheck Info: File `book-template.out' has not changed.
+(rerunfilecheck)             Checksum: F65BA5F3D1AB363590A6C4C8FAB3ADA5;1135.
  ) 
 Here is how much of TeX's memory you used:
- 11416 strings out of 477529
- 182738 string characters out of 5829600
- 504287 words of memory out of 5000000
- 30100 multiletter control sequences out of 15000+600000
+ 11430 strings out of 477529
+ 182930 string characters out of 5829600
+ 504346 words of memory out of 5000000
+ 30109 multiletter control sequences out of 15000+600000
  554698 words of font info for 78 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  72i,11n,77p,720b,478s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -700,10 +721,10 @@ ts/type1/public/lm/lmr17.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/lm/
 lmr8.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/lm/lmri12.pfb><c:/texli
 ve/2022/texmf-dist/fonts/type1/public/lm/lmro12.pfb><c:/texlive/2022/texmf-dist
 /fonts/type1/public/lm/lmtt10.pfb>
-Output written on book-template.pdf (23 pages, 1308252 bytes).
+Output written on book-template.pdf (25 pages, 1385409 bytes).
 PDF statistics:
- 273 PDF objects out of 1000 (max. 8388607)
- 205 compressed objects within 3 object streams
- 51 named destinations out of 1000 (max. 500000)
- 116 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 295 PDF objects out of 1000 (max. 8388607)
+ 224 compressed objects within 3 object streams
+ 55 named destinations out of 1000 (max. 500000)
+ 137 words of extra memory for PDF output out of 10000 (max. 10000000)
 

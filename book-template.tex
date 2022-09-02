@@ -12,7 +12,7 @@
 \usepackage{lmodern}
 \usepackage{blindtext}
 
-
+	
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Configurações para o Maxima %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -351,19 +351,26 @@ Até agora nos ativemos a apresentar generalidades que subsidiarão o leitor dur
 
 \chapter{Trabalhando com o Maxima}
 
-\noindent
-%%%%%%%%
-%% INPUT:
-\begin{minipage}[t]{4.000000em}\color{red}\bfseries
-(\% i1)	
-\end{minipage}
-\begin{minipage}[t]{\textwidth}\color{blue}
-pitg:c\^\ 2+b\^\ 2=a\^\ 2;
-\end{minipage}
-%%%% OUTPUT:
-\[\displaystyle \tag{\% o1} 
-{{c}^{2}}+{{b}^{2}}={{a}^{2}}\mbox{}
-\]
-%%%%%%%%%%%%%%%%
+\noindent Vamos tomar como primeiro exemplo a fórmula do teorema de Pitágoras. No Maxima é possível nomear um expressão para que possa ser reutilizada. Vamos escrever a expressão do teorema de pitagoras da seguinte forma, no prompt: \mathrm{pitg:c\^\ 2+b\^\ 2=a\^\ 2}
+
+	\begin{figure}[htbp!]
+    \centering
+    \caption{Entrando um expressão algébrica.}
+        \label{fig:pitagoras}
+    %\begin{Center}
+    \includegraphics[scale=0.6]{pitagoras.jpg}
+	%\end{Center}
+\end{figure}
+
+Essa expressão é o input do processo e para fazer o Maxima processar no expressão usa-se a combinação de tecla \emph{Shift+Enter}.
+
+
+
+\chapter{Dicas sobre o Maxima}
+
+Se seu cálculo está demorando de mais para executar, você pode tentar os menus 'Maxima->Interromper' ou 'Maxima->Reiniciar o Maxima'.
+
+Para fazer gráficos em coordenadas polares, selecione 'Polar' em Opções na janela de gráficos bidimensionais. Você também pode fazer gráficos em coordenadas esféricas e cilíndricas em 3D.
+
 
 \end{document}

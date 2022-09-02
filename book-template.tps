@@ -17,8 +17,8 @@ Class=LaTeXView
 Document=book-template.tex
 
 [Frame0_View0,0]
-TopLine=0
-Cursor=492
+TopLine=401
+Cursor=14877
 
 [SessionInfo]
 FrameCount=1
