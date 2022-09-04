@@ -328,7 +328,7 @@ A janela do aplicativo Maxima é idêntica a um editor de texto. Ao abrir a jane
 	%\end{Center}
 \end{figure}
 
-\noindent A figura \ref{fig:selecao-texto} mostra como escolher as opções de tipo de entrada no prompt para o caso de texto. Já a figura \ref{fig:selecao-math} mostra como escolher as opções de tipo de entrada no prompt para o caso de texto
+\noindent A figura \ref{fig:selecao-texto} mostra como escolher as opções de tipo de entrada no prompt para o caso de texto. Já a figura \ref{fig:selecao-math} mostra como escolher as opções de tipo de entrada no prompt para o caso de expressão algébrica.
 	\begin{figure}[htbp!]
     \centering
     \caption{Pré-seleção para inserir texto no prompt.}
@@ -350,8 +350,7 @@ A janela do aplicativo Maxima é idêntica a um editor de texto. Ao abrir a jane
 Até agora nos ativemos a apresentar generalidades que subsidiarão o leitor durante sua jornada no aprendizado ou mesmo na utilização das técnica aqui apresntadas de simulação no Maxima. Assunto que será objeto dos próximos capítulos.
 
 \chapter{Trabalhando com o Maxima}
-
-\noindent Vamos tomar como primeiro exemplo a fórmula do teorema de Pitágoras. No Maxima é possível nomear um expressão para que possa ser reutilizada. Vamos escrever a expressão do teorema de pitagoras da seguinte forma, no prompt: \mathrm{pitg:c\^\ 2+b\^\ 2=a\^\ 2}
+Vamos tomar como primeiro exemplo a fórmula do teorema de Pitágoras. Vamos escrever no prompt a seguinte expressão: \textrm{c\^\ 2+b\^\ 2=a\^\ 2}
 
 	\begin{figure}[htbp!]
     \centering
@@ -362,15 +361,55 @@ Até agora nos ativemos a apresentar generalidades que subsidiarão o leitor dur
 	%\end{Center}
 \end{figure}
 
-Essa expressão é o input do processo e para fazer o Maxima processar no expressão usa-se a combinação de tecla \emph{Shift+Enter}.
+\noindent Essa expressão é o input do processo. O Maxima processará essa entrada após acionada a combinação de tecla \emph{Shift+Enter} e, em seguida, apresentará uma saída na área do \emph{prompt}, figura \ref{fig:pitagoras-2}.
 
+	\begin{figure}[htbp!]
+    \centering
+    \caption{Saída apresentada após a execução de um comando por meio de uma expressão algébrica.}
+        \label{fig:pitagoras-2}
+    %\begin{Center}
+    \includegraphics[scale=0.6]{pitagoras-2.jpg}
+	%\end{Center}
+\end{figure}
+\noindent Observe que, a resposta disponibilizada recebe identificadores, tais que
+\begin{itemize}
+\item \begin{minipage}[t]{4.000000em}\color{red}\bfseries (\% i1)	
+\end{minipage}, indica que a expressão na linha é o \emph{input}, e
+%%%%
+\item \begin{minipage}[t]{4.000000em}\color{green}\bfseries (\% o1)	
+\end{minipage}, indica que a expressao na linha é a saída (\emph{output}).
+\end{itemize}
 
+No Maxima é possível nomear um expressão de forma que possa ser reutilizada. Por exemplo, escrevendo no prompt a seguinte expressão: \textrm{pitg:c\^\ 2+b\^\ 2=a\^\ 2} e observar o resultado disso na figura \ref{fig:pitagoras-3}.
+	\begin{figure}[htbp!]
+    \centering
+    \caption{Nomeando expressões.}
+        \label{fig:pitagoras-3}
+    %\begin{Center}
+    \includegraphics[scale=0.6]{pitagoras-3.jpg}
+	%\end{Center}
+\end{figure}
 
+\noindent Ainda, na mesma sessão, aprofundemos o uso de expressões, com a seguinte expressão nomeada \textrm{sol1:solve(pitg,a)}. O termo \emph{solve} corresponde a uma fórmula (função) interna do Maxima, os resultados aparecem na figura \ref{pitagoras-4}. Ao aplicar um termo \emph{solve}, o Maxima resolve, no caso, a expressão \emph{pitg} para a literal \emph{a}, retornando duas soluções, escritas como um vetor linha de dois elementos. 
+
+Explorando mais além vamos ver a praticidade do uso de nomes para as expressões.
+	\begin{figure}[htbp!]
+    \centering
+    \caption{Usando expressões.}
+        \label{fig:pitagoras-4}
+    %\begin{Center}
+    \includegraphics[scale=0.6]{pitagoras-4.jpg}
+	%\end{Center}
+\end{figure}
+%%%
 \chapter{Dicas sobre o Maxima}
-
-Se seu cálculo está demorando de mais para executar, você pode tentar os menus 'Maxima->Interromper' ou 'Maxima->Reiniciar o Maxima'.
-
-Para fazer gráficos em coordenadas polares, selecione 'Polar' em Opções na janela de gráficos bidimensionais. Você também pode fazer gráficos em coordenadas esféricas e cilíndricas em 3D.
-
+\begin{itemize}
+	\item Se seu cálculo está demorando de mais para executar, você pode tentar os menus 'Maxima->Interromper' ou 'Maxima->Reiniciar o Maxima'.
+	\item Para fazer gráficos em coordenadas polares, selecione 'Polar' em Opções na janela de gráficos bidimensionais. Você também pode fazer gráficos em coordenadas esféricas e cilíndricas em 3D.
+	\item As janelas do wxMaxima têm valores padrão para as entradas, um dos quais é '\%'. Se você selecionou algo no documento, a seleção será usada no lugar de '\%'.
+	\item Ao aplicar funções com um argumento a partir dos menus, o argumento padrão é '\%'. Para aplicar a função a um outro valor, selecione-o do documento antes de executar o comando do menu.
+	\item Para salvar o tamanho e posição da janela do wxMaxima entre sessões, use a janela 'Maxima->Configurações'.
+	\item Pressing Ctrl+Space or Ctrl+Tab starts an autocomplete function that can not only complete all functions that are integrated into the Maxima core and their parameters: It also knows about parameters from currently loaded packages and from functions that are defined in the current file.
+\end{itemize}
 
 \end{document}
