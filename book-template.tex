@@ -5,21 +5,63 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \documentclass[a4paper,12pt]{book}
-\usepackage[T1]{fontenc}
-\usepackage[utf8]{inputenc}
+\usepackage{iftex}
+\ifPDFTeX
+  % PDFLaTeX or LaTeX 
+  \usepackage[utf8]{inputenc}
+  \usepackage[T1]{fontenc}
+  \DeclareUnicodeCharacter{00B5}{\ensuremath{\mu}}
+\else
+  %  XeLaTeX or LuaLaTeX
+  \usepackage{fontspec}
+\fi
+%\usepackage[T1]{fontenc}
+%\usepackage[utf8]{inputenc}
 \usepackage[left=2cm,right=1cm,top=2cm,bottom=2cm,headheight=1cm]{geometry}
-\usepackage{graphicx}
 \usepackage{lmodern}
-\usepackage{blindtext}
+\usepackage{amsmath}
+\usepackage{textcomp}
+\usepackage{multicol}
+\usepackage[]{ragged2e}
+\usepackage[dvipsnames]{xcolor}
 
-	
+%%%%%
+\usepackage[12pt]{moresize}
+%\fontsize{8}{20}\selectfont
+\usepackage{amssymb}
+\usepackage{enumerate}
+%%%%%
+\usepackage{pifont}
+\usepackage{braket}
+\usepackage{esint}
+\usepackage{ziffer}
+\usepackage{latexsym}
+\usepackage[normalem]{ulem}
+\usepackage{color,tikz}
+\usepackage{mathtools}
+\usepackage{setspace}
+\usepackage{tocloft}
+\usepackage{longtable}
+\usepackage{url}
+\usepackage{booktabs}
+\usepackage{float}
+\usepackage{graphicx, nicefrac}
+\usepackage{scalefnt}
+\usepackage{tikz}
+\usetikzlibrary{decorations.pathmorphing}
+\usetikzlibrary{shapes.geometric, arrows}
+\usepackage[ruled, vlined, linesnumbered]{algorithm}
+\usepackage{caption}%
+\usepackage[Sonny]{fncychap}
+\usepackage[weather, clock]{ifsym}
+\usepackage[most]{tcolorbox}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Configurações para o Maxima %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\usepackage{graphicx}
-\usepackage{color}
-\usepackage{amsmath}
+
+%\usepackage{graphicx}
+
 \usepackage{grffile}
 \usepackage{ifthen}
 \newsavebox{\picturebox}
@@ -100,7 +142,7 @@
 % Book's title and subtitle
 \title{\Huge \textbf{\MakeUppercase{Simulações de Ondulatória com Uso do Maxima}} \footnote{This is a footnote.} \\  }
 % Author
-\author{\textsc{Elielzer Nuayed}\thanks{\url{www.example.com}}}
+\author{\textsc{Elielzer Nuayed}\thanks{\url{https://github.com/elielzer}}}
 
 
 \begin{document}
@@ -129,8 +171,7 @@ Dedicated to Calvin and Hobbes.
 %%%%%%%%%%%
 \chapter*{Preface}
 Este livro foi concebido a partir de um \emph{insight} pessoal após eu ler um anúncio sobre uso do \emph{Maxima} no ensino da Física. Então veio-me a ideia de escrever algo nesse sentido.
-Escolhi sobre ondulatória. O Maxima é introduzido no contexto como ambiente de apoio no momento que seja necessário simular as proposições. Dentre as proposições abordaremos situações clássicas, pois o objetivo é justamente apresentar o cartel de
-ferramentas desse software adequadas para transcrever a linguagem da física para representar as situações problema.
+Escolhi sobre ondulatória. O Maxima é introduzido no contexto como ambiente de apoio no momento que seja necessário simular as proposições. Dentre as proposições abordaremos situações clássicas, pois o objetivo é justamente apresentar o cartel de ferramentas desse software adequadas para transcrever a linguagem da física para representar as situações problema.
 
 
 
@@ -184,7 +225,7 @@ Assm,o Maxima é um sistema especialista para a manipulação de expressões mat
 
 \noindent O que caracteriza a matemática simbólica é de não estar atrelada a um determinado idioma, por exemplo a expressão algébrica: \(x+2=7\), tem o mesmo significado em qualquer idioma. Portanto o Maxima é um sistema algébrico computacional para auxílio no cálculo e manipulação da  matemática simbólica visado simplificar o esforço de trabalho do estudante ou profissional (professor ou pesquisador).
 
-O Maxima produz também resultados numéricos de alta precisão usando frações exatas, inteiros de precisão arbitrária e números de ponto flutuante de precisão variável. O Maxima pode plotar funções e dados em duas e três dimensões.
+O Maxima produz também resultados numéricos de alta precisão usando frações exatas, inteiros de precisão arbitrária e números de ponto flutuante de precisão variável. O Maxima pode plotar funções e dados em duas e três dimensões. Utilizaremos em nossos desenvolvimentos a plataforma gráfica do wxMaxima\textregistered .
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Sample table                                        %
@@ -209,7 +250,7 @@ S. No. & Column\#1 & Column\#2 & Column\#3 \\ [0.5ex]
 \end{tabular}
 \label{table:nonlin} % is used to refer this table in the text
 \end{table}
-\section{Como instalar o Maxima}
+\section{Como Instalar o wxMaxima\textregistered}
 Instalar um software é uma tarefa que a maioria de usuários de PC já fizeram alguma vez, e instalar o Maxima é uma tarefa que não haverá muita dificuldade. O primeiro passo é obter o arquivo instalador. Uma opção é fazer o processo de \emph{download} do endereço da internet ou URL (sugestão do autor): maxima.sourceforge.io/windows-install.html (\ref{fig:site-maxima}). 
 \begin{figure}[htbp!]
     \centering
@@ -306,9 +347,10 @@ Assim, localize o link, nessa página com o texto: \href{sourceforge.net/project
 	%\end{Center}
 \end{figure}
 \newpage
-\section{Conhecendo a \emph{interface} do aplicativo}
-A janela do aplicativo Maxima é idêntica a um editor de texto. Ao abrir a janela, esta já fornece de imediato um prompt para a entrada de comandos de programação, ou textos descritivos. 
-	\begin{figure}[htbp!]
+\section{Conhecendo a \emph{Interface} Gráfica do wxMaxima}
+A janela do aplicativo Maxima é idêntica a um editor de texto, e permite criar um arquivo, abrir um existente e salvar suas alterações, tudo a partir de um um menu supenso de comandos. Ao abrir a janela do aplicativo, esta já fornece de imediato, um prompt para a entrada de comandos de programação, ou textos descritivos, figura \ref{fig:tela-inicial}. A janela do aplicativo Maxima é idêntica a um editor de texto, porém sua funcionalidade lógica é identica á de uma planilha de cálculo, ou seja as janela possui uma estrutura baseada em células de cálculo.
+
+	\begin{figure}[h]
     \centering
     \caption{Aspecto da janela do aplicativo Maxima.}
         \label{fig:tela-inicial}
@@ -317,19 +359,32 @@ A janela do aplicativo Maxima é idêntica a um editor de texto. Ao abrir a jane
 	%\end{Center}
 \end{figure}
 
-
-\noindent A figura \ref{fig:selecao-tipos} mostra como escolhar as opções de tipo de entrada no prompt para o caso de texto
-	\begin{figure}[htbp!]
-    \centering
-    \caption{Pré-seleção para inserir texto no prompt.}
+\noindent A figura \ref{fig:selecao-tipos} mostra o recurso para escolher a opção de tipo de entrada no prompt, que podem ser
+\begin{multicols}{2}
+\begin{itemize}
+\item tipo Texto
+\item tipo Math
+\item tipo Título
+\item tipo Seção
+\item tipo Subseção
+\item tipo Subsubseção
+\item head 5
+\item head 6
+\end{itemize}
+\begin{figure}[H]
+    %\centering
+    \caption{Pré-seleção de tipo de entrada a ser inserida no prompt.}
         \label{fig:selecao-tipos}
-    %\begin{Center}
-    \includegraphics[scale=0.6]{selecao-tipos.jpg}
-	%\end{Center}
+    \begin{Center}
+    \includegraphics[scale=0.3]{selecao-tipos.jpg}
+		\end{Center}
 \end{figure}
+\end{multicols}
+%
 
+\pagebreak
 \noindent A figura \ref{fig:selecao-texto} mostra como escolher as opções de tipo de entrada no prompt para o caso de texto. Já a figura \ref{fig:selecao-math} mostra como escolher as opções de tipo de entrada no prompt para o caso de expressão algébrica.
-	\begin{figure}[htbp!]
+	\begin{figure}[ht!]
     \centering
     \caption{Pré-seleção para inserir texto no prompt.}
         \label{fig:selecao-texto}
@@ -338,8 +393,7 @@ A janela do aplicativo Maxima é idêntica a um editor de texto. Ao abrir a jane
 	%\end{Center}
 \end{figure}
 
-
-	\begin{figure}[htbp!]
+\begin{figure}[H]
     \centering
     \caption{Pré-seleção para inserir expressão algébrica no prompt.}
         \label{fig:selecao-math}
@@ -347,69 +401,333 @@ A janela do aplicativo Maxima é idêntica a um editor de texto. Ao abrir a jane
     \includegraphics[scale=0.6]{selecao-math.jpg}
 	%\end{Center}
 \end{figure}
+\pagebreak
 Até agora nos ativemos a apresentar generalidades que subsidiarão o leitor durante sua jornada no aprendizado ou mesmo na utilização das técnica aqui apresntadas de simulação no Maxima. Assunto que será objeto dos próximos capítulos.
 
-\chapter{Trabalhando com o Maxima}
-Vamos tomar como primeiro exemplo a fórmula do teorema de Pitágoras. Vamos escrever no prompt a seguinte expressão: \textrm{c\^\ 2+b\^\ 2=a\^\ 2}
-
-	\begin{figure}[htbp!]
+\chapter{TRABALHANDO COM O MAXIMA}
+Vamos tomar como primeiro exemplo a fórmula do teorema de Pitágoras. Vamos escrever no \emph{prompt} a seguinte expressão: \textsf{c\^\ 2+b\^\ 2=a\^\ 2}
+\begin{figure}[H]
     \centering
-    \caption{Entrando um expressão algébrica.}
+    \caption{Entrando uma expressão algébrica.}
         \label{fig:pitagoras}
     %\begin{Center}
-    \includegraphics[scale=0.6]{pitagoras.jpg}
+    \includegraphics[scale=0.5]{pitagoras.jpg}
 	%\end{Center}
 \end{figure}
 
-\noindent Essa expressão é o input do processo. O Maxima processará essa entrada após acionada a combinação de tecla \emph{Shift+Enter} e, em seguida, apresentará uma saída na área do \emph{prompt}, figura \ref{fig:pitagoras-2}.
+\noindent Essa expressão é o input do processo. O Maxima processará essa entrada após acionada a combinação de tecla \texttt{Shift+Enter} do que, em seguida, apresentará uma saída na área do \emph{prompt}, figura \ref{fig:pitagoras-2}.
 
-	\begin{figure}[htbp!]
+\begin{figure}[ht]
     \centering
-    \caption{Saída apresentada após a execução de um comando por meio de uma expressão algébrica.}
+    \caption{Saída apresentada após após processamento da expressão algébrica entrada.}
         \label{fig:pitagoras-2}
     %\begin{Center}
-    \includegraphics[scale=0.6]{pitagoras-2.jpg}
+    \includegraphics[scale=0.5]{pitagoras-2.jpg}
 	%\end{Center}
 \end{figure}
-\noindent Observe que, a resposta disponibilizada recebe identificadores, tais que
-\begin{itemize}
-\item \begin{minipage}[t]{4.000000em}\color{red}\bfseries (\% i1)	
-\end{minipage}, indica que a expressão na linha é o \emph{input}, e
-%%%%
-\item \begin{minipage}[t]{4.000000em}\color{green}\bfseries (\% o1)	
-\end{minipage}, indica que a expressao na linha é a saída (\emph{output}).
-\end{itemize}
+\pagebreak
+\noindent Observe que a resposta disponibilizada recebe identificadores, tais que:
 
-No Maxima é possível nomear um expressão de forma que possa ser reutilizada. Por exemplo, escrevendo no prompt a seguinte expressão: \textrm{pitg:c\^\ 2+b\^\ 2=a\^\ 2} e observar o resultado disso na figura \ref{fig:pitagoras-3}.
-	\begin{figure}[htbp!]
+\begin{minipage}[]{4.000000em}\color{red}\bfseries (\% i1)	
+\end{minipage}, indica que a expressão na linha é o \emph{input}, e 
+
+%%%%
+
+\begin{minipage}[]{4.000000em}\color{green}\bfseries (\% o1)	
+\end{minipage}, indica que a expressao na linha é a saída (\emph{output}).
+
+
+No Maxima é possível \emph{nomear uma expressão} de forma que possa ser reutilizada. Por exemplo, escrevendo no prompt a seguinte expressão: \textsf{pitg:c\^\ 2+b\^\ 2=a\^\ 2}. Observe o resultado disso na figura \ref{fig:pitagoras-3}.
+\begin{figure}[ht]
     \centering
     \caption{Nomeando expressões.}
         \label{fig:pitagoras-3}
     %\begin{Center}
-    \includegraphics[scale=0.6]{pitagoras-3.jpg}
+    \includegraphics[scale=0.5]{pitagoras-3.jpg}
 	%\end{Center}
 \end{figure}
 
-\noindent Ainda, na mesma sessão, aprofundemos o uso de expressões, com a seguinte expressão nomeada \textrm{sol1:solve(pitg,a)}. O termo \emph{solve} corresponde a uma fórmula (função) interna do Maxima, os resultados aparecem na figura \ref{pitagoras-4}. Ao aplicar um termo \emph{solve}, o Maxima resolve, no caso, a expressão \emph{pitg} para a literal \emph{a}, retornando duas soluções, escritas como um vetor linha de dois elementos. 
 
-Explorando mais além vamos ver a praticidade do uso de nomes para as expressões.
-	\begin{figure}[htbp!]
+\noindent Essa ação de nomear as expressões algébricas é importante pois facilita a reutilização recorrente da fórmula. Por exemplo, com a seguinte expressão nomeada \textsf{sol1:solve(pitg,a)}. O termo \emph{solve} corresponde a uma fórmula (função) interna do Maxima. Os resultados aparecem na figura \ref{fig:pitagoras-4}. 
+\begin{figure}[ht!]
     \centering
     \caption{Usando expressões.}
         \label{fig:pitagoras-4}
     %\begin{Center}
-    \includegraphics[scale=0.6]{pitagoras-4.jpg}
+    \includegraphics[scale=0.5]{pitagoras-4.jpg}
 	%\end{Center}
 \end{figure}
 %%%
-\chapter{Dicas sobre o Maxima}
+
+\pagebreak
+\noindent Ao aplicar um termo \emph{solve}, o Maxima soluciona a expressão, no caso, \emph{pitg} para a literal \emph{a} tratando-a como a variável incógnita. Observe que o Maxiama retorna dois valores como saída, que era o que seria obtido, caso fossemos desenvolver a solução manualmente, e tais valores são apresentados no formato de uma lista ou vetor linha de dois elementos. 
+
+Uma funcionalidade do Maxima é a possibilidade de recuperar um elemento de um vetor ou lista. Por exemplo, vamos recuperar uma das soluções obtidas do passo anterior. Vamos usar a seguinte sintaxe como \emph{input}: \textsf{sol2:sol1[2];}. O resultado é mostrado na figura \ref{fig:pitagoras-5}
+\begin{figure}[ht!]
+    \centering
+    \caption{Obtendo o valor de um elemento de uma lista.}
+        \label{fig:pitagoras-5}
+    %\begin{Center}
+    \includegraphics[scale=0.5]{pitagoras-5.jpg}
+	%\end{Center}
+\end{figure}
+%%%
+
+\noindent Observe que o Maxima atribuiu à expressão \textsf{sol2} o valor do segundo elemento do vetor \textsf{sol1}, ou seja, o valor do elemento de índice \textsf{[2]}
+
+O Maxima também suporta um ambiente de texto, misturado entre os comandos algébricos, recurso muito útil no caso de o usuário precisar de documentar seu trabalho com texto explicativo e formatado. Por exemplo vamos colocar um título introdutório em nossa tela e uma texto explicativo intermediário. 
+
+\noindent O título será um texto a ser inserido antes da primeira célula. Uma célula é o espaço delimitado pelo seletor lateral (parentese "exótico" que aparece à esquerda das expressões) idêntico ao desenho abaizo
+\begin{figure}[h]
+	\centering
+		\includegraphics[scale=0.6]{seletor.jpg}
+	\label{fig:seletor}
+\end{figure}
+
+\noindent O cursor horizontal deve ser transportado com auxílio das teclas de navegação do teclado, ou diretamente com o uso de dispositivo apontador ("mouse"), ver figura \ref{fig:curso-hrizontal-2}. 
+
+\begin{figure*}[hp]
+	\centering
+	\caption{Posição sugerida para escrever um título}
+		\includegraphics[width=0.80\textwidth]{curso-hrizontal-2.jpg}
+	\label{fig:curso-hrizontal-2}
+\end{figure*}
+
+Em seguida digita-se o texto pretendido para título:
+\begin{figure}[ht!]
+	\centering
+		\includegraphics[width=0.80\textwidth]{introducao-maxima.jpg}
+	\caption{Resultado da inserção de título}
+	\label{fig:introducao-maxima}
+\end{figure}
+\clearpage
+
+E, digita-se um texto explicativo pretendido:
+\begin{figure}[ht!]
+	\centering
+	\caption{Resultado da inserção de texto comum}
+		\includegraphics[width=0.80\textwidth]{usando-solve.jpg}
+	\label{fig:usando-solve}
+\end{figure}
+\clearpage
+%\pagebreak
+Por hora esses são os conhecimentos sobre o Maxima, indispensáveis para imergir sobre o univero de possibildades. São conhecimentos básicos e no decorrer dos outros capítulos estaremos apresentando outos recursos básicos ou mais complexos, conforme a exigência do contexto.
+\chapter{ESTUDO DAS FUNÇÕES TRIGONOMÉTRICAS}
+\newcounter{exemplos}
+\setcounter{exemplos}{1}
+\newcounter{exercicios}
+\setcounter{exercicios}{1}
+As funções trigonométricas tiveram suas origens no estudo das medidas astronômicas, e elas são de suma importância para as ciências em geral, dado que as suas características permitem de serem utilizadas para representar o comportamento de diversos sistemas reais. 
+
+Elas são desenvolvidas por meio do estudo da circunferência de raio unitário com relação às dimensões de determinado sistema de cordas. A palavra \emph{seno} etimologicamente significa meia corda.
+
+As funções trigonométricas também tem relações com a geometria por meio das relações trigonométricas no triângulo retângulo.
+\section{As Funções Trigonométricas no Maxima}
+No Maxima você irá se referir às funções trigonométricas usando as seguintes sintaxes.
+\begin{itemize}
+	\item Para seno: \textsf{f(x):=sin(x)};
+	\item Para cosseno: \textsf{f(x):=cos(x)};
+	\item Para tangente: \textsf{f(x):=tan(x)},
+\end{itemize}
+onde \emph{x}, ou seja, o argumento de função, deve ser entendido como medida de arco expressa em radianos.
+
+Vamos a uma ilustração. Vamos construir uma tabela dessas funções, para alguns pouco valores de arco.
+
+%%%%%%Matlab
+\clearpage
+\pagebreak{}
+{\large {\scshape Exemplo \thesection.\theexemplos: Construindo uma tabela}}
+
+\noindent
+%%%%%%%%
+%% INPUT:
+\begin{minipage}[t]{4.000000em}\color{red}\bfseries
+\ensuremath{\ensuremath{}}	
+\end{minipage}
+\begin{minipage}[t]{\textwidth}\color{blue}
+/*Definição\ das\ funções\ trigonométricas\ no\ ambiente.\ */\\
+f(x):=sin(x)\$;\ g(x):=cos(x)\$\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ 
+\end{minipage}
+\\
+\noindent%
+
+\noindent
+%%%%%%%%
+%% INPUT:
+\begin{minipage}[t]{4.000000em}\color{red}\bfseries
+\ensuremath{\ensuremath{}}	
+\end{minipage}	
+\begin{minipage}[t]{\textwidth}\color{blue}
+/*configuração\ do\ ambiente\ para\ calculos\ simbólicos\ (não\ numérico).\ */\\
+numer:false\$\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \\
+/*\ inicializa\ incremento\ para\ cálculo\ \ do\ domínio\ de\ valores\ para\ "x".\ */\\
+arc:\ensuremath{\pi}/12\ \$\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \\
+\\
+\ /*gera\ lista\ com\ os\ elementos\ para\ o\ cabeçalho\ de\ colunas.\ */\\
+cabeçalhoDaTabela:\ ["Arco(rad)",\ arc,\ 2*arc,\ 3*arc,\ 4*arc\ ]\$\ \ 
+\end{minipage}
+
+\noindent%
+
+\noindent
+%%%%%%%%
+%% INPUT:
+\begin{minipage}[t]{4.000000em}\color{red}\bfseries
+\ensuremath{\ensuremath{}}	
+\end{minipage}
+\begin{minipage}[t]{\textwidth}\color{blue}
+/*a\ partir\ daqui\ o\ cálculo\ será\ numérico.\ */\\
+numer:\ true\$\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \\
+arc:\ensuremath{\pi}/12\ \$
+\end{minipage}
+\\
+\noindent%
+
+\noindent
+%%%%%%%%
+%% INPUT:
+\begin{minipage}[t]{4.000000em}\color{red}\bfseries
+\ensuremath{\ensuremath{}}	
+\end{minipage}
+\begin{minipage}[t]{\textwidth}\color{blue}
+\ /*construindo\ lista\ de\ valores\ de\ seno.\ */\\
+linha1:makelist(f(x),x,\ [arc,2*arc,3*arc,4*arc])\$\ \ \ \ \ \ \ \ \ \ \ \ \\
+/*a\ lista\ é\ reconstruída\ para\ incluir\ nela\ um\ cabeçalho\ de\ linha.\ */\\
+linha1:["Seno",\ linha1[1],\ linha1[2],\ linha1[3],\ linha1[4]]\$\ \ \ \ \ 
+\end{minipage}
+\\
+\noindent%
+
+\noindent
+%%%%%%%%
+%% INPUT:
+\begin{minipage}[t]{4.000000em}\color{red}\bfseries
+\ensuremath{\ensuremath{}}	
+\end{minipage}
+\begin{minipage}[t]{\textwidth}\color{blue}
+\ /*construindo\ lista\ de\ valores\ de\ cosseno.\ */\\
+linha2:makelist(g(x),x,\ [arc,2*arc,3*arc,4*arc])\$\ \ \ \ \ \ \ \ \ \ \\
+/*a\ lista\ é\ reconstruída\ para\ incluir\ nela\ um\ cabeçalho\ de\ linha.\ */\\
+linha2:["Cosseno",linha2[1],\ linha2[2],\ linha2[3],\ linha2[4]]\$\ \ 
+\end{minipage}
+\\
+\noindent%
+
+\noindent
+%%%%%%%%
+%% INPUT:
+\begin{minipage}[t]{4.000000em}\color{red}\bfseries
+    \ensuremath{\ensuremath{}}	
+\end{minipage}
+\begin{minipage}[t]{\textwidth}\color{blue}
+    \ /*----\ Saída\ dos\ Resultados\ ---------------------------------*/\\
+\end{minipage}
+\noindent%
+
+
+\noindent
+%%%%%%%%
+%% INPUT:
+\begin{minipage}[t]{4.000000em}\color{red}\bfseries
+    \ensuremath{\ensuremath{}}	
+\end{minipage}
+\begin{minipage}[t]{\textwidth}\color{blue}
+    \ /*definindo\ a\ precisão\ numérica.\ */\\
+fpprintprec\ :\ 3\$\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ 
+\end{minipage}
+\\
+\noindent%
+
+
+\noindent
+%%%%%%%%
+%% INPUT:
+\begin{minipage}[t]{4.000000em}\color{red}\bfseries
+    \ensuremath{\ensuremath{}}	
+\end{minipage}
+\begin{minipage}[t]{\textwidth}\color{blue}
+    /*formato\ usando\ a\ função\ table\_form().\ \ */\\
+    table\_form([cabeçalhoDaTabela,\ linha1,\ linha2]);\ \ \ \ \ 
+\end{minipage}
+\\
+\noindent%
+
+
+\noindent
+%%%%%%%%
+%% INPUT:
+\begin{minipage}[t]{4.000000em}\color{red}\bfseries
+    \ensuremath{\ensuremath{}}	
+\end{minipage}
+\begin{minipage}[t]{\textwidth}\color{blue}
+    /*formato\ usando\ a\ função\ matrix().\ \ */\\
+    matrix(cabeçalhoDaTabela,\ linha1,\ linha2);\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ 
+\end{minipage}
+%%
+% 
+% $$e^{\pi i} + 1 = 0$$
+% 
+%%%%%%
+
+Copie na memória do seu computador as linhas de comando desse exemplo e cole na janela do wxMaxima, avalie com o comando de teclado \texttt{Shift+Enter} e veja o resultado, deverá ser idêntico ao da figura \ref{fig:exemplo331}
+\begin{figure}[H]
+    \centering
+    \caption{Resultado do exemplo na janela do wxMaxima.}
+        \label{fig:exemplo331}
+    %\begin{Center}
+    \includegraphics[scale=0.6]{exemplo331.jpg}
+	%\end{Center}
+\end{figure}
+\vspace{20pt}
+%%% pesquisar evfun no maxima  - distribute_over	- cabs - Trigonometric functions
+%%%
+\begin{tcolorbox}[enhanced jigsaw, colback=gray!30, colframe=Maroon,width=1\textwidth, arc=3mm, auto outer arc, boxrule=5pt, drop shadow={Maroon!50!gray!80}]
+  	\noindent
+	Exercício \thesection.\theexercicios: No encejo do exemplo \thesection.\theexemplos, acrescente ou modifique comando de forma que apareçam, uma linha correspondente aos valores de tangente e uma coluna correspondente ao arco igual a $\frac{5\,\pi}{12}$.
+\end{tcolorbox}
+%%%
+\section{Manipulando Expressões Trigonométrica}
+Esta seção será dedicada a mostrar como trabalhar expressões trigonométricas no Maxima.
+\subsubsection{Soma de Arcos}
+usa-se a função: \texttt{trigexpand}.
+
+\section{Construção de Gráficos}
+
+\chapter{DICAS SOBRE O MAXIMA}
 \begin{itemize}
 	\item Se seu cálculo está demorando de mais para executar, você pode tentar os menus 'Maxima->Interromper' ou 'Maxima->Reiniciar o Maxima'.
 	\item Para fazer gráficos em coordenadas polares, selecione 'Polar' em Opções na janela de gráficos bidimensionais. Você também pode fazer gráficos em coordenadas esféricas e cilíndricas em 3D.
 	\item As janelas do wxMaxima têm valores padrão para as entradas, um dos quais é '\%'. Se você selecionou algo no documento, a seleção será usada no lugar de '\%'.
 	\item Ao aplicar funções com um argumento a partir dos menus, o argumento padrão é '\%'. Para aplicar a função a um outro valor, selecione-o do documento antes de executar o comando do menu.
 	\item Para salvar o tamanho e posição da janela do wxMaxima entre sessões, use a janela 'Maxima->Configurações'.
-	\item Pressing Ctrl+Space or Ctrl+Tab starts an autocomplete function that can not only complete all functions that are integrated into the Maxima core and their parameters: It also knows about parameters from currently loaded packages and from functions that are defined in the current file.
+	\item Você pode acessar a última saída com a variável '\%'. Você pode acessar a saída de comandos anteriores usando a variável '\%on' onde n é o número da saída.
+	\item Células de título, seção e subseção podem ser recolhidas para ocultar seu conteúdo. Para recolher ou expandir, clique no quadrado próximo à celula. Se você segurar Shift enquanto clica, todos os subníveis daquela célula também serão recolhidos/expandidos.
+	\item Você pode esconder a saída das células clicando no triângulo no lado esquerdo das células. Isso funciona também em células de texto.
+	\item Um 'cursor horizontal' foi introduzido no wxMaxima 0.8.0. Ele é mostrado como uma linha horizontal entre células. Ele mostra onde uma nova célula vai aparecer se você digitar ou colar texto, ou se executar um comando do menu.
+	\item O cursor horizontal funciona como um cursor normal, mas ele opera em células: pressione as setas para cima ou para baixo para movê-lo; segure Shift enquanto move para selecionar células; pressione Backspace ou Delete duas vezes apaga a célula próxima ao cursor.
+	\item Você pode selecionar vários células com o mouse - clique e arraste desde algum ponto entre células ou dos marcadores à esquerda - ou com o teclado - segure Shift enquanto move o cursor horizontal - e então operar na seleção. Isso é útil quando você quer apagar ou calcular múltiplas células.
+	\item Você pode avaliar todo o documento usando o menu 'Célula->Avaliar todas as células' ou a tecla de atalho correspondente. As células serão avalidas na ordem em que aparecem no documento.
+	\item As janelas do wxMaxima têm valores padrão para as entradas, um dos quais é '\%'. Se você selecionou algo no documento, a seleção será usada no lugar de '\%'.
+	\item Equations have several advantages over functions. For example they can be manipulated with factor(), expand() and similar functions. They can easily be introduced one into another. Also they are always printed out as 2D maths.
 \end{itemize}
+\section{Dicas de Maxima}
+Maxima's strengths are manipulating equations and in symbolic calculations. It therefore makes sense to use functions (as opposed to equations with labels) sparingly and to keep the actual values of variables in a list, instead of directly assigning them values. An example session that does do so would be:
+\begin{verbatim}
+/* We keep the actual values in a list so we can use them later on */
+    Values:[a=10,c=100];
+    Pyth:a^2+b^2=c^2;
+    solve(%,b);
+    result:%[2];
+    at(result,Values);
+    float(%);
+\end{verbatim}
+Maxima's "at" function allows to access to arbitrary variables in a list of results:
+\begin{verbatim}
+    g1:a*x+y=0;
+    g2:b*y+x*x=1;
+    solve([g1,g2],[a,b]);
+    %[1];
+    result_b:b=at(b,%);
+\end{verbatim}
 
 \end{document}

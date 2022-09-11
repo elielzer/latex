@@ -2,7 +2,13 @@
 \contentsline {chapter}{\numberline {1}INTRODUÇÃO}{3}{chapter.1}%
 \contentsline {section}{\numberline {1.1}Um Pouco Sobre Ondas}{3}{section.1.1}%
 \contentsline {section}{\numberline {1.2}Sobre o Maxima}{5}{section.1.2}%
-\contentsline {section}{\numberline {1.3}Como instalar o Maxima}{6}{section.1.3}%
-\contentsline {section}{\numberline {1.4}Conhecendo a \emph {interface} do aplicativo}{10}{section.1.4}%
-\contentsline {chapter}{\numberline {2}Trabalhando com o Maxima}{13}{chapter.2}%
-\contentsline {chapter}{\numberline {3}Dicas sobre o Maxima}{17}{chapter.3}%
+\contentsline {section}{\numberline {1.3}Como Instalar o wxMaxima\textregistered }{6}{section.1.3}%
+\contentsline {section}{\numberline {1.4}Conhecendo a \emph {Interface} Gráfica do wxMaxima}{10}{section.1.4}%
+\contentsline {chapter}{\numberline {2}TRABALHANDO COM O MAXIMA}{13}{chapter.2}%
+\contentsline {chapter}{\numberline {3}ESTUDO DAS FUNÇÕES TRIGONOMÉTRICAS}{19}{chapter.3}%
+\contentsline {section}{\numberline {3.1}As Funções Trigonométricas no Maxima}{19}{section.3.1}%
+\contentsline {section}{\numberline {3.2}Manipulando Expressões Trigonométrica}{21}{section.3.2}%
+\contentsline {subsubsection}{Soma de Arcos}{21}{section*.28}%
+\contentsline {section}{\numberline {3.3}Construção de Gráficos}{21}{section.3.3}%
+\contentsline {chapter}{\numberline {4}DICAS SOBRE O MAXIMA}{23}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Dicas de Maxima}{24}{section.4.1}%
