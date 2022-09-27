@@ -11,16 +11,19 @@ MaxPos.x=-1
 MaxPos.y=-1
 NormalPos.left=4
 NormalPos.top=26
-NormalPos.right=1217
-NormalPos.bottom=365
+NormalPos.right=858
+NormalPos.bottom=621
 Class=LaTeXView
 Document=book-template.tex
 
 [Frame0_View0,0]
-TopLine=141
-Cursor=542
+TopLine=0
+Cursor=337
 
 [SessionInfo]
 FrameCount=1
 ActiveFrame=0
+
+[Folding]
+book-template.tex=8 
 

@@ -3,8 +3,8 @@
 %% Author:  Amber Jain (http://amberj.devio.us/) %%
 %% License: ISC license                          %%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-\documentclass[a4paper,12pt]{book}
+\documentclass[12pt]{book}
+%\documentclass[a4paper,12pt]{book}
 \usepackage{iftex}
 \ifPDFTeX
   % PDFLaTeX or LaTeX 
@@ -15,16 +15,15 @@
   %  XeLaTeX or LuaLaTeX
   \usepackage{fontspec}
 \fi
-%\usepackage[T1]{fontenc}
-%\usepackage[utf8]{inputenc}
 \usepackage[left=2cm,right=1cm,top=2cm,bottom=2cm,headheight=1cm]{geometry}
+
 \usepackage{lmodern}
 \usepackage{amsmath}
 \usepackage{textcomp}
 \usepackage{multicol}
 \usepackage[]{ragged2e}
 \usepackage[dvipsnames]{xcolor}
-
+\usepackage{blindtext}
 %%%%%
 \usepackage[12pt]{moresize}
 %\fontsize{8}{20}\selectfont
@@ -48,6 +47,7 @@
 \usepackage{graphicx, nicefrac}
 \usepackage{scalefnt}
 \usepackage{tikz}
+\usepackage[sans]{dsfont}
 \usetikzlibrary{decorations.pathmorphing}
 \usetikzlibrary{shapes.geometric, arrows}
 \usepackage[ruled, vlined, linesnumbered]{algorithm}
@@ -58,10 +58,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Configurações para o Maxima %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-
-%\usepackage{graphicx}
-
+%\usepackage{mathastext}
 \usepackage{grffile}
 \usepackage{ifthen}
 \newsavebox{\picturebox}
@@ -90,9 +87,7 @@
 \DeclareMathOperator{\abs}{abs}
 
 \definecolor{labelcolor}{RGB}{100,0,0}
-
-
-
+\usepackage{physics}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Source: http://en.wikibooks.org/wiki/LaTeX/Hyperlinks %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -109,7 +104,8 @@
    \cleardoublepage
    \thispagestyle{empty}
    \vspace*{\stretch{1}}
-   \hfill\begin{minipage}[t]{0.66\textwidth}
+   \hfill
+   \begin{minipage}[t]{0.66\textwidth}
    \raggedright
 }
 {
@@ -132,7 +128,6 @@
   {\par\normalfont\hfill--\ \chapquote@author\hspace*{\@tempdima}\par\bigskip}
 \makeatother
 
-
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % First page of book which contains 'stuff' like: %
 %  - Book title, subtitle                         %
@@ -146,7 +141,6 @@
 
 
 \begin{document}
-
 \frontmatter
 \maketitle
 
@@ -171,7 +165,7 @@ Dedicated to Calvin and Hobbes.
 %%%%%%%%%%%
 \chapter*{Preface}
 Este livro foi concebido a partir de um \emph{insight} pessoal após eu ler um anúncio sobre uso do \emph{Maxima} no ensino da Física. Então veio-me a ideia de escrever algo nesse sentido.
-Escolhi sobre ondulatória. O Maxima é introduzido no contexto como ambiente de apoio no momento que seja necessário simular as proposições. Dentre as proposições abordaremos situações clássicas, pois o objetivo é justamente apresentar o cartel de ferramentas desse software adequadas para transcrever a linguagem da física para representar as situações problema.
+Escolhi sobre ondulatória. O Maxima é introduzido no contexto como ambiente de apoio no momento que seja necessário simular as proposições. Dentre as proposições abordaremos situações clássicas, pois o objetivo é justamente apresentar o cartel de ferramentas desse software adequadas para transcrever a linguagem da física para representar as situações problema.
 
 
 
@@ -179,30 +173,9 @@ Escolhi sobre ondulatória. O Maxima é introduzido no contexto como ambiente d
 % NEW CHAPTER! %
 %%%%%%%%%%%%%%%%
 \chapter{INTRODUÇÃO}
-
 \begin{chapquote}{Author's name, \textit{Source of this quote}}
 ``This is a quote and I don't know who said this.''
 \end{chapquote}
-
-\section{Um Pouco Sobre Ondas}
-Há várias situações no dia a dia nas quais as coisas acontecem repentinamente, ou inesperadamente, vindo, depois a cessar seus efeitos, ou, em outros casos, repercutem mais além. É comum nos referirmos a isso com a expressão: "isso é apenas uma onda, logo passará". Isso, claro, devido a que tais situações são transitórias, exemplos: pandemias, endemias, o preço de commodities, tsunamis, terremotos, até notícias ou eventos cotidianos. Algumas vezes tais situações apresentam comportamento oscilante, como na superfície de um líquido em uma piscina, ou mesmo em fontes naturais de água, como em rios, mares e oceanos durante a passagem de uma embarcação.
-
-É importante notar que existem características diferentes em tais situações. Alguns simplesmente oscilam ou vibram e em outros casos, além de oscilar ou vibrar, essa condição é posteriormente transmitida para outros locais do ambiente onde tais situações ocorrem. Neste segundo caso, diz-se que há uma propagação do fenômeno. De tal forma que, oscilação, onda, propagação são termos correlacionados.
-
-Etimologicamente, a palavra onda teria a ver com o significado de algo que flutua na água. As descobertas e desenvolvimentos neste tema em seus primórdios derivaram do estudo dos sons musicais. Diz-se que o estudo moderno de ondas e acústica se originou com \emph{Galileu Galilei}.
-
-A figura \ref{fig:mapa.ondas} apresenta a evolução, numa perspectiva histórica, do conhecimento científico desta temática, através da contribuição de vários investigadores.
-
-\begin{figure}[htbp!]
-    \centering
-    \caption{Representação da evolução do conhecimento sobre ondas.}
-        \label{fig:mapa.ondas}
-    %\begin{Center}
-    \includegraphics[width=0.95\textwidth,height=0.95\textheight]{sounds.jpg}
-	%\end{Center}
-\end{figure}
-
-\newpage
 \section{Sobre o Maxima}
 De acordo com descrição no site fabricante, o Maxima é um programa de computador do tipo multiplataforma, ou seja, ele está preparado para trabalhar (compilar) sob diversos sistemas operacionais ou plataformas computacionais.
 Ainda de acordo com esse site o Maxima é uma versão evoluída de software especialista Macsyma. Os sistemas especialistas foram criados com a finalidade de reproduzir o raciocínio ou expertise de um  profissional de alguma área de conhecimento específica.
@@ -260,7 +233,6 @@ Instalar um software é uma tarefa que a maioria de usuários de PC já fizeram 
     \includegraphics[]{site-maxima.jpg}
 	%\end{Center}
 \end{figure}
-
 \noindent A página na figura \ref{fig:pagina-maxima} contém um passo a passo, que é recomendável que seja lido. Entretando, por ora seguiremos mais focados no processo operacional de instalação em si. 
 Assim, localize o link, nessa página com o texto: \href{sourceforge.net/projects/maxima/files/Maxima-Windows/5.46.0-Windows/}{5.46.0-Windows}, como mostrado nessa imagem.
 
@@ -274,7 +246,7 @@ Assim, localize o link, nessa página com o texto: \href{sourceforge.net/project
 \end{figure}
 \newpage
 \noindent	Como forma de gerenciar o processo de instalação são apresentadas a seguir as janelas que interagem nas diversa etapas dessa instalação.
-	\begin{figure}[htbp!]
+\begin{figure}[htbp!]
     \centering
     \caption{Janela que apresenta o início do processo de instalação.}
         \label{fig:maxima-ist-1}
@@ -282,7 +254,6 @@ Assim, localize o link, nessa página com o texto: \href{sourceforge.net/project
     \includegraphics[]{maxima-ist-1.jpg}
 	%\end{Center}
 \end{figure}
-
 
 	\begin{figure}[htbp!]
     \centering
@@ -402,10 +373,50 @@ A janela do aplicativo Maxima é idêntica a um editor de texto, e permite criar
 	%\end{Center}
 \end{figure}
 \pagebreak
-Até agora nos ativemos a apresentar generalidades que subsidiarão o leitor durante sua jornada no aprendizado ou mesmo na utilização das técnica aqui apresntadas de simulação no Maxima. Assunto que será objeto dos próximos capítulos.
+Até agora nos ativemos a apresentar generalidades que subsidiarão o leitor durante sua jornada no aprendizado ou mesmo na utilização das técnicas de simulação aqui apresentadas no Maxima. Assunto que será objeto dos próximos capítulos.
+%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Um Pouco Sobre Ondas}
+Há várias situações no dia a dia nas quais as coisas acontecem repentinamente, ou inesperadamente, vindo, depois a cessar seus efeitos, ou, em outros casos, repercutem mais além. É comum nos referirmos a isso com a expressão: "isso é apenas uma onda, logo passará". Isso, claro, devido a que tais situações são transitórias, exemplos: pandemias, endemias, o preço de commodities, tsunamis, terremotos, até notícias ou eventos cotidianos. Algumas vezes tais situações apresentam comportamento oscilante, como na superfície de um líquido em uma piscina, ou mesmo em fontes naturais de água, como em rios, mares e oceanos durante a passagem de uma embarcação.
 
-\chapter{TRABALHANDO COM O MAXIMA}
-Vamos tomar como primeiro exemplo a fórmula do teorema de Pitágoras. Vamos escrever no \emph{prompt} a seguinte expressão: \textsf{c\^\ 2+b\^\ 2=a\^\ 2}
+É importante notar que existem características diferentes em tais situações. Alguns simplesmente oscilam ou vibram e em outros casos, além de oscilar ou vibrar, essa condição é posteriormente transmitida para outros locais do ambiente onde tais situações ocorrem. Neste segundo caso, diz-se que há uma propagação do fenômeno. De tal forma que, oscilação, onda, propagação são termos correlacionados.
+
+Etimologicamente, a palavra onda teria a ver com o significado de algo que flutua na água. As descobertas e desenvolvimentos neste tema em seus primórdios derivaram do estudo dos sons musicais. Diz-se que o estudo moderno de ondas e acústica se originou com \emph{Galileu Galilei}.
+A figura \ref{fig:mapa.ondas} apresenta a evolução, numa perspectiva histórica, do conhecimento científico desta temática, através da contribuição de vários investigadores.
+
+\begin{figure}[htbp!]
+	\centering
+	\caption{Representação da evolução do conhecimento sobre ondas.}
+	\label{fig:mapa.ondas}
+	%\begin{Center}
+	\includegraphics[width=0.95\textwidth,height=0.95\textheight]{sounds.jpg}
+	%\end{Center}
+\end{figure}
+\newpage
+%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\chapter{TRABALHANDO COM O wxMAXIMA}
+A base de conhecimento do Maxima, de acordo com sua documentação, é organizada por meio de um conjunto de categorias, por exemplo: Expressões, Operadores, Avaliação de Expressões, Simplificação, Plotagem, etc.
+
+Alguns elementos da estrutura do Maxima são estratégicos, como os \emph{flags}. Os \emph{flags} são os valores que determinadas variáveis internas do Maxima assumem de forma padrão ou conforme a definição do usuário. Exemplos:
+\begin{itemize}
+	\item {\texttt{showtime}} Tem valor \emph{false} como padrão. Quando definida para o valor \emph{true}, o tempo de processamento é impresso conjuntamente com cada saída de resultado.
+	\begin{figure}[ht]
+		\centering
+		\caption{Efeito obtido após aplicar 'Showtime: true'}
+		\label{fig:showtime-fig}
+		\includegraphics[width=0.7\linewidth]{showtime-fig}
+	\end{figure}
+	\item {\texttt{display2d}} Tem valor \emph{true} como padrão. Quando definido como  \emph{true} isso faz com que o Maxima apresente as expressões matemáticas na sua forma como as vemos nos livros.
+	\begin{figure}[H]
+		\centering
+		\caption[Uso do variável "Display2D" com "flag" \emph{false}]{}
+		\label{fig:display-2d}
+		\includegraphics[width=0.7\linewidth]{display-2d}
+	\end{figure}
+	\item{\texttt{powerdisp}} description
+\end{itemize}
+Vamos tomar como primeiro exemplo a fórmula do teorema de Pitágoras. Vamos escrever no \emph{prompt} do wxMaxima a seguinte expressão: \textsf{c\^\ 2+b\^\ 2=a\^\ 2}
 \begin{figure}[H]
     \centering
     \caption{Entrando uma expressão algébrica.}
@@ -511,165 +522,166 @@ E, digita-se um texto explicativo pretendido:
 \end{figure}
 \clearpage
 %\pagebreak
-Por hora esses são os conhecimentos sobre o Maxima, indispensáveis para imergir sobre o univero de possibildades. São conhecimentos básicos e no decorrer dos outros capítulos estaremos apresentando outos recursos básicos ou mais complexos, conforme a exigência do contexto.
+Por hora esses são os conhecimentos sobre o Maxima, indispensáveis para imergir sobre o universo de possibilidades. São conhecimentos básicos e no decorrer dos outros capítulos estaremos apresentando outos recursos básicos ou mais complexos, conforme a exigência do contexto.
 \chapter{ESTUDO DAS FUNÇÕES TRIGONOMÉTRICAS}
+\label{estudos}
 \newcounter{exemplos}
 \setcounter{exemplos}{1}
 \newcounter{exercicios}
 \setcounter{exercicios}{1}
 As funções trigonométricas tiveram suas origens no estudo das medidas astronômicas, e elas são de suma importância para as ciências em geral, dado que as suas características permitem de serem utilizadas para representar o comportamento de diversos sistemas reais. 
 
-Elas são desenvolvidas por meio do estudo da circunferência de raio unitário com relação às dimensões de determinado sistema de cordas. A palavra \emph{seno} etimologicamente significa meia corda.
+Elas são desenvolvidas por meio do estudo da circunferência de raio unitário com relação às dimensões em um determinado sistema de cordas. A palavra \emph{seno} etimologicamente significa meia corda. As funções trigonométricas também tem relações  com a geometria por meio das razões trigonométricas no triângulo retângulo.
 
-As funções trigonométricas também tem relações com a geometria por meio das relações trigonométricas no triângulo retângulo.
+	As funções trigonométricas são ditas \emph{periódicas}. Uma função \(f:\mathds{R} \rightarrow \mathds{R}\) é dita periódica com período \(T > 0\)  se:
+\begin{enumerate}{ }{ }
+	\item  seu domínio contém \(x+T\) sempre que contém \(x\), e se
+	\item \(f(x)=f(x+T)\) para todo \(x\) pertencente ao domínio de \(f\).
+\end{enumerate}
+
 \section{As Funções Trigonométricas no Maxima}
 No Maxima você irá se referir às funções trigonométricas usando as seguintes sintaxes.
 \begin{itemize}
-	\item Para seno: \textsf{f(x):=sin(x)};
-	\item Para cosseno: \textsf{f(x):=cos(x)};
-	\item Para tangente: \textsf{f(x):=tan(x)},
+	\item seno: \textsf{f(x):=sin(x)};
+	\item cosseno: \textsf{f(x):=cos(x)};
+	\item tangente: \textsf{f(x):=tan(x)},
 \end{itemize}
-onde \emph{x}, ou seja, o argumento de função, deve ser entendido como medida de arco expressa em radianos.
+onde \emph{x}, ou seja, o argumento de função, deve ser entendido como medida de arco expressa em radianos. O Maxima usa ":=" para definir funções.
 
 Vamos a uma ilustração. Vamos construir uma tabela dessas funções, para alguns pouco valores de arco.
-
-%%%%%%Matlab
 \clearpage
 \pagebreak{}
-{\large {\scshape Exemplo \thesection.\theexemplos: Construindo uma tabela}}
-
+{ {\scshape Exemplo \thesection.\theexemplos: Construindo uma tabela}}\\
 \noindent
+
 %%%%%%%%
 %% INPUT:
-\begin{minipage}[t]{4.000000em}\color{red}\bfseries
-\ensuremath{\ensuremath{}}	
+\noindent
+/*Definição\ das\ funções\ trigonométricas\ no\ ambiente.\ */
+
+\noindent
+%%%%
+\begin{minipage}[]{\textwidth}\color{blue}
+%/*Definição\ das\ funções\ trigonométricas\ no\ ambiente.\ */\\
+f(x):=sin(x)\$;\ g(x):=cos(x)\$
 \end{minipage}
-\begin{minipage}[t]{\textwidth}\color{blue}
-/*Definição\ das\ funções\ trigonométricas\ no\ ambiente.\ */\\
-f(x):=sin(x)\$;\ g(x):=cos(x)\$\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ 
-\end{minipage}
-\\
 \noindent%
+\\
+
 
 \noindent
 %%%%%%%%
 %% INPUT:
-\begin{minipage}[t]{4.000000em}\color{red}\bfseries
-\ensuremath{\ensuremath{}}	
-\end{minipage}	
-\begin{minipage}[t]{\textwidth}\color{blue}
-/*configuração\ do\ ambiente\ para\ calculos\ simbólicos\ (não\ numérico).\ */\\
-numer:false\$\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \\
-/*\ inicializa\ incremento\ para\ cálculo\ \ do\ domínio\ de\ valores\ para\ "x".\ */\\
-arc:\ensuremath{\pi}/12\ \$\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \\
+/*Configuração\ do\ ambiente\ para\ calculos\ simbólicos\ (não\ numérico).\ */
+\noindent%
 \\
-\ /*gera\ lista\ com\ os\ elementos\ para\ o\ cabeçalho\ de\ colunas.\ */\\
+
+
+\noindent /*\-inicializa\ incremento\ para\ cálculo\ \ do\ domínio\ de\ valores\ para\ "x".\ */\\
+\noindent
+\begin{minipage}[]{\textwidth}\color{blue}
+arc:\ensuremath{\pi}/12\ \$\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \\
+\end{minipage}
+%%%%
+\noindent%
+\\
+
+
+\noindent /*-gera\ lista\ com\ os\ elementos\ para\ o\ cabeçalho\ de\ colunas.\ */\\
+\begin{minipage}[]{\textwidth}\color{blue}
 cabeçalhoDaTabela:\ ["Arco(rad)",\ arc,\ 2*arc,\ 3*arc,\ 4*arc\ ]\$\ \ 
 \end{minipage}
-
 \noindent%
+\\
 
-\noindent
+
+\noindent /*a\ partir\ daqui\ o\ cálculo\ será\ numérico.\ */\\
 %%%%%%%%
-%% INPUT:
-\begin{minipage}[t]{4.000000em}\color{red}\bfseries
-\ensuremath{\ensuremath{}}	
-\end{minipage}
-\begin{minipage}[t]{\textwidth}\color{blue}
-/*a\ partir\ daqui\ o\ cálculo\ será\ numérico.\ */\\
-numer:\ true\$\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \\
+%% INPUT:	
+\noindent
+\begin{minipage}[]{\textwidth}\color{blue}
+numer:\ true\$\ \\
 arc:\ensuremath{\pi}/12\ \$
 \end{minipage}
 \\
 \noindent%
 
-\noindent
+
+\noindent /*construindo\ lista\ de\ valores\ de\ seno.\ */\\
 %%%%%%%%
 %% INPUT:
-\begin{minipage}[t]{4.000000em}\color{red}\bfseries
-\ensuremath{\ensuremath{}}	
-\end{minipage}
-\begin{minipage}[t]{\textwidth}\color{blue}
-\ /*construindo\ lista\ de\ valores\ de\ seno.\ */\\
+\noindent
+\begin{minipage}[]{\textwidth}\color{blue}
 linha1:makelist(f(x),x,\ [arc,2*arc,3*arc,4*arc])\$\ \ \ \ \ \ \ \ \ \ \ \ \\
-/*a\ lista\ é\ reconstruída\ para\ incluir\ nela\ um\ cabeçalho\ de\ linha.\ */\\
+\end{minipage}
+\\
+\noindent%
+
+
+\noindent /*a\ lista\ é\ reconstruída\ para\ incluir\ nela\ um\ cabeçalho\ de\ linha.\ */\\
+\begin{minipage}[]{\textwidth}\color{blue}
 linha1:["Seno",\ linha1[1],\ linha1[2],\ linha1[3],\ linha1[4]]\$\ \ \ \ \ 
 \end{minipage}
 \\
 \noindent%
 
-\noindent
+
+\noindent /*construindo\ lista\ de\ valores\ de\ cosseno.\ */\\
 %%%%%%%%
 %% INPUT:
-\begin{minipage}[t]{4.000000em}\color{red}\bfseries
-\ensuremath{\ensuremath{}}	
-\end{minipage}
-\begin{minipage}[t]{\textwidth}\color{blue}
-\ /*construindo\ lista\ de\ valores\ de\ cosseno.\ */\\
+\begin{minipage}[]{\textwidth}\color{blue}
 linha2:makelist(g(x),x,\ [arc,2*arc,3*arc,4*arc])\$\ \ \ \ \ \ \ \ \ \ \\
-/*a\ lista\ é\ reconstruída\ para\ incluir\ nela\ um\ cabeçalho\ de\ linha.\ */\\
+\end{minipage}
+\noindent%
+
+
+\noindent/*a\ lista\ é\ reconstruída\ para\ incluir\ nela\ um\ cabeçalho\ de\ linha.\ */\\
+\begin{minipage}[]{\textwidth}\color{blue}
 linha2:["Cosseno",linha2[1],\ linha2[2],\ linha2[3],\ linha2[4]]\$\ \ 
 \end{minipage}
 \\
 \noindent%
 
-\noindent
+
+\noindent /*----\ Saída\ dos\ Resultados\ ---------------------------------*/\\
 %%%%%%%%
 %% INPUT:
-\begin{minipage}[t]{4.000000em}\color{red}\bfseries
-    \ensuremath{\ensuremath{}}	
-\end{minipage}
-\begin{minipage}[t]{\textwidth}\color{blue}
-    \ /*----\ Saída\ dos\ Resultados\ ---------------------------------*/\\
-\end{minipage}
 \noindent%
 
 
-\noindent
+\noindent /*definindo\ a\ precisão\ numérica.\ */\\
 %%%%%%%%
 %% INPUT:
-\begin{minipage}[t]{4.000000em}\color{red}\bfseries
-    \ensuremath{\ensuremath{}}	
-\end{minipage}
-\begin{minipage}[t]{\textwidth}\color{blue}
-    \ /*definindo\ a\ precisão\ numérica.\ */\\
-fpprintprec\ :\ 3\$\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ 
+\begin{minipage}[]{\textwidth}\color{blue}
+fpprintprec\ :\ 3\$
 \end{minipage}
 \\
 \noindent%
 
 
-\noindent
+\noindent /*formato\ usando\ a\ função\ table\_form().\ \ */\\
 %%%%%%%%
 %% INPUT:
-\begin{minipage}[t]{4.000000em}\color{red}\bfseries
-    \ensuremath{\ensuremath{}}	
-\end{minipage}
-\begin{minipage}[t]{\textwidth}\color{blue}
-    /*formato\ usando\ a\ função\ table\_form().\ \ */\\
-    table\_form([cabeçalhoDaTabela,\ linha1,\ linha2]);\ \ \ \ \ 
+\begin{minipage}[]{\textwidth}\color{blue}
+table\_form([cabeçalhoDaTabela,\ linha1,\ linha2]);
 \end{minipage}
 \\
 \noindent%
 
 
-\noindent
+\noindent /*formato\ usando\ a\ função\ matrix().\ \ */\\
 %%%%%%%%
 %% INPUT:
-\begin{minipage}[t]{4.000000em}\color{red}\bfseries
-    \ensuremath{\ensuremath{}}	
-\end{minipage}
-\begin{minipage}[t]{\textwidth}\color{blue}
-    /*formato\ usando\ a\ função\ matrix().\ \ */\\
-    matrix(cabeçalhoDaTabela,\ linha1,\ linha2);\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ 
+\begin{minipage}[]{\textwidth}\color{blue}
+matrix(cabeçalhoDaTabela,\ linha1,\ linha2);
 \end{minipage}
 %%
 % 
 % $$e^{\pi i} + 1 = 0$$
 % 
 %%%%%%
-
-Copie na memória do seu computador as linhas de comando desse exemplo e cole na janela do wxMaxima, avalie com o comando de teclado \texttt{Shift+Enter} e veja o resultado, deverá ser idêntico ao da figura \ref{fig:exemplo331}
+\clearpage
+Copie na memória do seu computador as linhas de comando desse exemplo \thesection.\theexemplos\, e cole-as na janela do wxMaxima, avalie com o comando de teclado \texttt{Shift+Enter} e veja o resultado, deverá ser idêntico ao da figura \ref{fig:exemplo331}. O conteúdo limitado entre '/* */' é interpretado apenas como texto de comentários.
 \begin{figure}[H]
     \centering
     \caption{Resultado do exemplo na janela do wxMaxima.}
@@ -683,17 +695,257 @@ Copie na memória do seu computador as linhas de comando desse exemplo e cole na
 %%%
 \begin{tcolorbox}[enhanced jigsaw, colback=gray!30, colframe=Maroon,width=1\textwidth, arc=3mm, auto outer arc, boxrule=5pt, drop shadow={Maroon!50!gray!80}]
   	\noindent
-	Exercício \thesection.\theexercicios: No encejo do exemplo \thesection.\theexemplos, acrescente ou modifique comando de forma que apareçam, uma linha correspondente aos valores de tangente e uma coluna correspondente ao arco igual a $\frac{5\,\pi}{12}$.
+	Exercício \thesection.\theexercicios: No encejo do exemplo \thesection.\theexemplos, acrescente ou modifique comandos de forma que apareçam,
+	\begin{enumerate}
+	\item uma linha correspondente aos valores de tangente e, 
+	\item uma coluna correspondente ao arco igual a $\frac{5\,\pi}{12}$.
+	\end{enumerate}
 \end{tcolorbox}
 %%%
-\section{Manipulando Expressões Trigonométrica}
-Esta seção será dedicada a mostrar como trabalhar expressões trigonométricas no Maxima.
-\subsubsection{Soma de Arcos}
-usa-se a função: \texttt{trigexpand}.
+\section{Manipulando Expressões Trigonométricas}
+Esta seção será dedicada a mostrar como trabalhar expressões trigonométricas no Maxima. O Maxima é constituído de pacotes de comandos (\emph{packages})Há dois tipos de comandos específicos: as \emph{tags} (ou variáveis de controle) e as funções. 
+Algumas funções possuem o mesmo nome das tags. Geralmente as tags servem para comutar dois estados ,o "true" ou "false", um desses será o valor padrão (\emph{default}).
+%%%%
+%%%% SOMA DE ARCOS
+%%%%
+\subsection{Soma de Arcos}
+Usa-se a função: \texttt{trigexpand}.
 
+\noindent
+%%%%%%%%
+%% INPUT:
+\begin{minipage}[t]{4.000000em}\color{red}\bfseries (\% i2)	\end{minipage}
+\begin{minipage}[t]{\textwidth}\color{blue} trigexpand(sin(a+b)); \end{minipage}
+%%%% OUTPUT:
+\begin{minipage}[]{4.000000em}\color{green}\bfseries (\% o2) \end{minipage}
+\begin{minipage}[]{4.000000em}  $\mathrm{\displaystyle \cos{(a)} \sin{(b)}+\sin{(a)} \cos{(b)}\mbox{}} $\end{minipage}
+%%%%%%%%%%%%%%%%
+
+%%%%
+%%%% ARCO METADE
+%%%%
+\subsection{Arco Metade}
+Usa-se a função seno com o argumento arco metade, porém é preciso obedecer certar regras, como mostrado seguir.
+
+%%%%%%%%
+%% INPUT:
+\noindent\begin{minipage}[hp]{4.000000em}\color{red}\bfseries (\% i4)	\end{minipage}
+\noindent /*'halfangles',\ se\ 'true'\ o\ Maxima\ manipulará*/\\
+/*o\ arco\ metade\ como\ expressão\ algébrica,\ senão\ o\ fará\ como\ texto.*/\\
+\begin{minipage}[]{\textwidth}\color{blue}\hspace{4em} halfangles:\ true\$\mbox{}\\
+\end{minipage}
+\\
+%%%
+\noindent /*\ \%pi\ é\ o\ nome\ da\ contante\ matemática\ no\ ambiente\ do\ Maxima.*/\\
+/*Se\ '\%piargs'\ for\ definido\ para\ 'true'\ ,\ então\ será\ manipulado\ como\ valor*/\\
+\begin{minipage}[]{\textwidth}\color{blue}
+\hspace{4em}\%piargs:\ true\$\\
+\end{minipage}
+\\
+\noindent /*'assume'\ é\ uma\ função\ interna\ cuja\ finalidade\ é\ de*/\\
+/*estabelecer\ um\ domínio\ de\ valores\ para\ um\ contexto*/\\
+\begin{minipage}[]{\textwidth}\color{blue}
+\hspace{4em} assume(a\ensuremath{>}0,\ a\ensuremath{<}2*\%pi)\$\\
+\end{minipage}
+\\
+\noindent /*Seno\ do\ arco\ metade*/\\
+\begin{minipage}[]{\textwidth}\color{blue}
+\hspace{4em} sin(a/2);\\
+\end{minipage}
+%%%% OUTPUT:
+\begin{minipage}[]{4.000000em}\color{green}\bfseries (\% o4) \end{minipage}
+\begin{minipage}[]{4.000000em}  $\mathrm{\displaystyle \frac{\sqrt{1-\cos{(a)}}}{\sqrt{2}}\mbox{}} $\end{minipage}
+%%%%%%%%%%%%%%%%
+%%%%
+%%%% ARCO DUPLO
+%%%%
+\subsection{Arco Duplo}
+
+\noindent\begin{minipage}[hp]{4.000000em}\color{red}\bfseries (\% i13)	\end{minipage}
+\noindent /*Se\ "trigexpand"\ estiver\ comutado\ (definido)\ para\ "true"\ */\\
+/*então,\ se\ "trigexpandtimes"\ estiver\ definido\ para\ "true"\ então\ */\\
+/*o\ Maxima\ irá\ expandir\ a\ expressão\ do\ arco\ duplo.*/\\
+%%%%%%%%
+%% INPUT:
+\begin{minipage}[]{\textwidth}\color{blue}
+\hspace{4em} trigexpand:\ true\$
+
+\hspace{4em} trigexpandtimes:\ true\$
+\end{minipage}
+\\
+
+
+\noindent /*Seno\ do\ arco\ duplo.*/\\
+\begin{minipage}[]{\textwidth}\color{blue}
+\hspace{4em} sin(2*\ensuremath{\alpha});\\
+\end{minipage}
+%%%% OUTPUT:
+\begin{minipage}[]{4.000000em}\color{green}\bfseries (\% o13) \end{minipage}
+\begin{minipage}[]{\textwidth}\color{blue}
+$\displaystyle 2 \cos{\left( \alpha \right) } \sin{\left( \alpha \right) }\mbox{}
+$
+\end{minipage}
+%%%%%%%%%%%%%%%%
+%%%%
+%%%% CONSTRUÇÃO DE GRÁFICOS
+%%%%
 \section{Construção de Gráficos}
 
+\chapter{DESCRIÇÕES DE MOVIMENTOS ONDULATÓRIOS}
+\section{Abordagem Matemática}
+A concepção matemática mais simples de uma onda é o traçado, no plano cartesiano, das funções seno ou cosseno. Assim, vamos tomar como modelo ou perfil a expressão da função senoidal ou, harmônica como também é chamada para descrever o movimento ondulatório. 
+
+Considerando-se a variável independente \(\theta\), em radianos, coincidindo com o eixo das abcissas do plano cartesiano, então teríamos a expressão da função seno na forma
+\begin{equation*}
+	\xi \qty(\theta) =\xi_0 \sin\theta \text{,}
+\end{equation*}
+\begin{multicols}{2}
+\noindent onde,
+	\begin{enumerate}
+		\item \( \xi\qty(\theta) \) é o valor da função, corresponde a ordenada ou cota no gráfico da figura \ref{fig:geogebra-seno}. Poderia estar representando a \emph{amplitude} local de uma propriedade física, e
+		\item  o arco, \( \theta \), do qual está sendo calculado o seno, é \emph{a fase}. É um valor de arco cuja amplitude associada será sempre de mesmo valor à medida que se evolua a função \( \xi \)  por meio de ciclos iguais a \( 2\,\pi\, \mathrm{rad} \).
+	\end{enumerate}
+
+	\begin{figure}[H]
+		\centering
+		\caption[]{Perfil da função harmônica.}
+		\includegraphics[scale=.07]{geogebra-seno}
+		\label{fig:geogebra-seno}
+	\end{figure}
+	
+	
+\end{multicols}
+\noindent Um gráfico dessa função está representado na figura \ref{fig:geogebra-seno}.
+
+Vamos supor que tenhamos agora uma outra função na forma
+\begin{equation*}
+	\xi_1 \qty(\theta) =\xi_0 \sin\qty(\theta- \delta)\text{.}
+\end{equation*} Ela seria representada na forma do gráfico da figura \ref{fig:geogebra-seno-2}, ou seja, uma senoide deslocada da origem dos eixos à direita.
+\begin{figure}[H]
+	\centering
+	\caption[]{Gráfico de um perfil de uma função harmônica deslocado da origem do eixo das abcissas.}
+	\includegraphics[width=0.7\linewidth]{geogebra-seno-2}
+	\label{fig:geogebra-seno-2}
+\end{figure}
+Os dois gráficos anteriores, apresentados juntos como mostrado na figura \ref{fig:geogebra-seno-3}, permite-nos vislumbrar que ambos são semelhantes na forma, estão deslocados no espaço (eixo \( \theta \)) de uma distância igual a \( \delta \).
+\begin{figure}[ht]
+	\centering
+		\caption[]{Confrontação dos gráficos de duas funções harmônica inter deslocadas.}
+	\includegraphics[width=0.7\linewidth]{geogebra-seno-3}
+	\label{fig:geogebra-seno-3}
+\end{figure}
+Ou seja, diz-se que a função \( \xi_1 \) é uma translação de \( \xi \)
+
+Estamos tratando uma variável independente que representa medidas em radianos, que é a variável  \( \theta \). Então temos que passar a adotar um medida de distância para melhor representar os sistemas físicos daqui em diante.
+
+Podemos fazer a transformação matemática \( \theta = k\, x - \delta\), onde a variável \( x \) estará com aí presente para representar de fato uma posição, agora no eixo X.  
+
+Fisicamente falando, o traçado da senoide como representando o efeito de uma onda tem origem na posição onde uma fonte impõe oscilação ou vibração ao meio. A partir daí o meio absorve e ao mesmo tempo transmite a energia e quantidade de movimento para sua vizinhança também na forma de oscilação local.
+
+A presença de um fenômeno físico ondulatório cujo perfil da onda estaria sendo esboçado pela senoide do lado direito da figura \ref{fig:geogebra-seno-3}, sugere que ele, o perfil, é uma repetição do que está à esquerda, ou seja o perfil atual é uma repetição gráfica e manterá a sua extensão horizontal em radianos, durante as repetições sucessivas. Então, para um determinado valor de \( x \) é verdadeiro escrevermos a igualdade \( \sin\qty(2\,\pi + k\,x - \delta) = \sin\qty(k\,x-\delta)\), qualquer que seja o valor de \( x \).
+
+Na forma algébrica, temos:
+\[ \xi \qty(x) = \xi_0 \sin \qty( k\, x - \delta)\]
+ou 
+\begin{equation}\label{eq-delta/k}
+	\xi \qty(x) =  \xi_0 \sin k \qty(x- \frac{\delta}{k})\text{,}
+\end{equation}
+e da mesma forma
+\[ \xi\qty(x)=\xi_0\sin k\qty(\frac{2\,\pi}{k}+ x- \frac{\delta}{k})\text{,} \]
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+Se considerarmos neste momento, o \( k \) como um coeficiente contante, então a quantidade \(\frac{2\,\pi}{k}  \) também o será. Tal quantidade, a qual é da mesma grandeza de \( x \), é denominada \emph{comprimento de onda} \( \lambda \), ou seja, é o comprimento do perfil da onda ao longo do eixo X. Temos então,
+\begin{equation}\label{lambda}
+	\lambda= \frac{2\,\pi}{k}
+\end{equation}
+Observar que essa quantidade corresponde à constante \(T\) apresentada no preâmbulo do capítulo \ref{estudos}, a qual caracteriza uma função periódica.
+\section{Propriedade Físicas da Onda Harmônica}
+Até aqui trabalhamos com desenhos hipotéticos, mas numa situação real uma onda é de fato considerada se observadas as características que confirmam sua presença no meio. Uma dessas é o movimento de vai e vem dos elementos que constituem o meio que está sob efeito da suposta onda. Tal movimento é transferido sucessivamente de um ponto para sua vizinhança a cada momento. 
+
+Para refletir essa condição há de se fazer o perfil ora representado por uma senoide, como algo em movimento ou caminhante. Então, a parcela \( \frac{\delta}{k} \) na equação \ref{eq-delta/k} passa a ser escrita como o produto \( v\, t \),
+\[ \frac{\delta}{k}\equiv v\, t \]
+onde
+\begin{enumerate}
+	\item  \( t \) é a variável independente tempo;
+	\item  \( v \) é a velocidade com que o perfil estaria se movimentando,  é chamada \emph{velocidade de fase}. No caso da onda harmônica seu perfil não altera, portanto todas as fases da onda caminham à mesma velocidade.
+\end{enumerate}
+%\[ \xi\qty(x,t) = \xi_0\, \sin \qty(k\,x-v\,t)\text{,}\]
+Reescrevendo a equação \ref{eq-delta/k}, nesses termos,
+\[ \xi\qty(x,t) = \xi_0\, \sin k \qty(x-v\, t)\text{,}\]
+e, fazendo \( k= \frac{2\, \pi}{\lambda} \), temos
+\[ \xi\qty(x,t) = \xi_0\, \sin \qty(k\, x - \frac{2\,\pi}{\lambda}\,v\,t)\text{,}\]
+que reescrevendo fica,	
+\[ \xi\qty(x,t) = \xi_0\,  \sin \qty(k\, x - \frac{2\,\pi}{\frac{\lambda}{v}}\,t)\text{.}  \]
+O termo \(  \nicefrac{\lambda}{v} \) é denominado \emph{período de oscilação}, \( P \),  em cada ponto \( x \) sujeito ao efeito da onda (os vai e vens), é expresso em unidades de tempo. Consequentemente define-se a \emph{frequência angular} da onda, \( \omega \), em radianos por unidade de tempo
+\begin{equation}\label{freqAngular}
+	\omega = \frac{2\, \pi}{P}\text{.}
+\end{equation}
+
+Portanto, escreve-se, para um onda harmônica, movendo-se (propagando-se) para o sentido positivo do eixo X,
+\begin{equation}\label{harmonica}
+	\xi\qty(x,t) = \xi_0 \sin\qty(k\,x - \omega\,t)\text{.}
+\end{equation}
+Uma vez que ciclo de oscilação possui \( 2\, \pi\, \mathrm{rad}\), podemos definir uma grandeza $\nu$ por meio da expressão,
+\begin{equation}\label{frequencia}
+	\nu = \frac{\omega}{ 2\,\pi}\text{,}
+\end{equation}
+que corresponderá à taxa em \emph{ciclos (ou fração de ciclo) por unidade de tempo} com que  oscilação local (efeito da onda) está perpassando no ponto $x$.
+
+A partir da equação \ref{frequencia}, podemos fazer \( \omega= 2\, \pi\, \nu \) e comparar com o segundo membro da equação \ref{freqAngular}, do que se deduz \( P = \frac{1}{\nu} \). Asim temos,
+\[ P= \frac{\lambda}{v} = \frac{1}{\nu}\text{,} \]
+de onde se deduz 
+\begin{equation}\label{lambdaFundamental}
+	\lambda\, \nu = v \text{,}
+\end{equation}
+e, também a equação
+\begin{equation}\label{lambda-2}
+	\lambda = v\, P\text{,}
+\end{equation}
+a qual permite a interpretação de \( \lambda \) como a distância que é percorrida pelo movimento ondulatório ao tempo de um período, \( P \).
+
+Uma vez que apliquemos \( x=0 \) na equação \ref{harmonica}, resulta \( \xi \qty(0,t) = \xi_0 \sin\qty( - \omega\,t) \). Se a fonte da oscilação estiver a começar a atuar nessa posição, ou seja, \( t=0 \), então teremos \( \xi \qty(0,0) = 0\).
+
+O valor de \( \xi  \), em \( t=0 \) chama-se \emph{condição inicial} e não necessariamente terá o valor sempre igual a zero. Por conta disso podemos escrever tal quantidade na forma literal \(  \xi\qty(0,0)=\xi_0\, \sin\phi  \).  Assim a equação  \ref{harmonica} passa a ser escrita de forma mais geral como:
+\begin{equation}\label{phi}
+	\xi\qty(x,t) = \xi_0 \sin\qty(k\,x - \omega\,t+\phi)\text{,}
+\end{equation}
+onde \( \phi \) é medida em radianos e chamada \emph{constante de fase}. A presença dessa contante de fase não altera a forma da onda, apenas a desloca sobre o eixo X ou no eixo dos tempos.
+
+O valor \( k \) mencionado inicialmente possui um significado importante, ele é o \emph{número de onda}. A partir da equação \ref{lambda} podemos fazer \( k\,\lambda= 2\,\pi \), de onde se tira que \( k \) indica quantos comprimentos de onda então contidos na distância \( 2\, \pi \) radianos.\\
+
+{ {\scshape Exemplo \thesection.\theexemplos:}} 
+Seja uma função senoidal \( y= 5\,\sin x \), que representa uma grandeza a qual iniciou um movimento ondulatório na direção positiva do eixo X. A velocidade angular foi determinada no valor de um radiano por segundo. 
+\begin{itemize}
+	\item identifique os parâmetros do movimento ondulatório;
+	\item escreva  a função que representa essa onda caminhante.
+\end{itemize}
+Solução:\\
+Aplicando a equação \ref{phi} com \( t=0 \),
+\[ \xi\qty(x,0)= 5\, \sin\qty(1\, x - 1\cdot  0 + 0) \text{,}\]
+portanto, \( \xi_0=5\,\mathrm{m} \), \( k=1\, \mathrm{\nicefrac{rad}{m}} \), \( \omega=1\, \mathrm{\nicefrac{rad}{s}} \) e \( \phi=0\, \mathrm{rad} \text{.}\)\\
+Escrevendo a equação, temos a solução para a segunda questão
+\[\xi\qty(x,t) =5\, \sin\qty(x - t)\text{.}\]\\
+\setcounter{exemplos}{2}
+{ {\scshape Exemplo \thesection.\theexemplos:}} Supondo que a fonte de oscilação do exemplo anterior manteve-se continuamente em ação. \footnote{Neste caso o movimento ondulatório está ocorrendo por meio de um \emph{trem de ondas}}. E em algum momento ocorreu um processo sobre movimento que deslocou a onda para frente. De tal forma que no ponto de fase igual a \(\frac{3\, \pi}{4}\,\mathrm{rad} \) a amplitude passou a ser \(80\%\) do valor original. Determine o valor da nova contante de fase.\\
+Solução.\\
+Nesse caso analisamos com base na equação horária do movimento
+
+\[\xi\qty(x,t) =5\, \sin\qty(x - t)\text{,}\]
+fazendo \(x-t=\theta\) e como \(\theta= \frac{3\, \pi}{4}\), temos
+\[\xi\qty(\frac{3\, \pi}{4}+ \phi) = 0,8\,\xi\qty(\frac{3\, \pi}{4})  \]
+ou 
+\[5\,\sin\qty(\frac{3\, \pi}{4}+ \phi) = \qty(0,8)\,\qty(5)\,\sin\qty(\frac{3\, \pi}{4})  \]
+equação que pode ser resolvida por desenvolvimento analítico manualmente, porém faremos isso no ambiente do wxMaxima.
+\begin{figure}[ht]
+	\centering
+	\caption{Saída de resultado do Maxima}
+	\includegraphics[width=0.7\linewidth]{exemplo421-sol}
+	\label{fig:exemplo421-sol}
+\end{figure}
+
+\chapter{SIMULAÇÕES COM O MAXIMA}
+
 \chapter{DICAS SOBRE O MAXIMA}
+
 \begin{itemize}
 	\item Se seu cálculo está demorando de mais para executar, você pode tentar os menus 'Maxima->Interromper' ou 'Maxima->Reiniciar o Maxima'.
 	\item Para fazer gráficos em coordenadas polares, selecione 'Polar' em Opções na janela de gráficos bidimensionais. Você também pode fazer gráficos em coordenadas esféricas e cilíndricas em 3D.
@@ -709,6 +961,9 @@ usa-se a função: \texttt{trigexpand}.
 	\item Você pode avaliar todo o documento usando o menu 'Célula->Avaliar todas as células' ou a tecla de atalho correspondente. As células serão avalidas na ordem em que aparecem no documento.
 	\item As janelas do wxMaxima têm valores padrão para as entradas, um dos quais é '\%'. Se você selecionou algo no documento, a seleção será usada no lugar de '\%'.
 	\item Equations have several advantages over functions. For example they can be manipulated with factor(), expand() and similar functions. They can easily be introduced one into another. Also they are always printed out as 2D maths.
+	\item In text cells bullet lists can be created by beginning a line with " * ". The number of spaces in front of the "*" determines the indentation level; Indentation can be continued in the next line by indenting the line using spaces.
+	\item The key combination Shift+Space results in a non-breakable space.
+	\item A plot to be embedded into the work sheet by preceding its name with a "wx". "draw" can be replaced by "wxdraw", plot by "wxplot" etc.
 \end{itemize}
 \section{Dicas de Maxima}
 Maxima's strengths are manipulating equations and in symbolic calculations. It therefore makes sense to use functions (as opposed to equations with labels) sparingly and to keep the actual values of variables in a list, instead of directly assigning them values. An example session that does do so would be:
@@ -730,4 +985,24 @@ Maxima's "at" function allows to access to arbitrary variables in a list of resu
     result_b:b=at(b,%);
 \end{verbatim}
 
+The "at" function allows to introduce one equation into another:
+\begin{verbatim}
+    ohm:U=R*I;
+    r_parallel:R=R_1*R_2/(R_1+R_2);
+    result:at(ohm,r_parallel);
+\end{verbatim}
+%%%%
+The rhs() ("right hand side") command allows to retrieve the result of an equation in exactly the format a function would have:
+\begin{verbatim}
+    Values:[
+        /* m=1.2 tons */
+        m=1.2*10^3,
+        /* 100 km/h*/
+        v=100*10^3/(60*60)
+    ];
+    Energy:W=1/2*m*v^2;
+    at(Energy,Values);
+    W_mech:rhs(%);
+\end{verbatim}
+%%%%		
 \end{document}

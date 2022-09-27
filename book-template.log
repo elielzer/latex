@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.8.30)  11 SEP 2022 01:02
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.8.30)  26 SEP 2022 23:50
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -277,6 +277,31 @@ Package xcolor Info: Model `wave' substituted by `hsb' on input line 1376.
 (c:/texlive/2022/texmf-dist/tex/latex/graphics/dvipsnam.def
 File: dvipsnam.def 2016/06/17 v3.0m Driver-dependent file (DPC,SPQR)
 ))
+(c:/texlive/2022/texmf-dist/tex/latex/blindtext/blindtext.sty
+Package: blindtext 2012/01/06 V2.0 blindtext-Package
+
+(c:/texlive/2022/texmf-dist/tex/latex/tools/xspace.sty
+Package: xspace 2014/10/28 v1.13 Space after command names (DPC,MH)
+)
+\c@blindtext=\count285
+\c@Blindtext=\count286
+\c@blind@countparstart=\count287
+\blind@countxx=\count288
+\blindtext@numBlindtext=\count289
+\blind@countyy=\count290
+\c@blindlist=\count291
+\c@blindlistlevel=\count292
+\c@blindlist@level=\count293
+\blind@listitem=\count294
+\c@blind@listcount=\count295
+\c@blind@levelcount=\count296
+\blind@mathformula=\count297
+\blind@Mathformula=\count298
+\c@blind@randomcount=\count299
+\c@blind@randommax=\count300
+\c@blind@pangramcount=\count301
+\c@blind@pangrammax=\count302
+)
 (c:/texlive/2022/texmf-dist/tex/latex/moresize/moresize.sty
 Package: moresize 1999/07/26 v1.9 (more font sizes)
 )
@@ -327,7 +352,7 @@ LaTeX Font Info:    Overwriting symbol font `lasy' in version `bold'
 \UL@skip=\skip68
 \UL@hook=\toks26
 \UL@height=\dimen165
-\UL@pe=\count285
+\UL@pe=\count303
 \UL@pixel=\dimen166
 \ULC@box=\box100
 Package: ulem 2019/11/18
@@ -392,14 +417,14 @@ Package: pgfsys 2021/05/15 v3.1.9a (3.1.9a)
 \pgf@yd=\dimen181
 \w@pgf@writea=\write3
 \r@pgf@reada=\read2
-\c@pgf@counta=\count286
-\c@pgf@countb=\count287
-\c@pgf@countc=\count288
-\c@pgf@countd=\count289
+\c@pgf@counta=\count304
+\c@pgf@countb=\count305
+\c@pgf@countc=\count306
+\c@pgf@countd=\count307
 \t@pgf@toka=\toks31
 \t@pgf@tokb=\toks32
 \t@pgf@tokc=\toks33
-\pgf@sys@id@count=\count290
+\pgf@sys@id@count=\count308
  (c:/texlive/2022/texmf-dist/tex/generic/pgf/systemlayer/pgf.cfg
 File: pgf.cfg 2021/05/15 v3.1.9a (3.1.9a)
 )
@@ -413,8 +438,8 @@ File: pgfsys-common-pdf.def 2021/05/15 v3.1.9a (3.1.9a)
 )))
 (c:/texlive/2022/texmf-dist/tex/generic/pgf/systemlayer/pgfsyssoftpath.code.tex
 File: pgfsyssoftpath.code.tex 2021/05/15 v3.1.9a (3.1.9a)
-\pgfsyssoftpath@smallbuffer@items=\count291
-\pgfsyssoftpath@bigbuffer@items=\count292
+\pgfsyssoftpath@smallbuffer@items=\count309
+\pgfsyssoftpath@bigbuffer@items=\count310
 )
 (c:/texlive/2022/texmf-dist/tex/generic/pgf/systemlayer/pgfsysprotocol.code.tex
 File: pgfsysprotocol.code.tex 2021/05/15 v3.1.9a (3.1.9a)
@@ -426,7 +451,7 @@ Package: pgfcore 2021/05/15 v3.1.9a (3.1.9a)
 (c:/texlive/2022/texmf-dist/tex/generic/pgf/math/pgfmathutil.code.tex)
 (c:/texlive/2022/texmf-dist/tex/generic/pgf/math/pgfmathparser.code.tex
 \pgfmath@dimen=\dimen182
-\pgfmath@count=\count293
+\pgfmath@count=\count311
 \pgfmath@box=\box102
 \pgfmath@toks=\toks34
 \pgfmath@stack@operand=\toks35
@@ -450,7 +475,7 @@ x)
 (c:/texlive/2022/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.integerarithm
 etics.code.tex)))
 (c:/texlive/2022/texmf-dist/tex/generic/pgf/math/pgfmathfloat.code.tex
-\c@pgfmathroundto@lastzeros=\count294
+\c@pgfmathroundto@lastzeros=\count312
 ))
 (c:/texlive/2022/texmf-dist/tex/generic/pgf/math/pgfint.code.tex)
 (c:/texlive/2022/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepoints.code.tex
@@ -487,7 +512,7 @@ File: pgfcorescopes.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 \pgfpic=\box103
 \pgf@hbox=\box104
 \pgf@layerbox@main=\box105
-\pgf@picture@serial@count=\count295
+\pgf@picture@serial@count=\count313
 )
 (c:/texlive/2022/texmf-dist/tex/generic/pgf/basiclayer/pgfcoregraphicstate.code
 .tex
@@ -518,8 +543,8 @@ File: pgfcorearrows.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 (c:/texlive/2022/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreshade.code.tex
 File: pgfcoreshade.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 \pgf@max=\dimen262
-\pgf@sys@shading@range@num=\count296
-\pgf@shadingcount=\count297
+\pgf@sys@shading@range@num=\count314
+\pgf@shadingcount=\count315
 )
 (c:/texlive/2022/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreimage.code.tex
 File: pgfcoreimage.code.tex 2021/05/15 v3.1.9a (3.1.9a)
@@ -576,7 +601,7 @@ Package: tikz 2021/05/15 v3.1.9a (3.1.9a)
 (c:/texlive/2022/texmf-dist/tex/generic/pgf/libraries/pgflibraryplothandlers.co
 de.tex
 File: pgflibraryplothandlers.code.tex 2021/05/15 v3.1.9a (3.1.9a)
-\pgf@plot@mark@count=\count298
+\pgf@plot@mark@count=\count316
 \pgfplotmarksize=\dimen267
 )
 \tikz@lastx=\dimen268
@@ -591,18 +616,18 @@ File: pgflibraryplothandlers.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 \tikz@figbox@bg=\box109
 \tikz@tempbox=\box110
 \tikz@tempbox@bg=\box111
-\tikztreelevel=\count299
-\tikznumberofchildren=\count300
-\tikznumberofcurrentchild=\count301
-\tikz@fig@count=\count302
+\tikztreelevel=\count317
+\tikznumberofchildren=\count318
+\tikznumberofcurrentchild=\count319
+\tikz@fig@count=\count320
 
 (c:/texlive/2022/texmf-dist/tex/generic/pgf/modules/pgfmodulematrix.code.tex
 File: pgfmodulematrix.code.tex 2021/05/15 v3.1.9a (3.1.9a)
-\pgfmatrixcurrentrow=\count303
-\pgfmatrixcurrentcolumn=\count304
-\pgf@matrix@numberofcolumns=\count305
+\pgfmatrixcurrentrow=\count321
+\pgfmatrixcurrentcolumn=\count322
+\pgf@matrix@numberofcolumns=\count323
 )
-\tikz@expandcount=\count306
+\tikz@expandcount=\count324
 
 (c:/texlive/2022/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzli
 brarytopaths.code.tex
@@ -613,21 +638,21 @@ Package: mathtools 2022/06/29 v1.29 mathematical typesetting tools
 
 (c:/texlive/2022/texmf-dist/tex/latex/tools/calc.sty
 Package: calc 2017/05/25 v4.3 Infix arithmetic (KKT,FJ)
-\calc@Acount=\count307
-\calc@Bcount=\count308
+\calc@Acount=\count325
+\calc@Bcount=\count326
 \calc@Adimen=\dimen276
 \calc@Bdimen=\dimen277
 \calc@Askip=\skip69
 \calc@Bskip=\skip70
 LaTeX Info: Redefining \setlength on input line 80.
 LaTeX Info: Redefining \addtolength on input line 81.
-\calc@Ccount=\count309
+\calc@Ccount=\count327
 \calc@Cskip=\skip71
 )
 (c:/texlive/2022/texmf-dist/tex/latex/mathtools/mhsetup.sty
 Package: mhsetup 2021/03/18 v1.4 programming setup (MH)
 )
-\g_MT_multlinerow_int=\count310
+\g_MT_multlinerow_int=\count328
 \l_MT_multwidth_dim=\dimen278
 \origjot=\skip72
 \l_MT_shortvdotswithinadjustabove_dim=\dimen279
@@ -674,8 +699,8 @@ Package tocloft Info: The document has chapter divisions on input line 51.
 \cftbeforefigskip=\skip99
 \cftfigindent=\skip100
 \cftfignumwidth=\skip101
-\c@lofdepth=\count311
-\c@lotdepth=\count312
+\c@lofdepth=\count329
+\c@lotdepth=\count330
 \cftbeforelottitleskip=\skip102
 \cftafterlottitleskip=\skip103
 \cftbeforetabskip=\skip104
@@ -688,17 +713,17 @@ Package: longtable 2021-09-01 v4.17 Multi-page Table package (DPC)
 \LTright=\skip108
 \LTpre=\skip109
 \LTpost=\skip110
-\LTchunksize=\count313
+\LTchunksize=\count331
 \LTcapwidth=\dimen286
 \LT@head=\box113
 \LT@firsthead=\box114
 \LT@foot=\box115
 \LT@lastfoot=\box116
 \LT@gbox=\box117
-\LT@cols=\count314
-\LT@rows=\count315
-\c@LT@tables=\count316
-\c@LT@chunks=\count317
+\LT@cols=\count332
+\LT@rows=\count333
+\c@LT@tables=\count334
+\c@LT@chunks=\count335
 \LT@p@ftn=\toks39
 )
 (c:/texlive/2022/texmf-dist/tex/latex/url/url.sty
@@ -717,17 +742,17 @@ Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
 \cmidrulesep=\dimen294
 \cmidrulekern=\dimen295
 \defaultaddspace=\dimen296
-\@cmidla=\count318
-\@cmidlb=\count319
+\@cmidla=\count336
+\@cmidlb=\count337
 \@aboverulesep=\dimen297
 \@belowrulesep=\dimen298
-\@thisruleclass=\count320
-\@lastruleclass=\count321
+\@thisruleclass=\count338
+\@lastruleclass=\count339
 \@thisrulewidth=\dimen299
 )
 (c:/texlive/2022/texmf-dist/tex/latex/float/float.sty
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
-\c@float@type=\count322
+\c@float@type=\count340
 \float@exts=\toks40
 \float@box=\box118
 \@float@everytoks=\toks41
@@ -743,6 +768,9 @@ Package: nicefrac 1998/08/04 v0.9b Nice fractions
 Package: ifthen 2022/04/13 v1.1d Standard LaTeX ifthen package (DPC)
 ))
 (c:/texlive/2022/texmf-dist/tex/latex/carlisle/scalefnt.sty)
+(c:/texlive/2022/texmf-dist/tex/latex/doublestroke/dsfont.sty
+Package: dsfont 1995/08/01 v0.1 Double stroke roman fonts
+)
 (c:/texlive/2022/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzli
 brarydecorations.pathmorphing.code.tex
 (c:/texlive/2022/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzli
@@ -754,7 +782,7 @@ ex
 \pgfdecoratedinputsegmentcompleteddistance=\dimen302
 \pgfdecoratedinputsegmentremainingdistance=\dimen303
 \pgf@decorate@distancetomove=\dimen304
-\pgf@decorate@repeatstate=\count323
+\pgf@decorate@repeatstate=\count341
 \pgfdecorationsegmentamplitude=\dimen305
 \pgfdecorationsegmentlength=\dimen306
 )
@@ -781,7 +809,7 @@ File: pgflibraryarrows.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 Package: algorithm 2009/08/24 v0.1 Document Style `algorithm' - floating enviro
 nment
 \@float@every@algorithm=\toks42
-\c@algorithm=\count324
+\c@algorithm=\count342
 )
 (c:/texlive/2022/texmf-dist/tex/latex/caption/caption.sty
 Package: caption 2022/03/01 v3.6b Customizing captions (AR)
@@ -798,8 +826,8 @@ Package: caption3 2022/03/17 v2.3b caption3 kernel (AR)
 \caption@hangindent=\dimen315
 Package caption Info: Standard document class detected.
 )
-\c@caption@flags=\count325
-\c@continuedfloat=\count326
+\c@caption@flags=\count343
+\c@continuedfloat=\count344
 Package caption Info: float package is loaded.
 Package caption Info: longtable package is loaded.
 
@@ -818,7 +846,7 @@ Package: fncychap 2007/07/30 v1.34 LaTeX package (Revised chapters)
 )
 (c:/texlive/2022/texmf-dist/tex/latex/ifsym/ifsym.sty
 Package: ifsym 2000/04/18 I.Kloeckl
-\c@ifsymcnt=\count327
+\c@ifsymcnt=\count345
 )
 (c:/texlive/2022/texmf-dist/tex/latex/tcolorbox/tcolorbox.sty
 Package: tcolorbox 2022/06/24 version 5.1.1 text color boxes
@@ -837,15 +865,15 @@ Package: trimspaces 2009/09/17 v1.1 Trim spaces around a token list
 ))
 (c:/texlive/2022/texmf-dist/tex/latex/etoolbox/etoolbox.sty
 Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
-\etb@tempcnta=\count328
+\etb@tempcnta=\count346
 )
 \tcb@titlebox=\box121
 \tcb@upperbox=\box122
 \tcb@lowerbox=\box123
 \tcb@phantombox=\box124
-\c@tcbbreakpart=\count329
-\c@tcblayer=\count330
-\c@tcolorbox@number=\count331
+\c@tcbbreakpart=\count347
+\c@tcblayer=\count348
+\c@tcolorbox@number=\count349
 \tcb@temp=\box125
 \tcb@temp=\box126
 \tcb@temp=\box127
@@ -853,10 +881,10 @@ Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
 
 (c:/texlive/2022/texmf-dist/tex/latex/tcolorbox/tcbraster.code.tex
 Library (tcolorbox): 'tcbraster.code.tex' version '5.1.1'
-\c@tcbrastercolumn=\count332
-\c@tcbrasterrow=\count333
-\c@tcbrasternum=\count334
-\c@tcbraster=\count335
+\c@tcbrastercolumn=\count350
+\c@tcbrasterrow=\count351
+\c@tcbrasternum=\count352
+\c@tcbraster=\count353
 ) (c:/texlive/2022/texmf-dist/tex/latex/tcolorbox/tcbskins.code.tex
 Library (tcolorbox): 'tcbskins.code.tex' version '5.1.1'
 \tcb@waterbox=\box129
@@ -887,29 +915,29 @@ Library (tcolorbox): 'tcbfitting.code.tex' version '5.1.1'
 \tcbfitdim=\dimen316
 \tcb@lowerfitdim=\dimen317
 \tcb@upperfitdim=\dimen318
-\tcb@cur@hbadness=\count336
+\tcb@cur@hbadness=\count354
 ) (c:/texlive/2022/texmf-dist/tex/latex/tcolorbox/tcblistingsutf8.code.tex
 Library (tcolorbox): 'tcblistingsutf8.code.tex' version '5.1.1'
 (c:/texlive/2022/texmf-dist/tex/latex/tcolorbox/tcblistings.code.tex
 Library (tcolorbox): 'tcblistings.code.tex' version '5.1.1'
 (c:/texlive/2022/texmf-dist/tex/latex/listings/listings.sty
-\lst@mode=\count337
+\lst@mode=\count355
 \lst@gtempboxa=\box133
 \lst@token=\toks45
-\lst@length=\count338
+\lst@length=\count356
 \lst@currlwidth=\dimen319
-\lst@column=\count339
-\lst@pos=\count340
+\lst@column=\count357
+\lst@pos=\count358
 \lst@lostspace=\dimen320
 \lst@width=\dimen321
-\lst@newlines=\count341
-\lst@lineno=\count342
+\lst@newlines=\count359
+\lst@lineno=\count360
 \lst@maxwidth=\dimen322
 
 (c:/texlive/2022/texmf-dist/tex/latex/listings/lstmisc.sty
 File: lstmisc.sty 2020/03/24 1.8d (Carsten Heinz)
-\c@lstnumber=\count343
-\lst@skipnumbers=\count344
+\c@lstnumber=\count361
+\lst@skipnumbers=\count362
 \lst@framebox=\box134
 )
 (c:/texlive/2022/texmf-dist/tex/latex/listings/listings.cfg
@@ -932,7 +960,7 @@ Package pdftexcmds Info: \pdfdraftmode found.
 Package: shellesc 2019/11/08 v1.0c unified shell escape interface for LaTeX
 Package shellesc Info: Restricted shell escape enabled on input line 77.
 ))
-\c@tcblisting=\count345
+\c@tcblisting=\count363
 ))
 (c:/texlive/2022/texmf-dist/tex/latex/listingsutf8/listingsutf8.sty
 Package: listingsutf8 2019-12-10 v1.5 Allow UTF-8 in listings input (HO)
@@ -971,6 +999,20 @@ line 40.
 \pictureboxheight=\skip122
 \thislabelwidth=\skip123
 
+(c:/texlive/2022/texmf-dist/tex/latex/physics/physics.sty
+Package: physics 
+
+(c:/texlive/2022/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
+(c:/texlive/2022/texmf-dist/tex/latex/l3kernel/expl3.sty
+Package: expl3 2022-08-23 L3 programming layer (loader) 
+
+(c:/texlive/2022/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
+File: l3backend-pdftex.def 2022-08-23 L3 backend support: PDF output (pdfTeX)
+\l__color_backend_stack_int=\count364
+\l__pdf_internal_box=\box136
+))
+Package: xparse 2022-06-22 L3 Experimental document command parser
+))
 (c:/texlive/2022/texmf-dist/tex/latex/hyperref/hyperref.sty
 Package: hyperref 2022-06-20 v7.00s Hypertext links for LaTeX
 
@@ -1001,11 +1043,11 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 (c:/texlive/2022/texmf-dist/tex/latex/kvoptions/kvoptions.sty
 Package: kvoptions 2022-06-15 v3.15 Key value format for package options (HO)
 ))
-\c@section@level=\count346
+\c@section@level=\count365
 )
 \@linkdim=\dimen323
-\Hy@linkcounter=\count347
-\Hy@pagecounter=\count348
+\Hy@linkcounter=\count366
+\Hy@pagecounter=\count367
 
 (c:/texlive/2022/texmf-dist/tex/latex/hyperref/pd1enc.def
 File: pd1enc.def 2022-06-20 v7.00s Hyperref: PDFDocEncoding definition (HO)
@@ -1018,7 +1060,7 @@ Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
 (c:/texlive/2022/texmf-dist/tex/generic/etexcmds/etexcmds.sty
 Package: etexcmds 2019/12/15 v1.7 Avoid name clashes with e-TeX commands (HO)
 )
-\Hy@SavedSpaceFactor=\count349
+\Hy@SavedSpaceFactor=\count368
 
 (c:/texlive/2022/texmf-dist/tex/latex/hyperref/puenc.def
 File: puenc.def 2022-06-20 v7.00s Hyperref: PDF Unicode definition (HO)
@@ -1032,7 +1074,7 @@ Package hyperref Info: Plain pages OFF on input line 4177.
 Package hyperref Info: Backreferencing OFF on input line 4182.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
 Package hyperref Info: Bookmarks ON on input line 4408.
-\c@Hy@tempcnt=\count350
+\c@Hy@tempcnt=\count369
 LaTeX Info: Redefining \url on input line 4746.
 \XeTeXLinkMargin=\dimen324
 
@@ -1043,7 +1085,7 @@ Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
 Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO
 )
 ))
-\Fld@menulength=\count351
+\Fld@menulength=\count370
 \Field@Width=\dimen325
 \Fld@charsize=\dimen326
 Package hyperref Info: Hyper figures OFF on input line 6024.
@@ -1058,9 +1100,9 @@ Package hyperref Info: PDF/A mode OFF on input line 6054.
 Package: atbegshi-ltx 2021/01/10 v1.0c Emulation of the original atbegshi
 package with kernel methods
 )
-\Hy@abspage=\count352
-\c@Item=\count353
-\c@Hfootnote=\count354
+\Hy@abspage=\count371
+\c@Item=\count372
+\c@Hfootnote=\count373
 )
 Package hyperref Info: Driver (autodetected): hpdftex.
 
@@ -1072,8 +1114,8 @@ Package: atveryend-ltx 2020/08/19 v1.0a Emulation of the original atveryend pac
 kage
 with kernel methods
 )
-\Fld@listcount=\count355
-\c@bookmark@seq@number=\count356
+\Fld@listcount=\count374
+\c@bookmark@seq@number=\count375
 
 (c:/texlive/2022/texmf-dist/tex/latex/rerunfilecheck/rerunfilecheck.sty
 Package: rerunfilecheck 2022-07-10 v1.10 Rerun checks for auxiliary files (HO)
@@ -1088,13 +1130,13 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 )
 (c:/texlive/2022/texmf-dist/tex/generic/babel/babel.sty
 Package: babel 2022/07/20 3.78 The Babel package
-\babel@savecnt=\count357
+\babel@savecnt=\count376
 \U@D=\dimen327
 \l@unhyphenated=\language87
 
 (c:/texlive/2022/texmf-dist/tex/generic/babel/txtbabel.def)
 \bbl@readstream=\read4
-\bbl@dirlevel=\count358
+\bbl@dirlevel=\count377
 
 (c:/texlive/2022/texmf-dist/tex/generic/babel-portuges/portuguese.ldf
 Language: portuges 2021/07/09 v1.2t Portuguese support from the babel system
@@ -1105,52 +1147,46 @@ Package babel Info: Importing font and identification data for portuguese
 (babel)             from babel-pt.ini. Reported on input line 11.
 )
 LaTeX Font Info:    Trying to load font information for T1+lmr on input line 14
-8.
+3.
 
 (c:/texlive/2022/texmf-dist/tex/latex/lm/t1lmr.fd
 File: t1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
-)
-(c:/texlive/2022/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
-File: l3backend-pdftex.def 2022-08-23 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count359
-\l__pdf_internal_box=\box136
-)
-(./book-template.aux)
+) (./book-template.aux)
 \openout1 = `book-template.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 148.
-LaTeX Font Info:    ... okay on input line 148.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 148.
-LaTeX Font Info:    ... okay on input line 148.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 148.
-LaTeX Font Info:    ... okay on input line 148.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 148.
-LaTeX Font Info:    ... okay on input line 148.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 148.
-LaTeX Font Info:    ... okay on input line 148.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 148.
-LaTeX Font Info:    ... okay on input line 148.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 148.
-LaTeX Font Info:    ... okay on input line 148.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 148.
-LaTeX Font Info:    ... okay on input line 148.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 148.
-LaTeX Font Info:    ... okay on input line 148.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 143.
+LaTeX Font Info:    ... okay on input line 143.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 143.
+LaTeX Font Info:    ... okay on input line 143.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 143.
+LaTeX Font Info:    ... okay on input line 143.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 143.
+LaTeX Font Info:    ... okay on input line 143.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 143.
+LaTeX Font Info:    ... okay on input line 143.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 143.
+LaTeX Font Info:    ... okay on input line 143.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 143.
+LaTeX Font Info:    ... okay on input line 143.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 143.
+LaTeX Font Info:    ... okay on input line 143.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 143.
+LaTeX Font Info:    ... okay on input line 143.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
 *geometry* verbose mode - [ preamble ] result:
 * driver: pdftex
-* paper: a4paper
+* paper: <default>
 * layout: <same size as paper>
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
 * modes: twoside 
-* h-part:(L,W,R)=(56.9055pt, 512.14963pt, 28.45274pt)
-* v-part:(T,H,B)=(56.9055pt, 731.23584pt, 56.9055pt)
-* \paperwidth=597.50787pt
-* \paperheight=845.04684pt
-* \textwidth=512.14963pt
-* \textheight=731.23584pt
+* h-part:(L,W,R)=(56.9055pt, 528.93675pt, 28.45274pt)
+* v-part:(T,H,B)=(56.9055pt, 681.15898pt, 56.9055pt)
+* \paperwidth=614.295pt
+* \paperheight=794.96999pt
+* \textwidth=528.93675pt
+* \textheight=681.15898pt
 * \oddsidemargin=-15.36449pt
 * \evensidemargin=-43.81725pt
 * \topmargin=-63.69102pt
@@ -1158,7 +1194,7 @@ LaTeX Font Info:    ... okay on input line 148.
 * \headsep=19.8738pt
 * \topskip=12.0pt
 * \footskip=30.0pt
-* \marginparwidth=88.0pt
+* \marginparwidth=98.0pt
 * \marginparsep=7.0pt
 * \columnsep=10.0pt
 * \skip\footins=10.8pt plus 4.0pt minus 2.0pt
@@ -1173,16 +1209,16 @@ LaTeX Font Info:    ... okay on input line 148.
 
 (c:/texlive/2022/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count360
+\scratchcounter=\count378
 \scratchdimen=\dimen328
 \scratchbox=\box137
-\nofMPsegments=\count361
-\nofMParguments=\count362
+\nofMPsegments=\count379
+\nofMParguments=\count380
 \everyMPshowfont=\toks46
-\MPscratchCnt=\count363
+\MPscratchCnt=\count381
 \MPscratchDim=\dimen329
-\MPnumerator=\count364
-\makeMPintoPDFobject=\count365
+\MPnumerator=\count382
+\makeMPintoPDFobject=\count383
 \everyMPtoPDFconversion=\toks47
 ) (c:/texlive/2022/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
@@ -1205,85 +1241,85 @@ Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: hyperref package is loaded.
 Package caption Info: listings package is loaded.
 Package caption Info: End \AtBeginDocument code.
-\c@lstlisting=\count366
-Package hyperref Info: Link coloring OFF on input line 148.
+\c@lstlisting=\count384
+Package hyperref Info: Link coloring OFF on input line 143.
 
 (./book-template.out) (./book-template.out)
 \@outlinefile=\write4
 \openout4 = `book-template.out'.
 
 LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 1
-52.
+46.
 
 (c:/texlive/2022/texmf-dist/tex/latex/lm/ot1lmr.fd
 File: ot1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    Trying to load font information for OML+lmm on input line 1
-52.
+46.
 
 (c:/texlive/2022/texmf-dist/tex/latex/lm/omllmm.fd
 File: omllmm.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 
-152.
+146.
 
 (c:/texlive/2022/texmf-dist/tex/latex/lm/omslmsy.fd
 File: omslmsy.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 
-152.
+146.
 
 (c:/texlive/2022/texmf-dist/tex/latex/lm/omxlmex.fd
 File: omxlmex.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <29.86> on input line 152.
+(Font)              <29.86> on input line 146.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <20.74> on input line 152.
+(Font)              <20.74> on input line 146.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <17.28> on input line 152.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 152
+(Font)              <17.28> on input line 146.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 146
 .
 
 (c:/texlive/2022/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 152
+LaTeX Font Info:    Trying to load font information for U+msb on input line 146
 .
 
 (c:/texlive/2022/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 LaTeX Font Info:    Trying to load font information for U+esint on input line 1
-52.
+46.
 
 (c:/texlive/2022/texmf-dist/tex/latex/esint/uesint.fd
 File: uesint.fd 
 )
-LaTeX Font Info:    Trying to load font information for U+lasy on input line 15
-2.
+LaTeX Font Info:    Trying to load font information for U+lasy on input line 14
+6.
 
 (c:/texlive/2022/texmf-dist/tex/latex/base/ulasy.fd
 File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
 )
 
 LaTeX Font Warning: Font shape `U/lasy/m/n' in size <29.86> not available
-(Font)              size <24.88> substituted on input line 152.
+(Font)              size <24.88> substituted on input line 146.
 
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <14.4> on input line 152.
+(Font)              <14.4> on input line 146.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10> on input line 152.
+(Font)              <10> on input line 146.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <7> on input line 152.
+(Font)              <7> on input line 146.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10.95> on input line 152.
+(Font)              <10.95> on input line 146.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <8> on input line 152.
+(Font)              <8> on input line 146.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <6> on input line 152.
+(Font)              <6> on input line 146.
 LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 1
-52.
+46.
 (c:/texlive/2022/texmf-dist/tex/latex/lm/t1lmtt.fd
 File: t1lmtt.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 ) [1
@@ -1295,7 +1331,7 @@ File: t1lmtt.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 ] [3] (./book-template.toc
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <12> on input line 2.
-LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 5
+LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 4
 .
 
 (c:/texlive/2022/texmf-dist/tex/latex/lm/ts1lmr.fd
@@ -1319,7 +1355,7 @@ File: ts1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 
 ]
 LaTeX Font Info:    Trying to load font information for T1+lmss on input line 1
-72.
+66.
 
 (c:/texlive/2022/texmf-dist/tex/latex/lm/t1lmss.fd
 File: t1lmss.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
@@ -1329,301 +1365,400 @@ File: t1lmss.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 
 ]
  1.
-<sounds.jpg, id=202, 752.0597pt x 891.33pt>
-File: sounds.jpg Graphic file (type jpg)
-<use sounds.jpg>
-Package pdftex.def Info: sounds.jpg  used on input line 201.
-(pdftex.def)             Requested size: 486.5494pt x 694.67699pt.
-[3] [4 <./sounds.jpg>]
-<site-maxima.jpg, id=212, 373.395pt x 60.97781pt>
+[3]
+<site-maxima.jpg, id=247, 373.395pt x 60.97781pt>
 File: site-maxima.jpg Graphic file (type jpg)
 <use site-maxima.jpg>
-Package pdftex.def Info: site-maxima.jpg  used on input line 260.
+Package pdftex.def Info: site-maxima.jpg  used on input line 233.
 (pdftex.def)             Requested size: 373.39409pt x 60.97765pt.
- [5]
-<pagina-maxima.jpg, id=221, 446.41782pt x 253.69781pt>
+<pagina-maxima.jpg, id=250, 446.41782pt x 253.69781pt>
 File: pagina-maxima.jpg Graphic file (type jpg)
 <use pagina-maxima.jpg>
-Package pdftex.def Info: pagina-maxima.jpg  used on input line 272.
+Package pdftex.def Info: pagina-maxima.jpg  used on input line 244.
 (pdftex.def)             Requested size: 446.41672pt x 253.69719pt.
- [6 <./site-maxima.jpg> <./pagina-maxima.jpg>]
-<maxima-ist-1.jpg, id=227, 255.20343pt x 201.00093pt>
+ [4 <./site-maxima.jpg>]
+<maxima-ist-1.jpg, id=258, 255.20343pt x 201.00093pt>
 File: maxima-ist-1.jpg Graphic file (type jpg)
 <use maxima-ist-1.jpg>
-Package pdftex.def Info: maxima-ist-1.jpg  used on input line 282.
+Package pdftex.def Info: maxima-ist-1.jpg  used on input line 254.
 (pdftex.def)             Requested size: 255.2028pt x 201.00043pt.
-<maxima-ist-2.jpg, id=228, 244.66406pt x 191.9672pt>
+<maxima-ist-2.jpg, id=259, 244.66406pt x 191.9672pt>
 File: maxima-ist-2.jpg Graphic file (type jpg)
 <use maxima-ist-2.jpg>
-Package pdftex.def Info: maxima-ist-2.jpg  used on input line 292.
+Package pdftex.def Info: maxima-ist-2.jpg  used on input line 263.
 (pdftex.def)             Requested size: 244.66345pt x 191.96672pt.
-<maxima-ist-3.jpg, id=229, 247.67531pt x 194.22563pt>
+<maxima-ist-3.jpg, id=260, 247.67531pt x 194.22563pt>
 File: maxima-ist-3.jpg Graphic file (type jpg)
 <use maxima-ist-3.jpg>
-Package pdftex.def Info: maxima-ist-3.jpg  used on input line 301.
+Package pdftex.def Info: maxima-ist-3.jpg  used on input line 272.
 (pdftex.def)             Requested size: 247.6747pt x 194.22514pt.
-<maxima-ist-4.jpg, id=230, 236.38312pt x 183.68625pt>
+<maxima-ist-4.jpg, id=261, 236.38312pt x 183.68625pt>
 File: maxima-ist-4.jpg Graphic file (type jpg)
 <use maxima-ist-4.jpg>
-Package pdftex.def Info: maxima-ist-4.jpg  used on input line 310.
+Package pdftex.def Info: maxima-ist-4.jpg  used on input line 281.
 (pdftex.def)             Requested size: 236.38254pt x 183.68578pt.
-<maxima-ist-5.jpg, id=231, 225.84375pt x 176.91093pt>
+<maxima-ist-5.jpg, id=262, 225.84375pt x 176.91093pt>
 File: maxima-ist-5.jpg Graphic file (type jpg)
 <use maxima-ist-5.jpg>
-Package pdftex.def Info: maxima-ist-5.jpg  used on input line 319.
+Package pdftex.def Info: maxima-ist-5.jpg  used on input line 290.
 (pdftex.def)             Requested size: 225.84319pt x 176.91049pt.
-<maxima-ist-6.jpg, id=232, 229.60782pt x 178.41656pt>
+<maxima-ist-6.jpg, id=263, 229.60782pt x 178.41656pt>
 File: maxima-ist-6.jpg Graphic file (type jpg)
 <use maxima-ist-6.jpg>
-Package pdftex.def Info: maxima-ist-6.jpg  used on input line 328.
+Package pdftex.def Info: maxima-ist-6.jpg  used on input line 299.
 (pdftex.def)             Requested size: 229.60725pt x 178.4161pt.
-<maxima-ist-7.jpg, id=233, 228.855pt x 179.16937pt>
+<maxima-ist-7.jpg, id=264, 228.855pt x 179.16937pt>
 File: maxima-ist-7.jpg Graphic file (type jpg)
 <use maxima-ist-7.jpg>
-Package pdftex.def Info: maxima-ist-7.jpg  used on input line 337.
+Package pdftex.def Info: maxima-ist-7.jpg  used on input line 308.
 (pdftex.def)             Requested size: 228.85443pt x 179.16893pt.
-<menu-windows.jpg, id=234, 486.31688pt x 383.18156pt>
+<menu-windows.jpg, id=265, 486.31688pt x 383.18156pt>
 File: menu-windows.jpg Graphic file (type jpg)
 <use menu-windows.jpg>
-Package pdftex.def Info: menu-windows.jpg  used on input line 346.
+Package pdftex.def Info: menu-windows.jpg  used on input line 317.
 (pdftex.def)             Requested size: 340.4195pt x 268.22525pt.
-
-[7 <./maxima-ist-1.jpg> <./maxima-ist-2.jpg>] [8 <./maxima-ist-3.jpg> <./maxima
--ist-4.jpg> <./maxima-ist-5.jpg>] [9 <./maxima-ist-6.jpg> <./maxima-ist-7.jpg> 
-<./menu-windows.jpg>]
-<tela-inicial.jpg, id=250, 757.32938pt x 446.41782pt>
+ [5 <./pagina-maxima.jpg> <./maxima-ist-1.jpg>]
+[6 <./maxima-ist-2.jpg> <./maxima-ist-3.jpg> <./maxima-ist-4.jpg>] [7 <./maxima
+-ist-5.jpg> <./maxima-ist-6.jpg> <./maxima-ist-7.jpg>]
+<tela-inicial.jpg, id=281, 757.32938pt x 446.41782pt>
 File: tela-inicial.jpg Graphic file (type jpg)
 <use tela-inicial.jpg>
-Package pdftex.def Info: tela-inicial.jpg  used on input line 358.
+Package pdftex.def Info: tela-inicial.jpg  used on input line 329.
 (pdftex.def)             Requested size: 454.40114pt x 267.85275pt.
-<selecao-tipos.jpg, id=252, 761.84625pt x 450.18187pt>
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<selecao-tipos.jpg, id=283, 761.84625pt x 450.18187pt>
 File: selecao-tipos.jpg Graphic file (type jpg)
 <use selecao-tipos.jpg>
-Package pdftex.def Info: selecao-tipos.jpg  used on input line 379.
+Package pdftex.def Info: selecao-tipos.jpg  used on input line 350.
 (pdftex.def)             Requested size: 228.55563pt x 135.0556pt.
-
-Underfull \vbox (badness 3386) has occurred while \output is active []
-
- [10 <./tela-inicial.jpg> <./selecao-tipos.jpg>]
-<selecao-texto.jpg, id=260, 758.835pt x 448.67625pt>
+[8 <./menu-windows.jpg> <./selecao-tipos.jpg>]
+<selecao-texto.jpg, id=291, 758.835pt x 448.67625pt>
 File: selecao-texto.jpg Graphic file (type jpg)
 <use selecao-texto.jpg>
-Package pdftex.def Info: selecao-texto.jpg  used on input line 392.
+Package pdftex.def Info: selecao-texto.jpg  used on input line 363.
 (pdftex.def)             Requested size: 455.30452pt x 269.20782pt.
-<selecao-math.jpg, id=261, 763.35187pt x 453.19313pt>
+<selecao-math.jpg, id=292, 763.35187pt x 453.19313pt>
 File: selecao-math.jpg Graphic file (type jpg)
 <use selecao-math.jpg>
-Package pdftex.def Info: selecao-math.jpg  used on input line 401.
+Package pdftex.def Info: selecao-math.jpg  used on input line 372.
 (pdftex.def)             Requested size: 458.01465pt x 271.91797pt.
 
-Underfull \vbox (badness 1648) has occurred while \output is active []
+Underfull \vbox (badness 2591) has occurred while \output is active []
 
- [11 <./selecao-texto.jpg> <./selecao-math.jpg>] [12]
- 2.
-<pitagoras.jpg, id=270, 757.32938pt x 446.41782pt>
-File: pitagoras.jpg Graphic file (type jpg)
-<use pitagoras.jpg>
-Package pdftex.def Info: pitagoras.jpg  used on input line 414.
-(pdftex.def)             Requested size: 378.66376pt x 223.20836pt.
-<pitagoras-2.jpg, id=272, 757.32938pt x 446.41782pt>
-File: pitagoras-2.jpg Graphic file (type jpg)
-<use pitagoras-2.jpg>
-Package pdftex.def Info: pitagoras-2.jpg  used on input line 425.
-(pdftex.def)             Requested size: 378.66376pt x 223.20836pt.
-
+ [9 <./tela-inicial.jpg> <./selecao-texto.jpg>]
 Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [10 <./selecao-math.jpg>]
+<sounds.jpg, id=302, 752.0597pt x 891.33pt>
+File: sounds.jpg Graphic file (type jpg)
+<use sounds.jpg>
+Package pdftex.def Info: sounds.jpg  used on input line 392.
+(pdftex.def)             Requested size: 502.50032pt x 647.10216pt.
+ [11] [12 <./sounds.jpg>]
+ 2.
+<showtime-fig.png, id=311, 552.56438pt x 237.13594pt>
+File: showtime-fig.png Graphic file (type png)
+<use showtime-fig.png>
+Package pdftex.def Info: showtime-fig.png  used on input line 408.
+(pdftex.def)             Requested size: 370.2541pt x 158.89471pt.
+<display-2d.png, id=312, 551.81157pt x 234.1247pt>
+File: display-2d.png Graphic file (type png)
+<use display-2d.png>
+Package pdftex.def Info: display-2d.png  used on input line 415.
+(pdftex.def)             Requested size: 370.2541pt x 157.0985pt.
+
+Underfull \vbox (badness 1253) has occurred while \output is active []
 
  [13
 
- <./pitagoras.jpg>]
-<pitagoras-3.jpg, id=281, 757.32938pt x 446.41782pt>
-File: pitagoras-3.jpg Graphic file (type jpg)
-<use pitagoras-3.jpg>
-Package pdftex.def Info: pitagoras-3.jpg  used on input line 446.
+ <./showtime-fig.png>]
+<pitagoras.jpg, id=319, 757.32938pt x 446.41782pt>
+File: pitagoras.jpg Graphic file (type jpg)
+<use pitagoras.jpg>
+Package pdftex.def Info: pitagoras.jpg  used on input line 425.
 (pdftex.def)             Requested size: 378.66376pt x 223.20836pt.
-<pitagoras-4.jpg, id=283, 757.32938pt x 446.41782pt>
-File: pitagoras-4.jpg Graphic file (type jpg)
-<use pitagoras-4.jpg>
-Package pdftex.def Info: pitagoras-4.jpg  used on input line 457.
+<pitagoras-2.jpg, id=321, 757.32938pt x 446.41782pt>
+File: pitagoras-2.jpg Graphic file (type jpg)
+<use pitagoras-2.jpg>
+Package pdftex.def Info: pitagoras-2.jpg  used on input line 436.
 (pdftex.def)             Requested size: 378.66376pt x 223.20836pt.
-
-Underfull \vbox (badness 7796) has occurred while \output is active []
-
- [14 <./pitagoras-2.jpg> <./pitagoras-3.jpg>]
-<pitagoras-5.jpg, id=289, 757.32938pt x 446.41782pt>
-File: pitagoras-5.jpg Graphic file (type jpg)
-<use pitagoras-5.jpg>
-Package pdftex.def Info: pitagoras-5.jpg  used on input line 471.
-(pdftex.def)             Requested size: 378.66376pt x 223.20836pt.
-<seletor.jpg, id=290, 15.05624pt x 48.93282pt>
-File: seletor.jpg Graphic file (type jpg)
-<use seletor.jpg>
-Package pdftex.def Info: seletor.jpg  used on input line 483.
-(pdftex.def)             Requested size: 9.0338pt x 29.3599pt.
- [15 <./pitagoras-4.jpg> <./pitagoras-5.jpg>]
-<curso-hrizontal-2.jpg, id=296, 757.32938pt x 446.41782pt>
-File: curso-hrizontal-2.jpg Graphic file (type jpg)
-<use curso-hrizontal-2.jpg>
-Package pdftex.def Info: curso-hrizontal-2.jpg  used on input line 492.
-(pdftex.def)             Requested size: 409.72125pt x 241.51842pt.
-<introducao-maxima.jpg, id=297, 757.32938pt x 446.41782pt>
-File: introducao-maxima.jpg Graphic file (type jpg)
-<use introducao-maxima.jpg>
-Package pdftex.def Info: introducao-maxima.jpg  used on input line 499.
-(pdftex.def)             Requested size: 409.72125pt x 241.51842pt.
-
-[16 <./seletor.jpg> <./curso-hrizontal-2.jpg> <./introducao-maxima.jpg>]
-<usando-solve.jpg, id=303, 757.32938pt x 446.41782pt>
-File: usando-solve.jpg Graphic file (type jpg)
-<use usando-solve.jpg>
-Package pdftex.def Info: usando-solve.jpg  used on input line 509.
-(pdftex.def)             Requested size: 409.72125pt x 241.51842pt.
-
-[17
-
- <./usando-solve.jpg>] [18
-
-]
- 3.
-\c@exemplos=\count367
-\c@exercicios=\count368
-[19
-
-]
-Overfull \hbox (49.6104pt too wide) in paragraph at lines 541--553
-[] [] 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 541--553
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 561--568
-
- []
-
-
-Overfull \hbox (49.6104pt too wide) in paragraph at lines 554--569
-[] [] 
- []
-
-
-Overfull \hbox (49.6104pt too wide) in paragraph at lines 572--585
-[] [] 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 572--585
-
- []
-
-
-Overfull \hbox (49.6104pt too wide) in paragraph at lines 586--600
-[] [] 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 586--600
-
- []
-
-
-Overfull \hbox (49.6104pt too wide) in paragraph at lines 601--615
-[] [] 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 601--615
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 623--624
-
- []
-
-
-Overfull \hbox (49.6104pt too wide) in paragraph at lines 616--626
-[] [] 
- []
-
-
-Overfull \hbox (49.6104pt too wide) in paragraph at lines 628--640
-[] [] 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 628--640
-
- []
-
-
-Overfull \hbox (49.6104pt too wide) in paragraph at lines 642--654
-[] [] 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 642--654
-
- []
-
-
-Overfull \hbox (49.6104pt too wide) in paragraph at lines 656--671
-[] [] 
- []
-
-<exemplo331.jpg, id=318, 757.32938pt x 446.41782pt>
-File: exemplo331.jpg Graphic file (type jpg)
-<use exemplo331.jpg>
-Package pdftex.def Info: exemplo331.jpg  used on input line 678.
-(pdftex.def)             Requested size: 454.40114pt x 267.85275pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [20
+ [14 <./display-2d.png (PNG copy)> <./pitagoras.jpg>]
+<pitagoras-3.jpg, id=328, 757.32938pt x 446.41782pt>
+File: pitagoras-3.jpg Graphic file (type jpg)
+<use pitagoras-3.jpg>
+Package pdftex.def Info: pitagoras-3.jpg  used on input line 457.
+(pdftex.def)             Requested size: 378.66376pt x 223.20836pt.
+<pitagoras-4.jpg, id=330, 757.32938pt x 446.41782pt>
+File: pitagoras-4.jpg Graphic file (type jpg)
+<use pitagoras-4.jpg>
+Package pdftex.def Info: pitagoras-4.jpg  used on input line 468.
+(pdftex.def)             Requested size: 378.66376pt x 223.20836pt.
+ [15 <./pitagoras-2.jpg> <./pitagoras-3.jpg>]
+<pitagoras-5.jpg, id=337, 757.32938pt x 446.41782pt>
+File: pitagoras-5.jpg Graphic file (type jpg)
+<use pitagoras-5.jpg>
+Package pdftex.def Info: pitagoras-5.jpg  used on input line 482.
+(pdftex.def)             Requested size: 378.66376pt x 223.20836pt.
+ [16 <./pitagoras-4.jpg> <./pitagoras-5.jpg>]
+<seletor.jpg, id=342, 15.05624pt x 48.93282pt>
+File: seletor.jpg Graphic file (type jpg)
+<use seletor.jpg>
+Package pdftex.def Info: seletor.jpg  used on input line 494.
+(pdftex.def)             Requested size: 9.0338pt x 29.3599pt.
+<curso-hrizontal-2.jpg, id=344, 757.32938pt x 446.41782pt>
+File: curso-hrizontal-2.jpg Graphic file (type jpg)
+<use curso-hrizontal-2.jpg>
+Package pdftex.def Info: curso-hrizontal-2.jpg  used on input line 503.
+(pdftex.def)             Requested size: 423.151pt x 249.4337pt.
+<introducao-maxima.jpg, id=345, 757.32938pt x 446.41782pt>
+File: introducao-maxima.jpg Graphic file (type jpg)
+<use introducao-maxima.jpg>
+Package pdftex.def Info: introducao-maxima.jpg  used on input line 510.
+(pdftex.def)             Requested size: 423.151pt x 249.4337pt.
+ [17 <./seletor.jpg> <./curso-hrizontal-2.jpg>] [18 <./introducao-maxima.jpg>]
+<usando-solve.jpg, id=355, 757.32938pt x 446.41782pt>
+File: usando-solve.jpg Graphic file (type jpg)
+<use usando-solve.jpg>
+Package pdftex.def Info: usando-solve.jpg  used on input line 520.
+(pdftex.def)             Requested size: 423.151pt x 249.4337pt.
+ [19
+
+ <./usando-solve.jpg>]
+[20
 
 ]
-[21 <./exemplo331.jpg>] [22
+ 3.
+\c@exemplos=\count385
+\c@exercicios=\count386
+LaTeX Font Info:    Trying to load font information for U+dsss on input line 53
+6.
+(c:/texlive/2022/texmf-dist/tex/latex/doublestroke/Udsss.fd
+File: Udsss.fd 1995/08/01 v0.1 Double stroke sans serif font definitions
+) [21
 
 ]
+Underfull \hbox (badness 10000) in paragraph at lines 554--556
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 562--570
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 572--578
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 583--584
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 580--588
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 590--596
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 598--608
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 615--616
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 610--619
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 621--627
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 633--634
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 638--644
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 646--650
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 652--660
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 662--670
+
+ []
+
+[22
+
+]
+<exemplo331.jpg, id=378, 757.32938pt x 446.41782pt>
+File: exemplo331.jpg Graphic file (type jpg)
+<use exemplo331.jpg>
+Package pdftex.def Info: exemplo331.jpg  used on input line 690.
+(pdftex.def)             Requested size: 454.40114pt x 267.85275pt.
+
+Overfull \hbox (101.26459pt too wide) in paragraph at lines 721--721
+[]$[]$ 
+ []
+
+
+Overfull \hbox (49.6104pt too wide) in paragraph at lines 714--723
+[] []
+ []
+
+[23
+
+ <./exemplo331.jpg>]
+Underfull \hbox (badness 10000) in paragraph at lines 735--736
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 742--743
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 748--749
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 753--754
+
+ []
+
+
+Overfull \hbox (18.68755pt too wide) in paragraph at lines 757--757
+[]$[]$ 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 764--776
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 780--781
+
+ []
+
+
+Overfull \hbox (49.6104pt too wide) in paragraph at lines 778--792
+[]$ $[]$ 
+ []
+
+[24]
  4.
-[23] [24] (./book-template.aux)
+<geogebra-seno.png, id=393, 2725.18124pt x 2439.1125pt>
+File: geogebra-seno.png Graphic file (type png)
+<use geogebra-seno.png>
+Package pdftex.def Info: geogebra-seno.png  used on input line 812.
+(pdftex.def)             Requested size: 190.78218pt x 170.75533pt.
+<geogebra-seno-2.png, id=397, 5025.02344pt x 2481.27pt>
+File: geogebra-seno-2.png Graphic file (type png)
+<use geogebra-seno-2.png>
+Package pdftex.def Info: geogebra-seno-2.png  used on input line 827.
+(pdftex.def)             Requested size: 370.2541pt x 182.7933pt.
+[25
+
+ <./geogebra-seno.png>]
+<geogebra-seno-3.png, id=409, 5025.02344pt x 2481.27pt>
+File: geogebra-seno-3.png Graphic file (type png)
+<use geogebra-seno-3.png>
+Package pdftex.def Info: geogebra-seno-3.png  used on input line 834.
+(pdftex.def)             Requested size: 370.2541pt x 182.7933pt.
+ [26 <./geogebra-seno-2.png> <./geogebra-seno-3.png>] [27]
+Underfull \hbox (badness 10000) in paragraph at lines 913--914
+
+ []
+
+[28]
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <5> on input line 928.
+<exemplo421-sol.jpg, id=446, 427.5975pt x 230.36063pt>
+File: exemplo421-sol.jpg Graphic file (type jpg)
+<use exemplo421-sol.jpg>
+Package pdftex.def Info: exemplo421-sol.jpg  used on input line 941.
+(pdftex.def)             Requested size: 370.2541pt x 199.46657pt.
+ [29 <./exemplo421-sol.jpg>] [30
+
+]
+ 5.
+[31] [32
+
+]
+ 6.
+[33] [34] [35] (./book-template.aux)
 
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 4.98pt have occurred.
 
 Package rerunfilecheck Info: File `book-template.out' has not changed.
-(rerunfilecheck)             Checksum: 7ECFD37D49E94E87ED3262784B8BD363;2243.
+(rerunfilecheck)             Checksum: 3B1392E7AC6AAB10D96D0930720AEA9B;3466.
  ) 
 Here is how much of TeX's memory you used:
- 34268 strings out of 477529
- 689255 string characters out of 5829600
- 998308 words of memory out of 5000000
- 52455 multiletter control sequences out of 15000+600000
- 570694 words of font info for 126 fonts, out of 8000000 for 9000
+ 35313 strings out of 477529
+ 704098 string characters out of 5829600
+ 1016041 words of memory out of 5000000
+ 53423 multiletter control sequences out of 15000+600000
+ 591484 words of font info for 144 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  100i,11n,104p,720b,869s stack positions out of 10000i,1000n,20000p,200000b,200000s
-{c:/texlive/2022/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc}{c:/texlive/2022
-/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc}{c:/texlive/2022/texmf-dist/fonts/enc/
-dvips/lm/lm-ec.enc}{c:/texlive/2022/texmf-dist/fonts/enc/dvips/lm/lm-ts1.enc}<c
-:/texlive/2022/texmf-dist/fonts/type1/public/lm/lmbx12.pfb><c:/texlive/2022/tex
-mf-dist/fonts/type1/public/lm/lmbxi10.pfb><c:/texlive/2022/texmf-dist/fonts/typ
-e1/public/lm/lmcsc10.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/lm/lmmi
-12.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/lm/lmmi8.pfb><c:/texlive/
-2022/texmf-dist/fonts/type1/public/lm/lmr10.pfb><c:/texlive/2022/texmf-dist/fon
-ts/type1/public/lm/lmr12.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/lm/
-lmr17.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/lm/lmr8.pfb><c:/texliv
-e/2022/texmf-dist/fonts/type1/public/lm/lmri12.pfb><c:/texlive/2022/texmf-dist/
-fonts/type1/public/lm/lmro12.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public
-/lm/lmss12.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/lm/lmss17.pfb><c:
-/texlive/2022/texmf-dist/fonts/type1/public/lm/lmtt10.pfb><c:/texlive/2022/texm
-f-dist/fonts/type1/public/lm/lmtt12.pfb>
-Output written on book-template.pdf (30 pages, 2283628 bytes).
+{c:/texlive/2022/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}{c:/texlive/2022/tex
+mf-dist/fonts/enc/dvips/lm/lm-mathex.enc}{c:/texlive/2022/texmf-dist/fonts/enc/
+dvips/lm/lm-mathit.enc}{c:/texlive/2022/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc
+}{c:/texlive/2022/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc}{c:/texlive/2022/
+texmf-dist/fonts/enc/dvips/lm/lm-ts1.enc}<c:/texlive/2022/texmf-dist/fonts/type
+1/public/doublestroke/dsss12.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public
+/lm/lmbx12.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/lm/lmbxi10.pfb><c
+:/texlive/2022/texmf-dist/fonts/type1/public/lm/lmcsc10.pfb><c:/texlive/2022/te
+xmf-dist/fonts/type1/public/lm/lmex10.pfb><c:/texlive/2022/texmf-dist/fonts/typ
+e1/public/lm/lmmi12.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/lm/lmmi8
+.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/lm/lmr10.pfb><c:/texlive/20
+22/texmf-dist/fonts/type1/public/lm/lmr12.pfb><c:/texlive/2022/texmf-dist/fonts
+/type1/public/lm/lmr17.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/lm/lm
+r7.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/lm/lmr8.pfb><c:/texlive/2
+022/texmf-dist/fonts/type1/public/lm/lmri10.pfb><c:/texlive/2022/texmf-dist/fon
+ts/type1/public/lm/lmri12.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/lm
+/lmro12.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/lm/lmss12.pfb><c:/te
+xlive/2022/texmf-dist/fonts/type1/public/lm/lmss17.pfb><c:/texlive/2022/texmf-d
+ist/fonts/type1/public/lm/lmsy10.pfb><c:/texlive/2022/texmf-dist/fonts/type1/pu
+blic/lm/lmtt10.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/lm/lmtt12.pfb
+>
+Output written on book-template.pdf (41 pages, 3036017 bytes).
 PDF statistics:
- 438 PDF objects out of 1000 (max. 8388607)
- 318 compressed objects within 4 object streams
- 71 named destinations out of 1000 (max. 500000)
- 378 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 608 PDF objects out of 1000 (max. 8388607)
+ 457 compressed objects within 5 object streams
+ 111 named destinations out of 1000 (max. 500000)
+ 464 words of extra memory for PDF output out of 10000 (max. 10000000)
 

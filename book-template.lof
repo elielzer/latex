@@ -1,29 +1,34 @@
 \babel@toc {portuguese}{}\relax 
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {1.1}{\ignorespaces Representação da evolução do conhecimento sobre ondas.\relax }}{4}{figure.caption.2}%
-\contentsline {figure}{\numberline {1.2}{\ignorespaces Entrando com a URL, para buscar a página do Maxima no \emph {Google}.\relax }}{6}{figure.caption.4}%
-\contentsline {figure}{\numberline {1.3}{\ignorespaces Página encontrada do Maxima no navegador da Internet.\relax }}{6}{figure.caption.5}%
-\contentsline {figure}{\numberline {1.4}{\ignorespaces Janela que apresenta o início do processo de instalação.\relax }}{7}{figure.caption.6}%
-\contentsline {figure}{\numberline {1.5}{\ignorespaces Janela que apresenta os termos de uso.\relax }}{7}{figure.caption.7}%
-\contentsline {figure}{\numberline {1.6}{\ignorespaces Janela que apresenta o diretório local para instalação de arquivos.\relax }}{8}{figure.caption.8}%
-\contentsline {figure}{\numberline {1.7}{\ignorespaces Janela de configuração de atalhos.\relax }}{8}{figure.caption.9}%
-\contentsline {figure}{\numberline {1.8}{\ignorespaces Janela de configuração do escopo de funções do programa.\relax }}{8}{figure.caption.10}%
-\contentsline {figure}{\numberline {1.9}{\ignorespaces Janela de status do processo de instalação.\relax }}{9}{figure.caption.11}%
-\contentsline {figure}{\numberline {1.10}{\ignorespaces Janela de confirmação da instalação.\relax }}{9}{figure.caption.12}%
-\contentsline {figure}{\numberline {1.11}{\ignorespaces Aspecto do comando de menu na janela inicial do Windows.\relax }}{9}{figure.caption.13}%
-\contentsline {figure}{\numberline {1.12}{\ignorespaces Aspecto da janela do aplicativo Maxima.\relax }}{10}{figure.caption.14}%
-\contentsline {figure}{\numberline {1.13}{\ignorespaces Pré-seleção de tipo de entrada a ser inserida no prompt.\relax }}{10}{figure.caption.15}%
-\contentsline {figure}{\numberline {1.14}{\ignorespaces Pré-seleção para inserir texto no prompt.\relax }}{11}{figure.caption.16}%
-\contentsline {figure}{\numberline {1.15}{\ignorespaces Pré-seleção para inserir expressão algébrica no prompt.\relax }}{11}{figure.caption.17}%
+\contentsline {figure}{\numberline {1.1}{\ignorespaces Entrando com a URL, para buscar a página do Maxima no \emph {Google}.\relax }}{4}{figure.caption.3}%
+\contentsline {figure}{\numberline {1.2}{\ignorespaces Página encontrada do Maxima no navegador da Internet.\relax }}{5}{figure.caption.4}%
+\contentsline {figure}{\numberline {1.3}{\ignorespaces Janela que apresenta o início do processo de instalação.\relax }}{5}{figure.caption.5}%
+\contentsline {figure}{\numberline {1.4}{\ignorespaces Janela que apresenta os termos de uso.\relax }}{6}{figure.caption.6}%
+\contentsline {figure}{\numberline {1.5}{\ignorespaces Janela que apresenta o diretório local para instalação de arquivos.\relax }}{6}{figure.caption.7}%
+\contentsline {figure}{\numberline {1.6}{\ignorespaces Janela de configuração de atalhos.\relax }}{6}{figure.caption.8}%
+\contentsline {figure}{\numberline {1.7}{\ignorespaces Janela de configuração do escopo de funções do programa.\relax }}{7}{figure.caption.9}%
+\contentsline {figure}{\numberline {1.8}{\ignorespaces Janela de status do processo de instalação.\relax }}{7}{figure.caption.10}%
+\contentsline {figure}{\numberline {1.9}{\ignorespaces Janela de confirmação da instalação.\relax }}{7}{figure.caption.11}%
+\contentsline {figure}{\numberline {1.10}{\ignorespaces Aspecto do comando de menu na janela inicial do Windows.\relax }}{8}{figure.caption.12}%
+\contentsline {figure}{\numberline {1.12}{\ignorespaces Pré-seleção de tipo de entrada a ser inserida no prompt.\relax }}{8}{figure.caption.14}%
+\contentsline {figure}{\numberline {1.11}{\ignorespaces Aspecto da janela do aplicativo Maxima.\relax }}{9}{figure.caption.13}%
+\contentsline {figure}{\numberline {1.13}{\ignorespaces Pré-seleção para inserir texto no prompt.\relax }}{9}{figure.caption.15}%
+\contentsline {figure}{\numberline {1.14}{\ignorespaces Pré-seleção para inserir expressão algébrica no prompt.\relax }}{10}{figure.caption.16}%
+\contentsline {figure}{\numberline {1.15}{\ignorespaces Representação da evolução do conhecimento sobre ondas.\relax }}{12}{figure.caption.17}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {2.1}{\ignorespaces Entrando uma expressão algébrica.\relax }}{13}{figure.caption.18}%
-\contentsline {figure}{\numberline {2.2}{\ignorespaces Saída apresentada após após processamento da expressão algébrica entrada.\relax }}{14}{figure.caption.19}%
-\contentsline {figure}{\numberline {2.3}{\ignorespaces Nomeando expressões.\relax }}{14}{figure.caption.20}%
-\contentsline {figure}{\numberline {2.4}{\ignorespaces Usando expressões.\relax }}{15}{figure.caption.21}%
-\contentsline {figure}{\numberline {2.5}{\ignorespaces Obtendo o valor de um elemento de uma lista.\relax }}{15}{figure.caption.22}%
-\contentsline {figure}{\numberline {2.6}{\ignorespaces Posição sugerida para escrever um título\relax }}{16}{figure.caption.24}%
-\contentsline {figure}{\numberline {2.7}{\ignorespaces Resultado da inserção de título\relax }}{16}{figure.caption.25}%
-\contentsline {figure}{\numberline {2.8}{\ignorespaces Resultado da inserção de texto comum\relax }}{17}{figure.caption.26}%
+\contentsline {figure}{\numberline {2.1}{\ignorespaces Efeito obtido após aplicar 'Showtime: true'\relax }}{13}{figure.caption.18}%
+\contentsline {figure}{\numberline {2.2}{\ignorespaces Uso do variável "Display2D" com "flag" \emph {false}}}{14}{figure.caption.19}%
+\contentsline {figure}{\numberline {2.3}{\ignorespaces Entrando uma expressão algébrica.\relax }}{14}{figure.caption.20}%
+\contentsline {figure}{\numberline {2.4}{\ignorespaces Saída apresentada após após processamento da expressão algébrica entrada.\relax }}{15}{figure.caption.21}%
+\contentsline {figure}{\numberline {2.5}{\ignorespaces Nomeando expressões.\relax }}{15}{figure.caption.22}%
+\contentsline {figure}{\numberline {2.6}{\ignorespaces Usando expressões.\relax }}{16}{figure.caption.23}%
+\contentsline {figure}{\numberline {2.7}{\ignorespaces Obtendo o valor de um elemento de uma lista.\relax }}{16}{figure.caption.24}%
+\contentsline {figure}{\numberline {2.8}{\ignorespaces Posição sugerida para escrever um título\relax }}{17}{figure.caption.26}%
+\contentsline {figure}{\numberline {2.9}{\ignorespaces Resultado da inserção de título\relax }}{18}{figure.caption.27}%
+\contentsline {figure}{\numberline {2.10}{\ignorespaces Resultado da inserção de texto comum\relax }}{19}{figure.caption.28}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {3.1}{\ignorespaces Resultado do exemplo na janela do wxMaxima.\relax }}{21}{figure.caption.27}%
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Resultado do exemplo na janela do wxMaxima.\relax }}{23}{figure.caption.29}%
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {4.4}{\ignorespaces Saída de resultado do Maxima\relax }}{29}{figure.caption.33}%
+\addvspace {10\p@ }
 \addvspace {10\p@ }
