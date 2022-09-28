@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.8.30)  26 SEP 2022 23:50
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.8.30)  27 SEP 2022 22:38
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1366,371 +1366,388 @@ File: t1lmss.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 ]
  1.
 [3]
-<site-maxima.jpg, id=247, 373.395pt x 60.97781pt>
+<site-maxima.jpg, id=251, 373.395pt x 60.97781pt>
 File: site-maxima.jpg Graphic file (type jpg)
 <use site-maxima.jpg>
 Package pdftex.def Info: site-maxima.jpg  used on input line 233.
 (pdftex.def)             Requested size: 373.39409pt x 60.97765pt.
-<pagina-maxima.jpg, id=250, 446.41782pt x 253.69781pt>
+<pagina-maxima.jpg, id=254, 446.41782pt x 253.69781pt>
 File: pagina-maxima.jpg Graphic file (type jpg)
 <use pagina-maxima.jpg>
 Package pdftex.def Info: pagina-maxima.jpg  used on input line 244.
 (pdftex.def)             Requested size: 446.41672pt x 253.69719pt.
  [4 <./site-maxima.jpg>]
-<maxima-ist-1.jpg, id=258, 255.20343pt x 201.00093pt>
+<maxima-ist-1.jpg, id=262, 255.20343pt x 201.00093pt>
 File: maxima-ist-1.jpg Graphic file (type jpg)
 <use maxima-ist-1.jpg>
 Package pdftex.def Info: maxima-ist-1.jpg  used on input line 254.
 (pdftex.def)             Requested size: 255.2028pt x 201.00043pt.
-<maxima-ist-2.jpg, id=259, 244.66406pt x 191.9672pt>
+<maxima-ist-2.jpg, id=263, 244.66406pt x 191.9672pt>
 File: maxima-ist-2.jpg Graphic file (type jpg)
 <use maxima-ist-2.jpg>
 Package pdftex.def Info: maxima-ist-2.jpg  used on input line 263.
 (pdftex.def)             Requested size: 244.66345pt x 191.96672pt.
-<maxima-ist-3.jpg, id=260, 247.67531pt x 194.22563pt>
+<maxima-ist-3.jpg, id=264, 247.67531pt x 194.22563pt>
 File: maxima-ist-3.jpg Graphic file (type jpg)
 <use maxima-ist-3.jpg>
 Package pdftex.def Info: maxima-ist-3.jpg  used on input line 272.
 (pdftex.def)             Requested size: 247.6747pt x 194.22514pt.
-<maxima-ist-4.jpg, id=261, 236.38312pt x 183.68625pt>
+<maxima-ist-4.jpg, id=265, 236.38312pt x 183.68625pt>
 File: maxima-ist-4.jpg Graphic file (type jpg)
 <use maxima-ist-4.jpg>
 Package pdftex.def Info: maxima-ist-4.jpg  used on input line 281.
 (pdftex.def)             Requested size: 236.38254pt x 183.68578pt.
-<maxima-ist-5.jpg, id=262, 225.84375pt x 176.91093pt>
+<maxima-ist-5.jpg, id=266, 225.84375pt x 176.91093pt>
 File: maxima-ist-5.jpg Graphic file (type jpg)
 <use maxima-ist-5.jpg>
 Package pdftex.def Info: maxima-ist-5.jpg  used on input line 290.
 (pdftex.def)             Requested size: 225.84319pt x 176.91049pt.
-<maxima-ist-6.jpg, id=263, 229.60782pt x 178.41656pt>
+<maxima-ist-6.jpg, id=267, 229.60782pt x 178.41656pt>
 File: maxima-ist-6.jpg Graphic file (type jpg)
 <use maxima-ist-6.jpg>
 Package pdftex.def Info: maxima-ist-6.jpg  used on input line 299.
 (pdftex.def)             Requested size: 229.60725pt x 178.4161pt.
-<maxima-ist-7.jpg, id=264, 228.855pt x 179.16937pt>
+<maxima-ist-7.jpg, id=268, 228.855pt x 179.16937pt>
 File: maxima-ist-7.jpg Graphic file (type jpg)
 <use maxima-ist-7.jpg>
 Package pdftex.def Info: maxima-ist-7.jpg  used on input line 308.
 (pdftex.def)             Requested size: 228.85443pt x 179.16893pt.
-<menu-windows.jpg, id=265, 486.31688pt x 383.18156pt>
+<menu-windows.jpg, id=269, 486.31688pt x 383.18156pt>
 File: menu-windows.jpg Graphic file (type jpg)
 <use menu-windows.jpg>
 Package pdftex.def Info: menu-windows.jpg  used on input line 317.
 (pdftex.def)             Requested size: 340.4195pt x 268.22525pt.
- [5 <./pagina-maxima.jpg> <./maxima-ist-1.jpg>]
-[6 <./maxima-ist-2.jpg> <./maxima-ist-3.jpg> <./maxima-ist-4.jpg>] [7 <./maxima
--ist-5.jpg> <./maxima-ist-6.jpg> <./maxima-ist-7.jpg>]
-<tela-inicial.jpg, id=281, 757.32938pt x 446.41782pt>
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [5 <./pagina-maxima.jpg> <./maxima-ist-1.jpg>] [6 <./maxima-ist-2.jpg> <./maxi
+ma-ist-3.jpg> <./maxima-ist-4.jpg>] [7 <./maxima-ist-5.jpg> <./maxima-ist-6.jpg
+> <./maxima-ist-7.jpg>] [8 <./menu-windows.jpg>]
+<tela-inicial.jpg, id=289, 757.32938pt x 446.41782pt>
 File: tela-inicial.jpg Graphic file (type jpg)
 <use tela-inicial.jpg>
-Package pdftex.def Info: tela-inicial.jpg  used on input line 329.
+Package pdftex.def Info: tela-inicial.jpg  used on input line 328.
 (pdftex.def)             Requested size: 454.40114pt x 267.85275pt.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-<selecao-tipos.jpg, id=283, 761.84625pt x 450.18187pt>
+<selecao-tipos.jpg, id=291, 761.84625pt x 450.18187pt>
 File: selecao-tipos.jpg Graphic file (type jpg)
 <use selecao-tipos.jpg>
 Package pdftex.def Info: selecao-tipos.jpg  used on input line 350.
 (pdftex.def)             Requested size: 228.55563pt x 135.0556pt.
-[8 <./menu-windows.jpg> <./selecao-tipos.jpg>]
-<selecao-texto.jpg, id=291, 758.835pt x 448.67625pt>
+ [9 <./tela-inicial.jpg> <./selecao-tipos.jpg>]
+<selecao-texto.jpg, id=299, 758.835pt x 448.67625pt>
 File: selecao-texto.jpg Graphic file (type jpg)
 <use selecao-texto.jpg>
-Package pdftex.def Info: selecao-texto.jpg  used on input line 363.
+Package pdftex.def Info: selecao-texto.jpg  used on input line 360.
 (pdftex.def)             Requested size: 455.30452pt x 269.20782pt.
-<selecao-math.jpg, id=292, 763.35187pt x 453.19313pt>
+<selecao-math.jpg, id=300, 763.35187pt x 453.19313pt>
 File: selecao-math.jpg Graphic file (type jpg)
 <use selecao-math.jpg>
-Package pdftex.def Info: selecao-math.jpg  used on input line 372.
+Package pdftex.def Info: selecao-math.jpg  used on input line 369.
 (pdftex.def)             Requested size: 458.01465pt x 271.91797pt.
-
-Underfull \vbox (badness 2591) has occurred while \output is active []
-
- [9 <./tela-inicial.jpg> <./selecao-texto.jpg>]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [10 <./selecao-math.jpg>]
-<sounds.jpg, id=302, 752.0597pt x 891.33pt>
+<cursor-inicial.jpg, id=302, 770.88pt x 297.36093pt>
+File: cursor-inicial.jpg Graphic file (type jpg)
+<use cursor-inicial.jpg>
+Package pdftex.def Info: cursor-inicial.jpg  used on input line 376.
+(pdftex.def)             Requested size: 370.2541pt x 142.82236pt.
+<marcador.jpg, id=305, 770.88pt x 297.36093pt>
+File: marcador.jpg Graphic file (type jpg)
+<use marcador.jpg>
+Package pdftex.def Info: marcador.jpg  used on input line 383.
+(pdftex.def)             Requested size: 370.2541pt x 142.82236pt.
+ [10 <./selecao-texto.jpg> <./selecao-math.jpg>]
+<marcador-ch.jpg, id=310, 770.88pt x 297.36093pt>
+File: marcador-ch.jpg Graphic file (type jpg)
+<use marcador-ch.jpg>
+Package pdftex.def Info: marcador-ch.jpg  used on input line 389.
+(pdftex.def)             Requested size: 370.2541pt x 142.82236pt.
+ [11 <./cursor-inicial.jpg> <./marcador.jpg> <./marcador-ch.jpg>]
+<sounds.jpg, id=316, 752.0597pt x 891.33pt>
 File: sounds.jpg Graphic file (type jpg)
 <use sounds.jpg>
-Package pdftex.def Info: sounds.jpg  used on input line 392.
+Package pdftex.def Info: sounds.jpg  used on input line 410.
 (pdftex.def)             Requested size: 502.50032pt x 647.10216pt.
- [11] [12 <./sounds.jpg>]
+ [12] [13 <./sounds.jpg>] [14
+
+]
  2.
-<showtime-fig.png, id=311, 552.56438pt x 237.13594pt>
-File: showtime-fig.png Graphic file (type png)
-<use showtime-fig.png>
-Package pdftex.def Info: showtime-fig.png  used on input line 408.
-(pdftex.def)             Requested size: 370.2541pt x 158.89471pt.
-<display-2d.png, id=312, 551.81157pt x 234.1247pt>
-File: display-2d.png Graphic file (type png)
-<use display-2d.png>
-Package pdftex.def Info: display-2d.png  used on input line 415.
-(pdftex.def)             Requested size: 370.2541pt x 157.0985pt.
-
-Underfull \vbox (badness 1253) has occurred while \output is active []
-
- [13
-
- <./showtime-fig.png>]
-<pitagoras.jpg, id=319, 757.32938pt x 446.41782pt>
+<pitagoras.jpg, id=330, 757.32938pt x 446.41782pt>
 File: pitagoras.jpg Graphic file (type jpg)
 <use pitagoras.jpg>
 Package pdftex.def Info: pitagoras.jpg  used on input line 425.
 (pdftex.def)             Requested size: 378.66376pt x 223.20836pt.
-<pitagoras-2.jpg, id=321, 757.32938pt x 446.41782pt>
+<pitagoras-2.jpg, id=332, 757.32938pt x 446.41782pt>
 File: pitagoras-2.jpg Graphic file (type jpg)
 <use pitagoras-2.jpg>
 Package pdftex.def Info: pitagoras-2.jpg  used on input line 436.
 (pdftex.def)             Requested size: 378.66376pt x 223.20836pt.
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
+Underfull \vbox (badness 4072) has occurred while \output is active []
 
- [14 <./display-2d.png (PNG copy)> <./pitagoras.jpg>]
-<pitagoras-3.jpg, id=328, 757.32938pt x 446.41782pt>
+ [15 <./pitagoras.jpg>]
+<pitagoras-3.jpg, id=341, 757.32938pt x 446.41782pt>
 File: pitagoras-3.jpg Graphic file (type jpg)
 <use pitagoras-3.jpg>
 Package pdftex.def Info: pitagoras-3.jpg  used on input line 457.
 (pdftex.def)             Requested size: 378.66376pt x 223.20836pt.
-<pitagoras-4.jpg, id=330, 757.32938pt x 446.41782pt>
+<pitagoras-4.jpg, id=343, 757.32938pt x 446.41782pt>
 File: pitagoras-4.jpg Graphic file (type jpg)
 <use pitagoras-4.jpg>
 Package pdftex.def Info: pitagoras-4.jpg  used on input line 468.
 (pdftex.def)             Requested size: 378.66376pt x 223.20836pt.
- [15 <./pitagoras-2.jpg> <./pitagoras-3.jpg>]
-<pitagoras-5.jpg, id=337, 757.32938pt x 446.41782pt>
+ [16 <./pitagoras-2.jpg> <./pitagoras-3.jpg>]
+<pitagoras-5.jpg, id=349, 757.32938pt x 446.41782pt>
 File: pitagoras-5.jpg Graphic file (type jpg)
 <use pitagoras-5.jpg>
 Package pdftex.def Info: pitagoras-5.jpg  used on input line 482.
 (pdftex.def)             Requested size: 378.66376pt x 223.20836pt.
- [16 <./pitagoras-4.jpg> <./pitagoras-5.jpg>]
-<seletor.jpg, id=342, 15.05624pt x 48.93282pt>
+ [17 <./pitagoras-4.jpg> <./pitagoras-5.jpg>]
+<seletor.jpg, id=354, 15.05624pt x 48.93282pt>
 File: seletor.jpg Graphic file (type jpg)
 <use seletor.jpg>
 Package pdftex.def Info: seletor.jpg  used on input line 494.
 (pdftex.def)             Requested size: 9.0338pt x 29.3599pt.
-<curso-hrizontal-2.jpg, id=344, 757.32938pt x 446.41782pt>
+
+
+LaTeX Warning: Reference `fig:curso-hrizontal-2' on page 18 undefined on input 
+line 498.
+
+<curso-hrizontal-2.jpg, id=355, 757.32938pt x 446.41782pt>
 File: curso-hrizontal-2.jpg Graphic file (type jpg)
 <use curso-hrizontal-2.jpg>
 Package pdftex.def Info: curso-hrizontal-2.jpg  used on input line 503.
 (pdftex.def)             Requested size: 423.151pt x 249.4337pt.
-<introducao-maxima.jpg, id=345, 757.32938pt x 446.41782pt>
+<introducao-maxima.jpg, id=356, 757.32938pt x 446.41782pt>
 File: introducao-maxima.jpg Graphic file (type jpg)
 <use introducao-maxima.jpg>
 Package pdftex.def Info: introducao-maxima.jpg  used on input line 510.
 (pdftex.def)             Requested size: 423.151pt x 249.4337pt.
- [17 <./seletor.jpg> <./curso-hrizontal-2.jpg>] [18 <./introducao-maxima.jpg>]
-<usando-solve.jpg, id=355, 757.32938pt x 446.41782pt>
+[18 <./seletor.jpg> <./introducao-maxima.jpg>]
+<usando-solve.jpg, id=362, 757.32938pt x 446.41782pt>
 File: usando-solve.jpg Graphic file (type jpg)
 <use usando-solve.jpg>
 Package pdftex.def Info: usando-solve.jpg  used on input line 520.
 (pdftex.def)             Requested size: 423.151pt x 249.4337pt.
+<showtime-fig.png, id=363, 405.01312pt x 194.97844pt>
+File: showtime-fig.png Graphic file (type png)
+<use showtime-fig.png>
+Package pdftex.def Info: showtime-fig.png  used on input line 531.
+(pdftex.def)             Requested size: 370.2541pt x 178.2488pt.
+<display-2d.png, id=365, 428.35031pt x 189.70876pt>
+File: display-2d.png Graphic file (type png)
+<use display-2d.png>
+Package pdftex.def Info: display-2d.png  used on input line 538.
+(pdftex.def)             Requested size: 370.2541pt x 163.98001pt.
  [19
 
- <./usando-solve.jpg>]
-[20
+ <./usando-solve.jpg> <./showtime-fig.png>] [20 <./display-2d.png>] [21
+
+] [22
 
 ]
  3.
 \c@exemplos=\count385
 \c@exercicios=\count386
-LaTeX Font Info:    Trying to load font information for U+dsss on input line 53
-6.
+LaTeX Font Info:    Trying to load font information for U+dsss on input line 55
+5.
 (c:/texlive/2022/texmf-dist/tex/latex/doublestroke/Udsss.fd
 File: Udsss.fd 1995/08/01 v0.1 Double stroke sans serif font definitions
-) [21
+) [23]
+Underfull \hbox (badness 10000) in paragraph at lines 573--575
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 581--589
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 591--597
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 602--603
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 599--607
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 609--615
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 617--627
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 634--635
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 629--638
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 640--646
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 652--653
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 657--663
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 665--669
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 671--679
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 681--689
+
+ []
+
+[24
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 554--556
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 562--570
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 572--578
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 583--584
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 580--588
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 590--596
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 598--608
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 615--616
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 610--619
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 621--627
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 633--634
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 638--644
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 646--650
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 652--660
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 662--670
-
- []
-
-[22
-
-]
-<exemplo331.jpg, id=378, 757.32938pt x 446.41782pt>
+<exemplo331.jpg, id=398, 757.32938pt x 446.41782pt>
 File: exemplo331.jpg Graphic file (type jpg)
 <use exemplo331.jpg>
-Package pdftex.def Info: exemplo331.jpg  used on input line 690.
+Package pdftex.def Info: exemplo331.jpg  used on input line 709.
 (pdftex.def)             Requested size: 454.40114pt x 267.85275pt.
 
-Overfull \hbox (101.26459pt too wide) in paragraph at lines 721--721
+Overfull \hbox (101.26459pt too wide) in paragraph at lines 740--740
 []$[]$ 
  []
 
 
-Overfull \hbox (49.6104pt too wide) in paragraph at lines 714--723
+Overfull \hbox (49.6104pt too wide) in paragraph at lines 733--742
 [] []
  []
 
-[23
+[25
 
  <./exemplo331.jpg>]
-Underfull \hbox (badness 10000) in paragraph at lines 735--736
+Underfull \hbox (badness 10000) in paragraph at lines 754--755
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 742--743
+Underfull \hbox (badness 10000) in paragraph at lines 761--762
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 748--749
+Underfull \hbox (badness 10000) in paragraph at lines 767--768
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 753--754
+Underfull \hbox (badness 10000) in paragraph at lines 772--773
 
  []
 
 
-Overfull \hbox (18.68755pt too wide) in paragraph at lines 757--757
+Overfull \hbox (18.68755pt too wide) in paragraph at lines 776--776
 []$[]$ 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 764--776
+Underfull \hbox (badness 10000) in paragraph at lines 783--795
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 780--781
+Underfull \hbox (badness 10000) in paragraph at lines 799--800
 
  []
 
 
-Overfull \hbox (49.6104pt too wide) in paragraph at lines 778--792
+Overfull \hbox (49.6104pt too wide) in paragraph at lines 797--811
 []$ $[]$ 
  []
 
-[24]
+[26]
  4.
-<geogebra-seno.png, id=393, 2725.18124pt x 2439.1125pt>
+<geogebra-seno.png, id=414, 2725.18124pt x 2439.1125pt>
 File: geogebra-seno.png Graphic file (type png)
 <use geogebra-seno.png>
-Package pdftex.def Info: geogebra-seno.png  used on input line 812.
+Package pdftex.def Info: geogebra-seno.png  used on input line 831.
 (pdftex.def)             Requested size: 190.78218pt x 170.75533pt.
-<geogebra-seno-2.png, id=397, 5025.02344pt x 2481.27pt>
+<geogebra-seno-2.png, id=417, 5025.02344pt x 2481.27pt>
 File: geogebra-seno-2.png Graphic file (type png)
 <use geogebra-seno-2.png>
-Package pdftex.def Info: geogebra-seno-2.png  used on input line 827.
+Package pdftex.def Info: geogebra-seno-2.png  used on input line 846.
 (pdftex.def)             Requested size: 370.2541pt x 182.7933pt.
-[25
+[27
 
  <./geogebra-seno.png>]
-<geogebra-seno-3.png, id=409, 5025.02344pt x 2481.27pt>
+<geogebra-seno-3.png, id=428, 5025.02344pt x 2481.27pt>
 File: geogebra-seno-3.png Graphic file (type png)
 <use geogebra-seno-3.png>
-Package pdftex.def Info: geogebra-seno-3.png  used on input line 834.
+Package pdftex.def Info: geogebra-seno-3.png  used on input line 853.
 (pdftex.def)             Requested size: 370.2541pt x 182.7933pt.
- [26 <./geogebra-seno-2.png> <./geogebra-seno-3.png>] [27]
-Underfull \hbox (badness 10000) in paragraph at lines 913--914
+ [28 <./geogebra-seno-2.png> <./geogebra-seno-3.png>] [29]
+Underfull \hbox (badness 10000) in paragraph at lines 932--933
 
  []
 
-[28]
+[30]
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <5> on input line 928.
-<exemplo421-sol.jpg, id=446, 427.5975pt x 230.36063pt>
-File: exemplo421-sol.jpg Graphic file (type jpg)
-<use exemplo421-sol.jpg>
-Package pdftex.def Info: exemplo421-sol.jpg  used on input line 941.
-(pdftex.def)             Requested size: 370.2541pt x 199.46657pt.
- [29 <./exemplo421-sol.jpg>] [30
+(Font)              <5> on input line 941.
+<exemplo422-sol.jpg, id=466, 424.58624pt x 272.51813pt>
+File: exemplo422-sol.jpg Graphic file (type jpg)
+<use exemplo422-sol.jpg>
+Package pdftex.def Info: exemplo422-sol.jpg  used on input line 972.
+(pdftex.def)             Requested size: 370.2541pt x 237.65437pt.
+
+Overfull \hbox (49.6104pt too wide) in paragraph at lines 953--975
+[] []
+ []
+
+[31 <./exemplo422-sol.jpg>] [32
 
 ]
  5.
-[31] [32
+[33] [34
 
 ]
  6.
-[33] [34] [35] (./book-template.aux)
+[35] [36] [37] (./book-template.aux)
 
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 4.98pt have occurred.
+
+
+LaTeX Warning: There were undefined references.
 
 Package rerunfilecheck Info: File `book-template.out' has not changed.
 (rerunfilecheck)             Checksum: 3B1392E7AC6AAB10D96D0930720AEA9B;3466.
  ) 
 Here is how much of TeX's memory you used:
- 35313 strings out of 477529
- 704098 string characters out of 5829600
- 1016041 words of memory out of 5000000
- 53423 multiletter control sequences out of 15000+600000
+ 35335 strings out of 477529
+ 704585 string characters out of 5829600
+ 1016188 words of memory out of 5000000
+ 53441 multiletter control sequences out of 15000+600000
  591484 words of font info for 144 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  100i,11n,104p,720b,869s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -1755,10 +1772,10 @@ xlive/2022/texmf-dist/fonts/type1/public/lm/lmss17.pfb><c:/texlive/2022/texmf-d
 ist/fonts/type1/public/lm/lmsy10.pfb><c:/texlive/2022/texmf-dist/fonts/type1/pu
 blic/lm/lmtt10.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/lm/lmtt12.pfb
 >
-Output written on book-template.pdf (41 pages, 3036017 bytes).
+Output written on book-template.pdf (43 pages, 3192366 bytes).
 PDF statistics:
- 608 PDF objects out of 1000 (max. 8388607)
- 457 compressed objects within 5 object streams
- 111 named destinations out of 1000 (max. 500000)
- 464 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 629 PDF objects out of 1000 (max. 8388607)
+ 471 compressed objects within 5 object streams
+ 115 named destinations out of 1000 (max. 500000)
+ 479 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -309,7 +309,7 @@ Assim, localize o link, nessa página com o texto: \href{sourceforge.net/project
 	%\end{Center}
 \end{figure}
 
-	\begin{figure}[htbp!]
+	\begin{figure}[H]
     \centering
     \caption{Aspecto do comando de menu na janela inicial do Windows.}
         \label{fig:menu-windows}
@@ -319,22 +319,22 @@ Assim, localize o link, nessa página com o texto: \href{sourceforge.net/project
 \end{figure}
 \newpage
 \section{Conhecendo a \emph{Interface} Gráfica do wxMaxima}
-A janela do aplicativo Maxima é idêntica a um editor de texto, e permite criar um arquivo, abrir um existente e salvar suas alterações, tudo a partir de um um menu supenso de comandos. Ao abrir a janela do aplicativo, esta já fornece de imediato, um prompt para a entrada de comandos de programação, ou textos descritivos, figura \ref{fig:tela-inicial}. A janela do aplicativo Maxima é idêntica a um editor de texto, porém sua funcionalidade lógica é identica á de uma planilha de cálculo, ou seja as janela possui uma estrutura baseada em células de cálculo.
-
-	\begin{figure}[h]
-    \centering
-    \caption{Aspecto da janela do aplicativo Maxima.}
-        \label{fig:tela-inicial}
-    %\begin{Center}
-    \includegraphics[scale=0.6]{tela-inicial.jpg}
+A janela do aplicativo Maxima é idêntica a um editor de texto, e permite criar um arquivo, abrir um existente e salvar suas alterações, tudo a partir de um um menu suspenso de comandos. Ao abrir a janela do aplicativo, este já fornece de imediato, um prompt para a entrada de comandos, ou textos descritivos, figura \ref{fig:tela-inicial}. 
+	\begin{figure}[H]
+	\centering
+	\caption{\emph{Interface} do wxMaxima.}
+	\label{fig:tela-inicial}
+	%\begin{Center}
+	\includegraphics[scale=0.6]{tela-inicial.jpg}
 	%\end{Center}
 \end{figure}
+A janela do wxMaxima é idêntica a um editor de texto, porém sua funcionalidade lógica é idêntica uma planilha de cálculo, ou seja as janelas possuem uma estrutura baseada em células de cálculo.
 
 \noindent A figura \ref{fig:selecao-tipos} mostra o recurso para escolher a opção de tipo de entrada no prompt, que podem ser
 \begin{multicols}{2}
 \begin{itemize}
 \item tipo Texto
-\item tipo Math
+\item tipo Math (expressão algébrica)
 \item tipo Título
 \item tipo Seção
 \item tipo Subseção
@@ -351,9 +351,6 @@ A janela do aplicativo Maxima é idêntica a um editor de texto, e permite criar
 		\end{Center}
 \end{figure}
 \end{multicols}
-%
-
-\pagebreak
 \noindent A figura \ref{fig:selecao-texto} mostra como escolher as opções de tipo de entrada no prompt para o caso de texto. Já a figura \ref{fig:selecao-math} mostra como escolher as opções de tipo de entrada no prompt para o caso de expressão algébrica.
 	\begin{figure}[ht!]
     \centering
@@ -372,12 +369,33 @@ A janela do aplicativo Maxima é idêntica a um editor de texto, e permite criar
     \includegraphics[scale=0.6]{selecao-math.jpg}
 	%\end{Center}
 \end{figure}
-\pagebreak
+Um cursor, na forma de um traço horizontal intermitente, marca a posição inicial para criar uma célula, figura \ref{fig:cursor-inicial}.
+\begin{figure}
+	\centering
+	\caption{Cursor intermitente indica a posição para inserir uma célula.}
+	\includegraphics[width=0.7\linewidth]{cursor-inicial}
+	\label{fig:cursor-inicial}
+\end{figure}
+\noindent Uma vez iniciada digitação, o cursor torna-se vertical, e um símbolo marcador na forma de um parêntese aparece à esquerda no início da linha iniciada, e se a expressão for do tipo \emph{Math} será acompanhado de uma seta, figura \ref{fig:marcador}. Após a execução da expressão, caso haja um resultado o marcador de célula se redesenha na forma de uma chave, figura \ref{fig:marcador-ch}.
+\begin{figure}[H]
+	\centering
+	\caption{Marcador de célula.}
+	\includegraphics[width=0.7\linewidth]{marcador}
+	\label{fig:marcador}
+\end{figure}
+\begin{figure}[H]
+	\centering
+	\caption{Marcador estendido ao resultado do Maxima.}
+	\includegraphics[width=0.7\linewidth]{marcador-ch}
+	\label{fig:marcador-ch}
+\end{figure}
+
 Até agora nos ativemos a apresentar generalidades que subsidiarão o leitor durante sua jornada no aprendizado ou mesmo na utilização das técnicas de simulação aqui apresentadas no Maxima. Assunto que será objeto dos próximos capítulos.
+\newpage
 %%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{Um Pouco Sobre Ondas}
-Há várias situações no dia a dia nas quais as coisas acontecem repentinamente, ou inesperadamente, vindo, depois a cessar seus efeitos, ou, em outros casos, repercutem mais além. É comum nos referirmos a isso com a expressão: "isso é apenas uma onda, logo passará". Isso, claro, devido a que tais situações são transitórias, exemplos: pandemias, endemias, o preço de commodities, tsunamis, terremotos, até notícias ou eventos cotidianos. Algumas vezes tais situações apresentam comportamento oscilante, como na superfície de um líquido em uma piscina, ou mesmo em fontes naturais de água, como em rios, mares e oceanos durante a passagem de uma embarcação.
+Há várias situações no dia a dia nas quais as coisas acontecem repentinamente, ou inesperadamente, vindo, depois a cessar seus efeitos, ou, em outros casos, repercutem mais além. É comum nos referirmos a isso com a expressão: ``isso é apenas uma onda, logo passará''. Isso, claro, devido a que tais situações são transitórias, exemplos: pandemias, endemias, o preço de commodities, tsunamis, terremotos, até notícias ou eventos cotidianos. Algumas vezes tais situações apresentam comportamento oscilante, como na superfície de um líquido em uma piscina, ou mesmo em fontes naturais de água, como em rios, mares e oceanos durante a passagem de uma embarcação.
 
 É importante notar que existem características diferentes em tais situações. Alguns simplesmente oscilam ou vibram e em outros casos, além de oscilar ou vibrar, essa condição é posteriormente transmitida para outros locais do ambiente onde tais situações ocorrem. Neste segundo caso, diz-se que há uma propagação do fenômeno. De tal forma que, oscilação, onda, propagação são termos correlacionados.
 
@@ -398,24 +416,6 @@ A figura \ref{fig:mapa.ondas} apresenta a evolução, numa perspectiva históric
 \chapter{TRABALHANDO COM O wxMAXIMA}
 A base de conhecimento do Maxima, de acordo com sua documentação, é organizada por meio de um conjunto de categorias, por exemplo: Expressões, Operadores, Avaliação de Expressões, Simplificação, Plotagem, etc.
 
-Alguns elementos da estrutura do Maxima são estratégicos, como os \emph{flags}. Os \emph{flags} são os valores que determinadas variáveis internas do Maxima assumem de forma padrão ou conforme a definição do usuário. Exemplos:
-\begin{itemize}
-	\item {\texttt{showtime}} Tem valor \emph{false} como padrão. Quando definida para o valor \emph{true}, o tempo de processamento é impresso conjuntamente com cada saída de resultado.
-	\begin{figure}[ht]
-		\centering
-		\caption{Efeito obtido após aplicar 'Showtime: true'}
-		\label{fig:showtime-fig}
-		\includegraphics[width=0.7\linewidth]{showtime-fig}
-	\end{figure}
-	\item {\texttt{display2d}} Tem valor \emph{true} como padrão. Quando definido como  \emph{true} isso faz com que o Maxima apresente as expressões matemáticas na sua forma como as vemos nos livros.
-	\begin{figure}[H]
-		\centering
-		\caption[Uso do variável "Display2D" com "flag" \emph{false}]{}
-		\label{fig:display-2d}
-		\includegraphics[width=0.7\linewidth]{display-2d}
-	\end{figure}
-	\item{\texttt{powerdisp}} description
-\end{itemize}
 Vamos tomar como primeiro exemplo a fórmula do teorema de Pitágoras. Vamos escrever no \emph{prompt} do wxMaxima a seguinte expressão: \textsf{c\^\ 2+b\^\ 2=a\^\ 2}
 \begin{figure}[H]
     \centering
@@ -437,15 +437,15 @@ Vamos tomar como primeiro exemplo a fórmula do teorema de Pitágoras. Vamos esc
 	%\end{Center}
 \end{figure}
 \pagebreak
-\noindent Observe que a resposta disponibilizada recebe identificadores, tais que:
+\noindent Observe que o resultado é disponibilizado com identificadores chamados \texttt{label}, tais que:
 
 \begin{minipage}[]{4.000000em}\color{red}\bfseries (\% i1)	
-\end{minipage}, indica que a expressão na linha é o \emph{input}, e 
+\end{minipage}é o \emph{label} indica a entrada ou \emph{input}, e 
 
 %%%%
 
 \begin{minipage}[]{4.000000em}\color{green}\bfseries (\% o1)	
-\end{minipage}, indica que a expressao na linha é a saída (\emph{output}).
+\end{minipage}é o \emph{label} que indica a saída ou \emph{output}.
 
 
 No Maxima é possível \emph{nomear uma expressão} de forma que possa ser reutilizada. Por exemplo, escrevendo no prompt a seguinte expressão: \textsf{pitg:c\^\ 2+b\^\ 2=a\^\ 2}. Observe o resultado disso na figura \ref{fig:pitagoras-3}.
@@ -471,7 +471,7 @@ No Maxima é possível \emph{nomear uma expressão} de forma que possa ser reuti
 %%%
 
 \pagebreak
-\noindent Ao aplicar um termo \emph{solve}, o Maxima soluciona a expressão, no caso, \emph{pitg} para a literal \emph{a} tratando-a como a variável incógnita. Observe que o Maxiama retorna dois valores como saída, que era o que seria obtido, caso fossemos desenvolver a solução manualmente, e tais valores são apresentados no formato de uma lista ou vetor linha de dois elementos. 
+\noindent Ao aplicar um termo \emph{solve}, o Maxima soluciona a expressão. No caso, \emph{pitg} é resolvida para a literal \emph{a} tratando-a como a variável incógnita. Observe que o Maxima retorna dois valores como saída, aquilo que seria obtido, caso fossemos desenvolver a solução manualmente, e tais valores são apresentados no formato de uma lista ou vetor linha de dois elementos. 
 
 Uma funcionalidade do Maxima é a possibilidade de recuperar um elemento de um vetor ou lista. Por exemplo, vamos recuperar uma das soluções obtidas do passo anterior. Vamos usar a seguinte sintaxe como \emph{input}: \textsf{sol2:sol1[2];}. O resultado é mostrado na figura \ref{fig:pitagoras-5}
 \begin{figure}[ht!]
@@ -488,16 +488,16 @@ Uma funcionalidade do Maxima é a possibilidade de recuperar um elemento de um v
 
 O Maxima também suporta um ambiente de texto, misturado entre os comandos algébricos, recurso muito útil no caso de o usuário precisar de documentar seu trabalho com texto explicativo e formatado. Por exemplo vamos colocar um título introdutório em nossa tela e uma texto explicativo intermediário. 
 
-\noindent O título será um texto a ser inserido antes da primeira célula. Uma célula é o espaço delimitado pelo seletor lateral (parentese "exótico" que aparece à esquerda das expressões) idêntico ao desenho abaizo
-\begin{figure}[h]
+\noindent O título será um texto a ser inserido antes da primeira célula. Uma célula é o espaço delimitado pelo seletor lateral (parentese ``exótico'' que aparece à esquerda das expressões) idêntico ao desenho abaixo
+\begin{figure}[hp]
 	\centering
 		\includegraphics[scale=0.6]{seletor.jpg}
 	\label{fig:seletor}
 \end{figure}
 
-\noindent O cursor horizontal deve ser transportado com auxílio das teclas de navegação do teclado, ou diretamente com o uso de dispositivo apontador ("mouse"), ver figura \ref{fig:curso-hrizontal-2}. 
+\noindent O cursor horizontal deve ser transportado com auxílio das teclas de navegação do teclado, ou diretamente com o uso de dispositivo apontador (``mouse''), ver figura \ref{fig:curso-hrizontal-2}. 
 
-\begin{figure*}[hp]
+\begin{figure*}[H]
 	\centering
 	\caption{Posição sugerida para escrever um título}
 		\includegraphics[width=0.80\textwidth]{curso-hrizontal-2.jpg}
@@ -505,7 +505,7 @@ O Maxima também suporta um ambiente de texto, misturado entre os comandos algé
 \end{figure*}
 
 Em seguida digita-se o texto pretendido para título:
-\begin{figure}[ht!]
+\begin{figure}[h]
 	\centering
 		\includegraphics[width=0.80\textwidth]{introducao-maxima.jpg}
 	\caption{Resultado da inserção de título}
@@ -520,6 +520,25 @@ E, digita-se um texto explicativo pretendido:
 		\includegraphics[width=0.80\textwidth]{usando-solve.jpg}
 	\label{fig:usando-solve}
 \end{figure}
+
+Alguns elementos da estrutura do Maxima são estratégicos, como os \emph{flags}. Os \emph{flags} são os valores que determinadas variáveis internas do Maxima assumem de forma padrão ou conforme a definição do usuário. Exemplos:
+\begin{itemize}
+	\item {\texttt{showtime}} Tem valor \emph{false} como padrão. Quando definida para o valor \emph{true}, o tempo de processamento é impresso conjuntamente com cada saída de resultado.
+	\begin{figure}[ht]
+		\centering
+		\caption{Efeito obtido após aplicar 'Showtime: true'}
+		\label{fig:showtime-fig}
+		\includegraphics[width=0.7\linewidth]{showtime-fig}
+	\end{figure}
+	\item {\texttt{display2d}} Tem valor \emph{true} como padrão. Quando definido como  \emph{true} isso faz com que o Maxima apresente as expressões matemáticas na sua forma como as vemos nos livros.
+	\begin{figure}[H]
+		\centering
+		\caption[Uso do variável ``Display2D'' com ``flag'' \emph{false}]{}
+		\label{fig:display-2d}
+		\includegraphics[width=0.7\linewidth]{display-2d}
+	\end{figure}
+	\item{\texttt{powerdisp}} description
+\end{itemize}
 \clearpage
 %\pagebreak
 Por hora esses são os conhecimentos sobre o Maxima, indispensáveis para imergir sobre o universo de possibilidades. São conhecimentos básicos e no decorrer dos outros capítulos estaremos apresentando outos recursos básicos ou mais complexos, conforme a exigência do contexto.
@@ -546,7 +565,7 @@ No Maxima você irá se referir às funções trigonométricas usando as seguint
 	\item cosseno: \textsf{f(x):=cos(x)};
 	\item tangente: \textsf{f(x):=tan(x)},
 \end{itemize}
-onde \emph{x}, ou seja, o argumento de função, deve ser entendido como medida de arco expressa em radianos. O Maxima usa ":=" para definir funções.
+onde \emph{x}, ou seja, o argumento de função, deve ser entendido como medida de arco expressa em radianos. O Maxima usa ``:='' para definir funções.
 
 Vamos a uma ilustração. Vamos construir uma tabela dessas funções, para alguns pouco valores de arco.
 \clearpage
@@ -577,7 +596,7 @@ f(x):=sin(x)\$;\ g(x):=cos(x)\$
 \\
 
 
-\noindent /*\-inicializa\ incremento\ para\ cálculo\ \ do\ domínio\ de\ valores\ para\ "x".\ */\\
+\noindent /*\-inicializa\ incremento\ para\ cálculo\ \ do\ domínio\ de\ valores\ para\ ``x''.\ */\\
 \noindent
 \begin{minipage}[]{\textwidth}\color{blue}
 arc:\ensuremath{\pi}/12\ \$\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \\
@@ -587,7 +606,7 @@ arc:\ensuremath{\pi}/12\ \$\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \\
 \\
 
 
-\noindent /*-gera\ lista\ com\ os\ elementos\ para\ o\ cabeçalho\ de\ colunas.\ */\\
+\noindent /*gera\ lista\ com\ os\ elementos\ para\ o\ cabeçalho\ de\ colunas.\ */\\
 \begin{minipage}[]{\textwidth}\color{blue}
 cabeçalhoDaTabela:\ ["Arco(rad)",\ arc,\ 2*arc,\ 3*arc,\ 4*arc\ ]\$\ \ 
 \end{minipage}
@@ -704,7 +723,7 @@ Copie na memória do seu computador as linhas de comando desse exemplo \thesecti
 %%%
 \section{Manipulando Expressões Trigonométricas}
 Esta seção será dedicada a mostrar como trabalhar expressões trigonométricas no Maxima. O Maxima é constituído de pacotes de comandos (\emph{packages})Há dois tipos de comandos específicos: as \emph{tags} (ou variáveis de controle) e as funções. 
-Algumas funções possuem o mesmo nome das tags. Geralmente as tags servem para comutar dois estados ,o "true" ou "false", um desses será o valor padrão (\emph{default}).
+Algumas funções possuem o mesmo nome das tags. Geralmente as tags servem para comutar dois estados ,o ``true'' ou ``false'', um desses será o valor padrão (\emph{default}).
 %%%%
 %%%% SOMA DE ARCOS
 %%%%
@@ -730,19 +749,19 @@ Usa-se a função seno com o argumento arco metade, porém é preciso obedecer c
 %%%%%%%%
 %% INPUT:
 \noindent\begin{minipage}[hp]{4.000000em}\color{red}\bfseries (\% i4)	\end{minipage}
-\noindent /*'halfangles',\ se\ 'true'\ o\ Maxima\ manipulará*/\\
+\noindent /*``halfangles',\ se\ ``true''\ o\ Maxima\ manipulará*/\\
 /*o\ arco\ metade\ como\ expressão\ algébrica,\ senão\ o\ fará\ como\ texto.*/\\
 \begin{minipage}[]{\textwidth}\color{blue}\hspace{4em} halfangles:\ true\$\mbox{}\\
 \end{minipage}
 \\
 %%%
 \noindent /*\ \%pi\ é\ o\ nome\ da\ contante\ matemática\ no\ ambiente\ do\ Maxima.*/\\
-/*Se\ '\%piargs'\ for\ definido\ para\ 'true'\ ,\ então\ será\ manipulado\ como\ valor*/\\
+/*Se\ ``\%piargs''\ for\ definido\ para\ ``true''\ ,\ então\ será\ manipulado\ como\ valor*/\\
 \begin{minipage}[]{\textwidth}\color{blue}
 \hspace{4em}\%piargs:\ true\$\\
 \end{minipage}
 \\
-\noindent /*'assume'\ é\ uma\ função\ interna\ cuja\ finalidade\ é\ de*/\\
+\noindent /*``assume''\ é\ uma\ função\ interna\ cuja\ finalidade\ é\ de*/\\
 /*estabelecer\ um\ domínio\ de\ valores\ para\ um\ contexto*/\\
 \begin{minipage}[]{\textwidth}\color{blue}
 \hspace{4em} assume(a\ensuremath{>}0,\ a\ensuremath{<}2*\%pi)\$\\
@@ -762,8 +781,8 @@ Usa-se a função seno com o argumento arco metade, porém é preciso obedecer c
 \subsection{Arco Duplo}
 
 \noindent\begin{minipage}[hp]{4.000000em}\color{red}\bfseries (\% i13)	\end{minipage}
-\noindent /*Se\ "trigexpand"\ estiver\ comutado\ (definido)\ para\ "true"\ */\\
-/*então,\ se\ "trigexpandtimes"\ estiver\ definido\ para\ "true"\ então\ */\\
+\noindent /*Se\ ``trigexpand''\ estiver\ comutado\ (definido)\ para\ ``true''\ */\\
+/*então,\ se\ ``trigexpandtimes''\ estiver\ definido\ para\ ``true''\ então\ */\\
 /*o\ Maxima\ irá\ expandir\ a\ expressão\ do\ arco\ duplo.*/\\
 %%%%%%%%
 %% INPUT:
@@ -913,32 +932,44 @@ onde \( \phi \) é medida em radianos e chamada \emph{constante de fase}. A pres
 O valor \( k \) mencionado inicialmente possui um significado importante, ele é o \emph{número de onda}. A partir da equação \ref{lambda} podemos fazer \( k\,\lambda= 2\,\pi \), de onde se tira que \( k \) indica quantos comprimentos de onda então contidos na distância \( 2\, \pi \) radianos.\\
 
 { {\scshape Exemplo \thesection.\theexemplos:}} 
-Seja uma função senoidal \( y= 5\,\sin x \), que representa uma grandeza a qual iniciou um movimento ondulatório na direção positiva do eixo X. A velocidade angular foi determinada no valor de um radiano por segundo. 
-\begin{itemize}
-	\item identifique os parâmetros do movimento ondulatório;
-	\item escreva  a função que representa essa onda caminhante.
-\end{itemize}
-Solução:\\
-Aplicando a equação \ref{phi} com \( t=0 \),
-\[ \xi\qty(x,0)= 5\, \sin\qty(1\, x - 1\cdot  0 + 0) \text{,}\]
-portanto, \( \xi_0=5\,\mathrm{m} \), \( k=1\, \mathrm{\nicefrac{rad}{m}} \), \( \omega=1\, \mathrm{\nicefrac{rad}{s}} \) e \( \phi=0\, \mathrm{rad} \text{.}\)\\
-Escrevendo a equação, temos a solução para a segunda questão
+Seja uma função senoidal \( y= 5\,\sin x \), que representa uma grandeza a qual iniciou um movimento ondulatório na direção positiva do eixo X. A velocidade angular foi determinada no valor de um radiano por segundo. Identifique os parâmetros do movimento ondulatório e escreva  a função que representa essa onda caminhante.
+
+\noindent Solução:\\
+Aplicando a equação \ref{phi} com \( t=0 \), temos \[\xi\qty(x,0)= 5\, \sin\qty(1\, x - 1\cdot  0 + 0)\text{,}\]portanto, \( \xi_0=5\,\mathrm{m} \), \( k=1\, \mathrm{\nicefrac{rad}{m}} \), \( \omega=1\, \mathrm{\nicefrac{rad}{s}} \) e \( \phi=0\, \mathrm{rad} \). Escrevendo a equação, temos a solução para a segunda questão
 \[\xi\qty(x,t) =5\, \sin\qty(x - t)\text{.}\]\\
 \setcounter{exemplos}{2}
-{ {\scshape Exemplo \thesection.\theexemplos:}} Supondo que a fonte de oscilação do exemplo anterior manteve-se continuamente em ação. \footnote{Neste caso o movimento ondulatório está ocorrendo por meio de um \emph{trem de ondas}}. E em algum momento ocorreu um processo sobre movimento que deslocou a onda para frente. De tal forma que no ponto de fase igual a \(\frac{3\, \pi}{4}\,\mathrm{rad} \) a amplitude passou a ser \(80\%\) do valor original. Determine o valor da nova contante de fase.\\
+{ {\scshape Exemplo \thesection.\theexemplos:}} Supondo que a fonte de oscilação do exemplo anterior manteve-se continuamente em ação \footnote{Neste caso, disse-se que o movimento ondulatório está ocorrendo por meio de um \emph{trem de ondas}.}. E em algum momento ocorreu um processo sobre movimento que deslocou a onda para frente. De tal forma que no ponto de fase igual a \(\frac{3\, \pi}{4}\,\mathrm{rad} \) a amplitude passou a ser \(80\%\) do valor original. Determine o valor da nova constante de fase.\\
 Solução.\\
-Nesse caso analisamos com base na equação horária do movimento
-
-\[\xi\qty(x,t) =5\, \sin\qty(x - t)\text{,}\]
-fazendo \(x-t=\theta\) e como \(\theta= \frac{3\, \pi}{4}\), temos
+Nesse caso analisamos com base na equação horária do movimento: 
+\(\xi\qty(x,t) =5\, \sin\qty(x - t)\),
+fazendo \(x-t=\theta\). Como \(\theta= \frac{3\, \pi}{4}\), temos
 \[\xi\qty(\frac{3\, \pi}{4}+ \phi) = 0,8\,\xi\qty(\frac{3\, \pi}{4})  \]
 ou 
-\[5\,\sin\qty(\frac{3\, \pi}{4}+ \phi) = \qty(0,8)\,\qty(5)\,\sin\qty(\frac{3\, \pi}{4})  \]
-equação que pode ser resolvida por desenvolvimento analítico manualmente, porém faremos isso no ambiente do wxMaxima.
-\begin{figure}[ht]
+\[5\,\sin\qty(\frac{3\, \pi}{4}+ \phi) = \qty(0,8)\,\qty(5)\,\sin\qty(\frac{3\, \pi}{4})\text{,}  \]
+equação que pode ser resolvida por desenvolvimento analítico manualmente, porém o faremos no ambiente do wxMaxima.
+Metodologia: 
+%%%%%%%
+
+\noindent
+%%%%%%%%
+%% INPUT:
+\begin{minipage}[t]{4.000000em}\color{red}\bfseries
+	--\ensuremath{\ensuremath{>}}	
+\end{minipage}
+\begin{minipage}[t]{\textwidth}\color{blue}
+	/*Define\ a\ precisão\ numérica\ igual\ a\ três*/\ fpprintprec\ :\ 3\$\\
+	/*Entrada\ da\ equação\ a\ ser\ resolvida*/\\
+	Exemplo\_4\_2\_2:\ 5*sin(3*\%pi/4+\ \ensuremath{\phi})=\ 0.8*5*sin(3*\%pi/4)\$\\
+	/*resolver\ a\ equação\ entrada\ para\ a\ variável*/\\
+	solve(Exemplo\_4\_2\_2,\ensuremath{\phi});\\
+	/*Escrever\ o\ resultado\ com\ valor\ numérico*/\ \%,\ numer;
+\end{minipage}
+\noindent%
+%%%%%%%
+\begin{figure}[h]
 	\centering
 	\caption{Saída de resultado do Maxima}
-	\includegraphics[width=0.7\linewidth]{exemplo421-sol}
+	\includegraphics[width=0.7\linewidth]{exemplo422-sol}
 	\label{fig:exemplo421-sol}
 \end{figure}
 
@@ -961,9 +992,9 @@ equação que pode ser resolvida por desenvolvimento analítico manualmente, por
 	\item Você pode avaliar todo o documento usando o menu 'Célula->Avaliar todas as células' ou a tecla de atalho correspondente. As células serão avalidas na ordem em que aparecem no documento.
 	\item As janelas do wxMaxima têm valores padrão para as entradas, um dos quais é '\%'. Se você selecionou algo no documento, a seleção será usada no lugar de '\%'.
 	\item Equations have several advantages over functions. For example they can be manipulated with factor(), expand() and similar functions. They can easily be introduced one into another. Also they are always printed out as 2D maths.
-	\item In text cells bullet lists can be created by beginning a line with " * ". The number of spaces in front of the "*" determines the indentation level; Indentation can be continued in the next line by indenting the line using spaces.
+	\item In text cells bullet lists can be created by beginning a line with ``*''. The number of spaces in front of the ``*'' determines the indentation level; Indentation can be continued in the next line by indenting the line using spaces.
 	\item The key combination Shift+Space results in a non-breakable space.
-	\item A plot to be embedded into the work sheet by preceding its name with a "wx". "draw" can be replaced by "wxdraw", plot by "wxplot" etc.
+	\item A plot to be embedded into the work sheet by preceding its name with a ``wx''. ``draw'' can be replaced by ``wxdraw'', plot by ``wxplot'' etc.
 \end{itemize}
 \section{Dicas de Maxima}
 Maxima's strengths are manipulating equations and in symbolic calculations. It therefore makes sense to use functions (as opposed to equations with labels) sparingly and to keep the actual values of variables in a list, instead of directly assigning them values. An example session that does do so would be:
@@ -976,7 +1007,7 @@ Maxima's strengths are manipulating equations and in symbolic calculations. It t
     at(result,Values);
     float(%);
 \end{verbatim}
-Maxima's "at" function allows to access to arbitrary variables in a list of results:
+Maxima's ``at'' function allows to access to arbitrary variables in a list of results:
 \begin{verbatim}
     g1:a*x+y=0;
     g2:b*y+x*x=1;
@@ -985,14 +1016,14 @@ Maxima's "at" function allows to access to arbitrary variables in a list of resu
     result_b:b=at(b,%);
 \end{verbatim}
 
-The "at" function allows to introduce one equation into another:
+The ``at'' function allows to introduce one equation into another:
 \begin{verbatim}
     ohm:U=R*I;
     r_parallel:R=R_1*R_2/(R_1+R_2);
     result:at(ohm,r_parallel);
 \end{verbatim}
 %%%%
-The rhs() ("right hand side") command allows to retrieve the result of an equation in exactly the format a function would have:
+The rhs() (``right hand side'') command allows to retrieve the result of an equation in exactly the format a function would have:
 \begin{verbatim}
     Values:[
         /* m=1.2 tons */

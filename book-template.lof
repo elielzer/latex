@@ -10,25 +10,27 @@
 \contentsline {figure}{\numberline {1.8}{\ignorespaces Janela de status do processo de instalação.\relax }}{7}{figure.caption.10}%
 \contentsline {figure}{\numberline {1.9}{\ignorespaces Janela de confirmação da instalação.\relax }}{7}{figure.caption.11}%
 \contentsline {figure}{\numberline {1.10}{\ignorespaces Aspecto do comando de menu na janela inicial do Windows.\relax }}{8}{figure.caption.12}%
-\contentsline {figure}{\numberline {1.12}{\ignorespaces Pré-seleção de tipo de entrada a ser inserida no prompt.\relax }}{8}{figure.caption.14}%
-\contentsline {figure}{\numberline {1.11}{\ignorespaces Aspecto da janela do aplicativo Maxima.\relax }}{9}{figure.caption.13}%
-\contentsline {figure}{\numberline {1.13}{\ignorespaces Pré-seleção para inserir texto no prompt.\relax }}{9}{figure.caption.15}%
+\contentsline {figure}{\numberline {1.11}{\ignorespaces \emph {Interface} do wxMaxima.\relax }}{9}{figure.caption.13}%
+\contentsline {figure}{\numberline {1.12}{\ignorespaces Pré-seleção de tipo de entrada a ser inserida no prompt.\relax }}{9}{figure.caption.14}%
+\contentsline {figure}{\numberline {1.13}{\ignorespaces Pré-seleção para inserir texto no prompt.\relax }}{10}{figure.caption.15}%
 \contentsline {figure}{\numberline {1.14}{\ignorespaces Pré-seleção para inserir expressão algébrica no prompt.\relax }}{10}{figure.caption.16}%
-\contentsline {figure}{\numberline {1.15}{\ignorespaces Representação da evolução do conhecimento sobre ondas.\relax }}{12}{figure.caption.17}%
+\contentsline {figure}{\numberline {1.15}{\ignorespaces Cursor intermitente indica a posição para inserir uma célula.\relax }}{11}{figure.caption.17}%
+\contentsline {figure}{\numberline {1.16}{\ignorespaces Marcador de célula.\relax }}{11}{figure.caption.18}%
+\contentsline {figure}{\numberline {1.17}{\ignorespaces Marcador estendido ao resultado do Maxima.\relax }}{11}{figure.caption.19}%
+\contentsline {figure}{\numberline {1.18}{\ignorespaces Representação da evolução do conhecimento sobre ondas.\relax }}{13}{figure.caption.20}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {2.1}{\ignorespaces Efeito obtido após aplicar 'Showtime: true'\relax }}{13}{figure.caption.18}%
-\contentsline {figure}{\numberline {2.2}{\ignorespaces Uso do variável "Display2D" com "flag" \emph {false}}}{14}{figure.caption.19}%
-\contentsline {figure}{\numberline {2.3}{\ignorespaces Entrando uma expressão algébrica.\relax }}{14}{figure.caption.20}%
-\contentsline {figure}{\numberline {2.4}{\ignorespaces Saída apresentada após após processamento da expressão algébrica entrada.\relax }}{15}{figure.caption.21}%
-\contentsline {figure}{\numberline {2.5}{\ignorespaces Nomeando expressões.\relax }}{15}{figure.caption.22}%
-\contentsline {figure}{\numberline {2.6}{\ignorespaces Usando expressões.\relax }}{16}{figure.caption.23}%
-\contentsline {figure}{\numberline {2.7}{\ignorespaces Obtendo o valor de um elemento de uma lista.\relax }}{16}{figure.caption.24}%
-\contentsline {figure}{\numberline {2.8}{\ignorespaces Posição sugerida para escrever um título\relax }}{17}{figure.caption.26}%
-\contentsline {figure}{\numberline {2.9}{\ignorespaces Resultado da inserção de título\relax }}{18}{figure.caption.27}%
-\contentsline {figure}{\numberline {2.10}{\ignorespaces Resultado da inserção de texto comum\relax }}{19}{figure.caption.28}%
+\contentsline {figure}{\numberline {2.1}{\ignorespaces Entrando uma expressão algébrica.\relax }}{15}{figure.caption.21}%
+\contentsline {figure}{\numberline {2.2}{\ignorespaces Saída apresentada após após processamento da expressão algébrica entrada.\relax }}{16}{figure.caption.22}%
+\contentsline {figure}{\numberline {2.3}{\ignorespaces Nomeando expressões.\relax }}{16}{figure.caption.23}%
+\contentsline {figure}{\numberline {2.4}{\ignorespaces Usando expressões.\relax }}{17}{figure.caption.24}%
+\contentsline {figure}{\numberline {2.5}{\ignorespaces Obtendo o valor de um elemento de uma lista.\relax }}{17}{figure.caption.25}%
+\contentsline {figure}{\numberline {2.7}{\ignorespaces Resultado da inserção de título\relax }}{18}{figure.caption.28}%
+\contentsline {figure}{\numberline {2.8}{\ignorespaces Resultado da inserção de texto comum\relax }}{19}{figure.caption.29}%
+\contentsline {figure}{\numberline {2.9}{\ignorespaces Efeito obtido após aplicar 'Showtime: true'\relax }}{19}{figure.caption.30}%
+\contentsline {figure}{\numberline {2.10}{\ignorespaces Uso do variável ``Display2D'' com ``flag'' \emph {false}}}{20}{figure.caption.31}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {3.1}{\ignorespaces Resultado do exemplo na janela do wxMaxima.\relax }}{23}{figure.caption.29}%
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Resultado do exemplo na janela do wxMaxima.\relax }}{25}{figure.caption.32}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {4.4}{\ignorespaces Saída de resultado do Maxima\relax }}{29}{figure.caption.33}%
+\contentsline {figure}{\numberline {4.4}{\ignorespaces Saída de resultado do Maxima\relax }}{31}{figure.caption.36}%
 \addvspace {10\p@ }
 \addvspace {10\p@ }
