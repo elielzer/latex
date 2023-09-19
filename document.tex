@@ -1,0 +1,148 @@
+% Options for packages loaded elsewhere
+\PassOptionsToPackage{unicode}{hyperref}
+\PassOptionsToPackage{hyphens}{url}
+%
+\documentclass[
+]{article}
+\usepackage{amsmath,amssymb}
+\usepackage{lmodern}
+\usepackage{iftex}
+\ifPDFTeX
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{textcomp} % provide euro and other symbols
+\else % if luatex or xetex
+\usepackage{unicode-math}
+\defaultfontfeatures{Scale=MatchLowercase}
+\defaultfontfeatures[\rmfamily]{Ligatures=TeX,Scale=1}
+\fi
+% Use upquote if available, for straight quotes in verbatim environments
+\IfFileExists{upquote.sty}{\usepackage{upquote}}{}
+\IfFileExists{microtype.sty}{% use microtype if available
+	\usepackage[]{microtype}
+	\UseMicrotypeSet[protrusion]{basicmath} % disable protrusion for tt fonts
+}{}
+\makeatletter
+\@ifundefined{KOMAClassName}{% if non-KOMA class
+	\IfFileExists{parskip.sty}{%
+		\usepackage{parskip}
+	}{% else
+		\setlength{\parindent}{0pt}
+		\setlength{\parskip}{6pt plus 2pt minus 1pt}}
+}{% if KOMA class
+	\KOMAoptions{parskip=half}}
+\makeatother
+\usepackage{xcolor}
+\usepackage{longtable,booktabs,array}
+\usepackage{calc} % for calculating minipage widths
+% Correct order of tables after \paragraph or \subparagraph
+\usepackage{etoolbox}
+\makeatletter
+\patchcmd\longtable{\par}{\if@noskipsec\mbox{}\fi\par}{}{}
+\makeatother
+% Allow footnotes in longtable head/foot
+\IfFileExists{footnotehyper.sty}{\usepackage{footnotehyper}}{\usepackage{footnote}}
+\makesavenoteenv{longtable}
+\setlength{\emergencystretch}{3em} % prevent overfull lines
+\providecommand{\tightlist}{%
+	\setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+\setcounter{secnumdepth}{-\maxdimen} % remove section numbering
+\ifLuaTeX
+\usepackage{selnolig}  % disable illegal ligatures
+\fi
+\IfFileExists{bookmark.sty}{\usepackage{bookmark}}{\usepackage{hyperref}}
+\IfFileExists{xurl.sty}{\usepackage{xurl}}{} % add URL line breaks if available
+\urlstyle{same} % disable monospaced font for URLs
+\hypersetup{
+	pdftitle={catenária estudo final},
+	hidelinks,
+	pdfcreator={LaTeX via pandoc}}
+
+\title{catenária estudo final}
+\author{}
+\date{}
+
+\begin{document}
+	\maketitle
+	
+	Simulação onda sobre um fio estendido
+	
+	\begin{longtable}[]{@{}
+			>{\raggedright\arraybackslash}p{(\columnwidth - 2\tabcolsep) * \real{0.5000}}
+			>{\raggedright\arraybackslash}p{(\columnwidth - 2\tabcolsep) * \real{0.5000}}@{}}
+		\toprule()
+		\endhead
+		{ -\/-\textgreater{} } & \begin{minipage}[t]{\linewidth}\raggedright
+			{ {kill}{(}{all}{)}{\$} {/* limpar a memória*/}{\hfill\break
+				}{L}{:} {5}{\$} ~~ {/* comprimento L do fio: */}{\hfill\break
+				}{/* */}{\hfill\break
+				}{H}{:}{11} {\$} ~ {/* tensão horizontal no ponto crítico (ponto de
+					equilíbrio)*/}{\hfill\break
+				}{/* */}{\hfill\break
+				}{w}{:}{0}{.}{5}{\$} ~ {/* peso untário */}{\hfill\break
+				}{/* */}{\hfill\break
+				}{y\_0}{:}{2}{\$} ~ {/* ordenada do ponto de sustentação
+					*/}{\hfill\break
+				}{/* */}{\hfill\break
+				}{/* Calcular a curva catenária genérica */}{\hfill\break
+				} ~~ {a}{:} {H}{/}{w}{\$} ~~~ {/* diretriz ~*/}{\hfill\break
+				} ~~ {/* Determinar ~a abscissa do seu ponto de sustentação
+					*/}{\hfill\break
+				} ~~~~~~ {numer}{:} {true}{\$}{\hfill\break
+				} ~~~~~~ {sol1}{:} {solve}{(}{a}{·}
+				{sinh}{(}{x\_1}{/}{a}{)}{=}{L}{/}{2}{,} {x\_1}{)}{\$}{\hfill\break
+				} ~~~~~~ {x\_1}{:} {last}{(}{last}{(}{sol1}{)}{)}{\$}{\hfill\break
+				} ~~~~~~ {cat1}{(}{x}{)}{:}{=}{a}{·} {cosh}{(}{(}{x}{)}{/}{a}{)}
+				{\$}{\hfill\break
+				}{/* */}{\hfill\break
+				}{/* Ajustar a ordenada para o ponto de sustentação*/}{\hfill\break
+				}{/* Transformar a catenária para o primeiro quadrante */}{\hfill\break
+				} ~~~~~~ {cat}{(}{x}{)}{:}{=} {a}{·}
+				} {/* */}{\hfill\break
+				}{/* Gerar gráficos e plotar */} {\hfill\break
+				} ~~ {/* */}{\hfill\break
+				} ~~~~~~ {wxplot\_size}{:}{{[}}{1900}{,}{400}{{]}}{\$}{\hfill\break
+				} ~~~~~~ {wxdraw2d}{(}{\hfill\break
+				} ~~~~~~ {title}{=}{"Fio Estendido"}{,}{\hfill\break
+				} ~~~~~~
+				{xlabel}{=}{"x"}{,}{ylabel}{=}{"y"}{,}{grid}{=}{true}{,}{\hfill\break
+				} ~~~~~~
+				{color}{=}{blue}{,}{line\_type}{=}{dots}{,}{key}{=}{"Catenária"}{,}{\hfill\break
+				} ~~~~~~ {line\_width} {=} {8}{,}{\hfill\break
+				} ~~~~~~ {grid}{=}{{[}}{5}{,}{5}{{]}}{,}{\hfill\break
+				} ~~~~~~ {nticks}{=}{300}{,}{\hfill\break
+				} ~~~~~~ {line\_type} ~~~ {=} {solid}{,}{\hfill\break
+				} ~~~~~~ {explicit}{(} {cat}{(}{x}{)} {,}{x}{,} {0}{,}
+				{2}{·}{x\_1}{)}{\hfill\break
+				}{)}{\$}{\hfill\break
+				} ~~~~~~ {/* ~Representar o efeito ondulatório sobre o perfil do fio
+					*/}{\hfill\break
+				} ~~~~~~~~~~ {t}{:} {1}{\$} {\hfill\break
+				} ~~~~~~~~~~ {k}{:} {2}{·}{\%pi}{/}{(}{2}{·}{x\_1}{)}{\$} {\hfill\break
+				} ~~~~~~~~~~ {/**/}{\hfill\break
+				} ~~~~~~~~~~ {for} {i}{:} {1} {while} {i} {\textless{}}{=} {4} {do} {(}
+				~~~~ {/* estrutura de repetição */}{\hfill\break
+				} ~~~~~~~~~~~~~~~~~~ {wxdraw2d}{(}{\hfill\break
+				} ~~~~~~~~~~~~~~~~~~ {title}{=}
+				{concat}{(}{"Instante="}{,}{float}{(}{t}{)}{)} ~ {,}{\hfill\break
+				} ~~~~~~~~~~~~~~~~~~
+				{xlabel}{=}{"x"}{,}{ylabel}{=}{"y"}{,}{grid}{=}{true}{,}{\hfill\break
+				} ~~~~~~~~~~~~~~~~~~
+				{color}{=}{blue}{,}{line\_type}{=}{dots}{,}{key}{=}{"Perfil de
+					onda"}{,}{\hfill\break
+				} ~~~~~~~~~~~~~~~~~~ {line\_width} {=} {8}{,}{\hfill\break
+				} ~~~~~~~~~~~~~~~~~~ {grid}{=}{{[}}{5}{,}{5}{{]}}{,}{\hfill\break
+				} ~~~~~~~~~~~~~~~~~~ {nticks}{=}{300}{,}{\hfill\break
+				} ~~~~~~~~~~~~~~~~~~ {line\_type} ~~~ {=} {dots}{,}{\hfill\break
+				} ~~~~~~~~~~~~~~~~~~ {explicit}{(} {cat}{(}{x}{)} {+}
+				{0}{.}{1}{·}{cat}{(}{x}{)} {·} {2}{·} {(}{sin} {(}{k}{·}{x}{)}{)}
+				{2}{·}{x\_1}{)}{)}{,}{\hfill\break
+				} ~~~~~~~~~~~~~~~~~~ {t}{:} {t}{+}{1}{\hfill\break
+				} ~~~~~~~~~~ {)}{\$}{\hfill\break
+
+		\bottomrule()
+	\end{longtable}
+	
+
+	
+\end{document}

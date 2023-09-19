@@ -17,20 +17,45 @@
 \contentsline {figure}{\numberline {1.15}{\ignorespaces Cursor intermitente indica a posição para inserir uma célula.\relax }}{11}{figure.caption.17}%
 \contentsline {figure}{\numberline {1.16}{\ignorespaces Marcador de célula.\relax }}{11}{figure.caption.18}%
 \contentsline {figure}{\numberline {1.17}{\ignorespaces Marcador estendido ao resultado do Maxima.\relax }}{11}{figure.caption.19}%
-\contentsline {figure}{\numberline {1.18}{\ignorespaces Representação da evolução do conhecimento sobre ondas.\relax }}{13}{figure.caption.20}%
+\contentsline {figure}{\numberline {1.18}{\ignorespaces Passo inicial ao processo de configurar o idioma\relax }}{12}{figure.caption.20}%
+\contentsline {figure}{\numberline {1.19}{\ignorespaces O comando \emph {Configurar} irá guiar para uma janela de diálogo\relax }}{12}{figure.caption.21}%
+\contentsline {figure}{\numberline {1.20}{\ignorespaces Na janela de diálogo, acessar o campo indicado para escolha na lista de opções\relax }}{13}{figure.caption.22}%
+\contentsline {figure}{\numberline {1.21}{\ignorespaces Selecione o idioma Português (ou o que for de preferência)\relax }}{13}{figure.caption.23}%
+\contentsline {figure}{\numberline {1.22}{\ignorespaces Visão do tipo de idioma após alteração correspondente\relax }}{14}{figure.caption.24}%
+\contentsline {figure}{\numberline {1.23}{\ignorespaces É necessário reiniciar o wxMaxima para que a alteração feita surta efeito daí em diante.\relax }}{14}{figure.caption.25}%
+\contentsline {figure}{\numberline {1.24}{\ignorespaces Chamar o menu Iniciar do Windows e aceder ao portifólio de atalhos do wxMaxima}}{15}{figure.caption.26}%
+\contentsline {figure}{\numberline {1.25}{\ignorespaces Execute o comando indicado na lista suspensa}}{15}{figure.caption.27}%
+\contentsline {figure}{\numberline {1.26}{\ignorespaces Na janela de diálogo escolha a opção indentificada com o termo SBCL\relax }}{16}{figure.caption.28}%
+\contentsline {figure}{\numberline {1.27}{\ignorespaces Finalize por meio do comando (botão) \emph {Exit}\relax }}{16}{figure.caption.29}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {2.1}{\ignorespaces Entrando uma expressão algébrica.\relax }}{15}{figure.caption.21}%
-\contentsline {figure}{\numberline {2.2}{\ignorespaces Saída apresentada após após processamento da expressão algébrica entrada.\relax }}{16}{figure.caption.22}%
-\contentsline {figure}{\numberline {2.3}{\ignorespaces Nomeando expressões.\relax }}{16}{figure.caption.23}%
-\contentsline {figure}{\numberline {2.4}{\ignorespaces Usando expressões.\relax }}{17}{figure.caption.24}%
-\contentsline {figure}{\numberline {2.5}{\ignorespaces Obtendo o valor de um elemento de uma lista.\relax }}{17}{figure.caption.25}%
-\contentsline {figure}{\numberline {2.7}{\ignorespaces Resultado da inserção de título\relax }}{18}{figure.caption.28}%
-\contentsline {figure}{\numberline {2.8}{\ignorespaces Resultado da inserção de texto comum\relax }}{19}{figure.caption.29}%
-\contentsline {figure}{\numberline {2.9}{\ignorespaces Efeito obtido após aplicar 'Showtime: true'\relax }}{19}{figure.caption.30}%
-\contentsline {figure}{\numberline {2.10}{\ignorespaces Uso do variável ``Display2D'' com ``flag'' \emph {false}}}{20}{figure.caption.31}%
+\contentsline {figure}{\numberline {2.1}{\ignorespaces Entrando uma expressão algébrica.\relax }}{17}{figure.caption.30}%
+\contentsline {figure}{\numberline {2.2}{\ignorespaces Saída apresentada após após processamento da expressão algébrica entrada.\relax }}{18}{figure.caption.31}%
+\contentsline {figure}{\numberline {2.3}{\ignorespaces Nomeando expressões.\relax }}{18}{figure.caption.32}%
+\contentsline {figure}{\numberline {2.4}{\ignorespaces Usando expressões.\relax }}{19}{figure.caption.33}%
+\contentsline {figure}{\numberline {2.5}{\ignorespaces Obtendo o valor de um elemento de uma lista.\relax }}{19}{figure.caption.34}%
+\contentsline {figure}{\numberline {2.7}{\ignorespaces Resultado da inserção de título\relax }}{20}{figure.caption.37}%
+\contentsline {figure}{\numberline {2.8}{\ignorespaces Resultado da inserção de texto comum\relax }}{21}{figure.caption.38}%
+\contentsline {figure}{\numberline {2.9}{\ignorespaces Resultado obtido após aplicar configuração 'Showtime: true'\relax }}{21}{figure.caption.39}%
+\contentsline {figure}{\numberline {2.10}{\ignorespaces Uso do variável ``Display2D'' com ``flag'' \emph {false}}}{22}{figure.caption.40}%
+\contentsline {figure}{\numberline {2.11}{\ignorespaces Gráfico 2D a partir do comando do menu\relax }}{22}{figure.caption.41}%
+\contentsline {figure}{\numberline {2.12}{\ignorespaces Entrando uma expressão rotulada\relax }}{23}{figure.caption.42}%
+\contentsline {figure}{\numberline {2.13}{\ignorespaces Instruir no campo \emph {Format} para o wxMaxima para desenhar o gráfico na mesma janela da planilha\relax }}{23}{figure.caption.43}%
+\contentsline {figure}{\numberline {2.14}{\ignorespaces Configurando para incluir quadrículas\relax }}{24}{figure.caption.44}%
+\contentsline {figure}{\numberline {2.15}{\ignorespaces Finalizando essa entrada de dados para gerar o gráfico\relax }}{24}{figure.caption.45}%
+\contentsline {figure}{\numberline {2.16}{\ignorespaces O gráfico está gerado e apresentado na planilha\relax }}{25}{figure.caption.46}%
+\contentsline {figure}{\numberline {2.17}{\ignorespaces Saída de gráfico por janela separada\relax }}{26}{figure.caption.47}%
+\contentsline {figure}{\numberline {2.18}{\ignorespaces Percorrendo agora a mesma sequência de configurações\relax }}{26}{figure.caption.48}%
+\contentsline {figure}{\numberline {2.19}{\ignorespaces Finalizando formato gnuplot\relax }}{27}{figure.caption.49}%
+\contentsline {figure}{\numberline {2.20}{\ignorespaces A figura mostra o gráfico em detalhe na janela gnuplot\relax }}{27}{figure.caption.50}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {3.1}{\ignorespaces Resultado do exemplo na janela do wxMaxima.\relax }}{25}{figure.caption.32}%
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Resultado do exemplo na janela do wxMaxima.\relax }}{31}{figure.caption.51}%
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Resultado do exemplo com soma de arcos no wxMaxima.\relax }}{32}{figure.caption.52}%
+\contentsline {figure}{\numberline {3.3}{\ignorespaces Resultado do exemplo de arco metade no wxMaxima.\relax }}{33}{figure.caption.53}%
+\contentsline {figure}{\numberline {3.4}{\ignorespaces Resultado do exemplo de arco duplo no wxMaxima.\relax }}{34}{figure.caption.54}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {4.4}{\ignorespaces Saída de resultado do Maxima\relax }}{31}{figure.caption.36}%
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Representação da evolução do conhecimento sobre ondas.\relax }}{36}{figure.caption.55}%
+\contentsline {figure}{\numberline {4.5}{\ignorespaces Saída de resultado do wxMaxima\relax }}{42}{figure.caption.59}%
+\contentsline {figure}{\numberline {4.6}{\ignorespaces Resultado no primeiro momento de três.\relax }}{44}{figure.caption.60}%
 \addvspace {10\p@ }
+\contentsline {figure}{\numberline {5.1}{\ignorespaces Simulação dos perfis correspondentes a quatro tempos diferentes. A primeira imagem corresponde ao perfil estático da corda\relax }}{50}{figure.caption.63}%
 \addvspace {10\p@ }
