@@ -15,10 +15,11 @@
 \contentsline {subsection}{\numberline {3.2.3}Arco Duplo}{33}{subsection.3.2.3}%
 \contentsline {chapter}{\numberline {4}DESCRIÇÕES DE MOVIMENTOS ONDULATÓRIOS}{35}{chapter.4}%
 \contentsline {section}{\numberline {4.1}Compreensão Geral acerca de Ondas}{35}{section.4.1}%
-\contentsline {section}{\numberline {4.2}Abordagem Matemática}{38}{section.4.2}%
-\contentsline {section}{\numberline {4.3}Onda Harmônica como um Modelo Físico}{40}{section.4.3}%
+\contentsline {section}{\numberline {4.2}O Movimento Ondulatório}{37}{section.4.2}%
+\contentsline {section}{\numberline {4.3}Abordagem Matemática}{38}{section.4.3}%
+\contentsline {section}{\numberline {4.4}Onda Harmônica como um Modelo Físico}{40}{section.4.4}%
 \contentsline {chapter}{\numberline {5}APLICAÇÕES ONDULATÓRIAS}{47}{chapter.5}%
 \contentsline {section}{\numberline {5.1}Corda Estendida}{47}{section.5.1}%
 \contentsline {section}{\numberline {5.2}Efeito Doppler}{50}{section.5.2}%
-\contentsline {chapter}{\numberline {6}DICAS SOBRE O MAXIMA}{51}{chapter.6}%
-\contentsline {section}{\numberline {6.1}Dicas de Maxima}{52}{section.6.1}%
+\contentsline {chapter}{\numberline {6}DICAS SOBRE O MAXIMA}{53}{chapter.6}%
+\contentsline {section}{\numberline {6.1}Dicas de Maxima}{54}{section.6.1}%

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.8.30)  5 AUG 2023 16:21
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.8.30)  16 NOV 2023 22:50
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1446,53 +1446,53 @@ File: t1lmss.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 ]
  1.
 [3]
-<site-maxima.jpg, id=318, 373.395pt x 60.97781pt>
+<site-maxima.jpg, id=328, 373.395pt x 60.97781pt>
 File: site-maxima.jpg Graphic file (type jpg)
 <use site-maxima.jpg>
 Package pdftex.def Info: site-maxima.jpg  used on input line 235.
 (pdftex.def)             Requested size: 373.39409pt x 60.97765pt.
-<pagina-maxima.jpg, id=321, 446.41782pt x 253.69781pt>
+<pagina-maxima.jpg, id=331, 446.41782pt x 253.69781pt>
 File: pagina-maxima.jpg Graphic file (type jpg)
 <use pagina-maxima.jpg>
 Package pdftex.def Info: pagina-maxima.jpg  used on input line 246.
 (pdftex.def)             Requested size: 446.41672pt x 253.69719pt.
  [4 <./site-maxima.jpg>]
-<maxima-ist-1.jpg, id=331, 255.20343pt x 201.00093pt>
+<maxima-ist-1.jpg, id=341, 255.20343pt x 201.00093pt>
 File: maxima-ist-1.jpg Graphic file (type jpg)
 <use maxima-ist-1.jpg>
 Package pdftex.def Info: maxima-ist-1.jpg  used on input line 256.
 (pdftex.def)             Requested size: 255.2028pt x 201.00043pt.
-<maxima-ist-2.jpg, id=332, 244.66406pt x 191.9672pt>
+<maxima-ist-2.jpg, id=342, 244.66406pt x 191.9672pt>
 File: maxima-ist-2.jpg Graphic file (type jpg)
 <use maxima-ist-2.jpg>
 Package pdftex.def Info: maxima-ist-2.jpg  used on input line 265.
 (pdftex.def)             Requested size: 244.66345pt x 191.96672pt.
-<maxima-ist-3.jpg, id=333, 247.67531pt x 194.22563pt>
+<maxima-ist-3.jpg, id=343, 247.67531pt x 194.22563pt>
 File: maxima-ist-3.jpg Graphic file (type jpg)
 <use maxima-ist-3.jpg>
 Package pdftex.def Info: maxima-ist-3.jpg  used on input line 274.
 (pdftex.def)             Requested size: 247.6747pt x 194.22514pt.
-<maxima-ist-4.jpg, id=334, 236.38312pt x 183.68625pt>
+<maxima-ist-4.jpg, id=344, 236.38312pt x 183.68625pt>
 File: maxima-ist-4.jpg Graphic file (type jpg)
 <use maxima-ist-4.jpg>
 Package pdftex.def Info: maxima-ist-4.jpg  used on input line 283.
 (pdftex.def)             Requested size: 236.38254pt x 183.68578pt.
-<maxima-ist-5.jpg, id=335, 225.84375pt x 176.91093pt>
+<maxima-ist-5.jpg, id=345, 225.84375pt x 176.91093pt>
 File: maxima-ist-5.jpg Graphic file (type jpg)
 <use maxima-ist-5.jpg>
 Package pdftex.def Info: maxima-ist-5.jpg  used on input line 292.
 (pdftex.def)             Requested size: 225.84319pt x 176.91049pt.
-<maxima-ist-6.jpg, id=336, 229.60782pt x 178.41656pt>
+<maxima-ist-6.jpg, id=346, 229.60782pt x 178.41656pt>
 File: maxima-ist-6.jpg Graphic file (type jpg)
 <use maxima-ist-6.jpg>
 Package pdftex.def Info: maxima-ist-6.jpg  used on input line 301.
 (pdftex.def)             Requested size: 229.60725pt x 178.4161pt.
-<maxima-ist-7.jpg, id=337, 228.855pt x 179.16937pt>
+<maxima-ist-7.jpg, id=347, 228.855pt x 179.16937pt>
 File: maxima-ist-7.jpg Graphic file (type jpg)
 <use maxima-ist-7.jpg>
 Package pdftex.def Info: maxima-ist-7.jpg  used on input line 310.
 (pdftex.def)             Requested size: 228.85443pt x 179.16893pt.
-<menu-windows.jpg, id=338, 486.31688pt x 383.18156pt>
+<menu-windows.jpg, id=348, 486.31688pt x 383.18156pt>
 File: menu-windows.jpg Graphic file (type jpg)
 <use menu-windows.jpg>
 Package pdftex.def Info: menu-windows.jpg  used on input line 319.
@@ -1503,45 +1503,45 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
  [5 <./pagina-maxima.jpg> <./maxima-ist-1.jpg>] [6 <./maxima-ist-2.jpg> <./maxi
 ma-ist-3.jpg> <./maxima-ist-4.jpg>] [7 <./maxima-ist-5.jpg> <./maxima-ist-6.jpg
 > <./maxima-ist-7.jpg>] [8 <./menu-windows.jpg>]
-<tela-inicial.jpg, id=358, 757.32938pt x 446.41782pt>
+<tela-inicial.jpg, id=369, 757.32938pt x 446.41782pt>
 File: tela-inicial.jpg Graphic file (type jpg)
 <use tela-inicial.jpg>
 Package pdftex.def Info: tela-inicial.jpg  used on input line 330.
 (pdftex.def)             Requested size: 454.40114pt x 267.85275pt.
-<selecao-tipos.jpg, id=360, 761.84625pt x 450.18187pt>
+<selecao-tipos.jpg, id=371, 761.84625pt x 450.18187pt>
 File: selecao-tipos.jpg Graphic file (type jpg)
 <use selecao-tipos.jpg>
 Package pdftex.def Info: selecao-tipos.jpg  used on input line 352.
 (pdftex.def)             Requested size: 228.55563pt x 135.0556pt.
  [9 <./tela-inicial.jpg> <./selecao-tipos.jpg>]
-<selecao-texto.jpg, id=369, 758.835pt x 448.67625pt>
+<selecao-texto.jpg, id=379, 758.835pt x 448.67625pt>
 File: selecao-texto.jpg Graphic file (type jpg)
 <use selecao-texto.jpg>
 Package pdftex.def Info: selecao-texto.jpg  used on input line 362.
 (pdftex.def)             Requested size: 455.30452pt x 269.20782pt.
-<selecao-math.jpg, id=370, 763.35187pt x 453.19313pt>
+<selecao-math.jpg, id=380, 763.35187pt x 453.19313pt>
 File: selecao-math.jpg Graphic file (type jpg)
 <use selecao-math.jpg>
 Package pdftex.def Info: selecao-math.jpg  used on input line 371.
 (pdftex.def)             Requested size: 458.01465pt x 271.91797pt.
-<cursor-inicial.jpg, id=372, 770.88pt x 297.36093pt>
+<cursor-inicial.jpg, id=382, 770.88pt x 297.36093pt>
 File: cursor-inicial.jpg Graphic file (type jpg)
 <use cursor-inicial.jpg>
 Package pdftex.def Info: cursor-inicial.jpg  used on input line 378.
 (pdftex.def)             Requested size: 370.2541pt x 142.82236pt.
-<marcador.jpg, id=375, 770.88pt x 297.36093pt>
+<marcador.jpg, id=385, 770.88pt x 297.36093pt>
 File: marcador.jpg Graphic file (type jpg)
 <use marcador.jpg>
 Package pdftex.def Info: marcador.jpg  used on input line 385.
 (pdftex.def)             Requested size: 370.2541pt x 142.82236pt.
  [10 <./selecao-texto.jpg> <./selecao-math.jpg>]
-<marcador-ch.jpg, id=380, 770.88pt x 297.36093pt>
+<marcador-ch.jpg, id=390, 770.88pt x 297.36093pt>
 File: marcador-ch.jpg Graphic file (type jpg)
 <use marcador-ch.jpg>
 Package pdftex.def Info: marcador-ch.jpg  used on input line 391.
 (pdftex.def)             Requested size: 370.2541pt x 142.82236pt.
  [11 <./cursor-inicial.jpg> <./marcador.jpg> <./marcador-ch.jpg>]
-<elementos para troca de idioma/screenshot002.png, id=385, 678.28406pt x 438.88
+<elementos para troca de idioma/screenshot002.png, id=395, 678.28406pt x 438.88
 97pt>
 File: elementos para troca de idioma/screenshot002.png Graphic file (type png)
 <use elementos para troca de idioma/screenshot002.png>
@@ -1550,14 +1550,14 @@ Package pdftex.def Info: elementos para troca de idioma/screenshot002.png  used
 (pdftex.def)             Requested size: 370.2541pt x 239.57521pt.
 
 pdfTeX warning (ext1): too large image resolution ignored
-<elementos para troca de idioma/screenshot005.png, id=386, 881.2925pt x 571.133
+<elementos para troca de idioma/screenshot005.png, id=396, 881.2925pt x 571.133
 74pt>
 File: elementos para troca de idioma/screenshot005.png Graphic file (type png)
 <use elementos para troca de idioma/screenshot005.png>
 Package pdftex.def Info: elementos para troca de idioma/screenshot005.png  used
  on input line 409.
 (pdftex.def)             Requested size: 370.2541pt x 239.94426pt.
-<elementos para troca de idioma/screenshot004.png, id=387, 660.96938pt x 445.66
+<elementos para troca de idioma/screenshot004.png, id=397, 660.96938pt x 445.66
 5pt>
 File: elementos para troca de idioma/screenshot004.png Graphic file (type png)
 <use elementos para troca de idioma/screenshot004.png>
@@ -1566,7 +1566,7 @@ Package pdftex.def Info: elementos para troca de idioma/screenshot004.png  used
 (pdftex.def)             Requested size: 370.2541pt x 249.6523pt.
 
 pdfTeX warning (ext1): too large image resolution ignored
-<elementos para troca de idioma/screenshot006.png, id=388, 881.2925pt x 593.216
+<elementos para troca de idioma/screenshot006.png, id=398, 881.2925pt x 593.216
 25pt>
 File: elementos para troca de idioma/screenshot006.png Graphic file (type png)
 <use elementos para troca de idioma/screenshot006.png>
@@ -1579,14 +1579,14 @@ Underfull \vbox (badness 6110) has occurred while \output is active []
  [12 <./elementos para troca de idioma/screenshot002.png (PNG copy)> <./element
 os para troca de idioma/screenshot005.png (PNG copy)>]
 pdfTeX warning (ext1): too large image resolution ignored
-<elementos para troca de idioma/screenshot007.png, id=393, 882.29625pt x 592.21
+<elementos para troca de idioma/screenshot007.png, id=403, 882.29625pt x 592.21
 25pt>
 File: elementos para troca de idioma/screenshot007.png Graphic file (type png)
 <use elementos para troca de idioma/screenshot007.png>
 Package pdftex.def Info: elementos para troca de idioma/screenshot007.png  used
  on input line 428.
 (pdftex.def)             Requested size: 370.2541pt x 248.51971pt.
-<elementos para troca de idioma/screenshot008.png, id=394, 663.22781pt x 429.10
+<elementos para troca de idioma/screenshot008.png, id=404, 663.22781pt x 429.10
 312pt>
 File: elementos para troca de idioma/screenshot008.png Graphic file (type png)
 <use elementos para troca de idioma/screenshot008.png>
@@ -1599,7 +1599,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
  [13 <./elementos para troca de idioma/screenshot004.png (PNG copy)> <./element
 os para troca de idioma/screenshot006.png (PNG copy)>]
 pdfTeX warning (ext1): too large image resolution ignored
-<configuração SBCL/screenshot002.png, id=400, 642.4pt x 671.50874pt>
+<configuração SBCL/screenshot002.png, id=410, 642.4pt x 671.50874pt>
 File: configuração SBCL/screenshot002.png Graphic file (type png)
 <use configuração SBCL/screenshot002.png>
 Package pdftex.def Info: configuração SBCL/screenshot002.png  used on input l
@@ -1607,7 +1607,7 @@ ine 442.
 (pdftex.def)             Requested size: 370.2541pt x 206.64462pt.
 
 pdfTeX warning (ext1): too large image resolution ignored
-<configuração SBCL/screenshot003.png, id=402, 643.40375pt x 671.50874pt>
+<configuração SBCL/screenshot003.png, id=412, 643.40375pt x 671.50874pt>
 File: configuração SBCL/screenshot003.png Graphic file (type png)
 <use configuração SBCL/screenshot003.png>
 Package pdftex.def Info: configuração SBCL/screenshot003.png  used on input l
@@ -1616,7 +1616,7 @@ ine 448.
 [14 <./elementos para troca de idioma/screenshot007.png (PNG copy)> <./elemento
 s para troca de idioma/screenshot008.png (PNG copy)>]
 pdfTeX warning (ext1): too large image resolution ignored
-<configuração SBCL/screenshot004.png, id=408, 786.94pt x 461.725pt>
+<configuração SBCL/screenshot004.png, id=418, 786.94pt x 461.725pt>
 File: configuração SBCL/screenshot004.png Graphic file (type png)
 <use configuração SBCL/screenshot004.png>
 Package pdftex.def Info: configuração SBCL/screenshot004.png  used on input l
@@ -1624,7 +1624,7 @@ ine 453.
 (pdftex.def)             Requested size: 370.2541pt x 217.23624pt.
 
 pdfTeX warning (ext1): too large image resolution ignored
-<configuração SBCL/screenshot005.png, id=409, 768.8725pt x 449.68pt>
+<configuração SBCL/screenshot005.png, id=419, 768.8725pt x 449.68pt>
 File: configuração SBCL/screenshot005.png Graphic file (type png)
 <use configuração SBCL/screenshot005.png>
 Package pdftex.def Info: configuração SBCL/screenshot005.png  used on input l
@@ -1634,12 +1634,12 @@ ine 459.
 /screenshot003.png (PNG copy)>] [16 <./configuração SBCL/screenshot005.png (P
 NG copy)> <./configuração SBCL/screenshot004.png (PNG copy)>]
  2.
-<pitagoras.jpg, id=422, 757.32938pt x 446.41782pt>
+<pitagoras.jpg, id=432, 757.32938pt x 446.41782pt>
 File: pitagoras.jpg Graphic file (type jpg)
 <use pitagoras.jpg>
 Package pdftex.def Info: pitagoras.jpg  used on input line 475.
 (pdftex.def)             Requested size: 378.66376pt x 223.20836pt.
-<pitagoras-2.jpg, id=424, 757.32938pt x 446.41782pt>
+<pitagoras-2.jpg, id=434, 757.32938pt x 446.41782pt>
 File: pitagoras-2.jpg Graphic file (type jpg)
 <use pitagoras-2.jpg>
 Package pdftex.def Info: pitagoras-2.jpg  used on input line 486.
@@ -1650,24 +1650,24 @@ Underfull \vbox (badness 4072) has occurred while \output is active []
  [17
 
  <./pitagoras.jpg>]
-<pitagoras-3.jpg, id=432, 757.32938pt x 446.41782pt>
+<pitagoras-3.jpg, id=442, 757.32938pt x 446.41782pt>
 File: pitagoras-3.jpg Graphic file (type jpg)
 <use pitagoras-3.jpg>
 Package pdftex.def Info: pitagoras-3.jpg  used on input line 507.
 (pdftex.def)             Requested size: 378.66376pt x 223.20836pt.
-<pitagoras-4.jpg, id=434, 757.32938pt x 446.41782pt>
+<pitagoras-4.jpg, id=444, 757.32938pt x 446.41782pt>
 File: pitagoras-4.jpg Graphic file (type jpg)
 <use pitagoras-4.jpg>
 Package pdftex.def Info: pitagoras-4.jpg  used on input line 518.
 (pdftex.def)             Requested size: 378.66376pt x 223.20836pt.
  [18 <./pitagoras-2.jpg> <./pitagoras-3.jpg>]
-<pitagoras-5.jpg, id=440, 757.32938pt x 446.41782pt>
+<pitagoras-5.jpg, id=450, 757.32938pt x 446.41782pt>
 File: pitagoras-5.jpg Graphic file (type jpg)
 <use pitagoras-5.jpg>
 Package pdftex.def Info: pitagoras-5.jpg  used on input line 532.
 (pdftex.def)             Requested size: 378.66376pt x 223.20836pt.
  [19 <./pitagoras-4.jpg> <./pitagoras-5.jpg>]
-<seletor.jpg, id=446, 15.05624pt x 48.93282pt>
+<seletor.jpg, id=456, 15.05624pt x 48.93282pt>
 File: seletor.jpg Graphic file (type jpg)
 <use seletor.jpg>
 Package pdftex.def Info: seletor.jpg  used on input line 544.
@@ -1677,28 +1677,28 @@ Package pdftex.def Info: seletor.jpg  used on input line 544.
 LaTeX Warning: Reference `fig:curso-hrizontal-2' on page 20 undefined on input 
 line 548.
 
-<curso-hrizontal-2.jpg, id=447, 757.32938pt x 446.41782pt>
+<curso-hrizontal-2.jpg, id=457, 757.32938pt x 446.41782pt>
 File: curso-hrizontal-2.jpg Graphic file (type jpg)
 <use curso-hrizontal-2.jpg>
 Package pdftex.def Info: curso-hrizontal-2.jpg  used on input line 553.
 (pdftex.def)             Requested size: 423.151pt x 249.4337pt.
-<introducao-maxima.jpg, id=448, 757.32938pt x 446.41782pt>
+<introducao-maxima.jpg, id=458, 757.32938pt x 446.41782pt>
 File: introducao-maxima.jpg Graphic file (type jpg)
 <use introducao-maxima.jpg>
 Package pdftex.def Info: introducao-maxima.jpg  used on input line 560.
 (pdftex.def)             Requested size: 423.151pt x 249.4337pt.
 [20 <./seletor.jpg> <./introducao-maxima.jpg>]
-<usando-solve.jpg, id=454, 757.32938pt x 446.41782pt>
+<usando-solve.jpg, id=464, 757.32938pt x 446.41782pt>
 File: usando-solve.jpg Graphic file (type jpg)
 <use usando-solve.jpg>
 Package pdftex.def Info: usando-solve.jpg  used on input line 570.
 (pdftex.def)             Requested size: 423.151pt x 249.4337pt.
-<showtime-fig.png, id=455, 405.01312pt x 194.97844pt>
+<showtime-fig.png, id=465, 405.01312pt x 194.97844pt>
 File: showtime-fig.png Graphic file (type png)
 <use showtime-fig.png>
 Package pdftex.def Info: showtime-fig.png  used on input line 581.
 (pdftex.def)             Requested size: 370.2541pt x 178.2488pt.
-<display-2d.png, id=457, 428.35031pt x 189.70876pt>
+<display-2d.png, id=467, 428.35031pt x 189.70876pt>
 File: display-2d.png Graphic file (type png)
 <use display-2d.png>
 Package pdftex.def Info: display-2d.png  used on input line 588.
@@ -1707,7 +1707,7 @@ Package pdftex.def Info: display-2d.png  used on input line 588.
 
  <./usando-solve.jpg> <./showtime-fig.png>]
 pdfTeX warning (ext1): too large image resolution ignored
-<elementos de imagens fundamentos de gnuplot/screenshot005.png, id=463, 808.018
+<elementos de imagens fundamentos de gnuplot/screenshot005.png, id=473, 808.018
 75pt x 728.7225pt>
 File: elementos de imagens fundamentos de gnuplot/screenshot005.png Graphic fil
 e (type png)
@@ -1715,7 +1715,7 @@ e (type png)
 Package pdftex.def Info: elementos de imagens fundamentos de gnuplot/screenshot
 005.png  used on input line 603.
 (pdftex.def)             Requested size: 370.2541pt x 203.53914pt.
-<elementos de imagens fundamentos de gnuplot/screenshot006.png, id=465, 606.766
+<elementos de imagens fundamentos de gnuplot/screenshot006.png, id=475, 606.766
 88pt x 546.54187pt>
 File: elementos de imagens fundamentos de gnuplot/screenshot006.png Graphic fil
 e (type png)
@@ -1725,7 +1725,7 @@ Package pdftex.def Info: elementos de imagens fundamentos de gnuplot/screenshot
 (pdftex.def)             Requested size: 370.2541pt x 246.69563pt.
 
 pdfTeX warning (ext1): too large image resolution ignored
-<elementos de imagens fundamentos de gnuplot/screenshot007.png, id=467, 809.022
+<elementos de imagens fundamentos de gnuplot/screenshot007.png, id=477, 809.022
 5pt x 728.7225pt>
 File: elementos de imagens fundamentos de gnuplot/screenshot007.png Graphic fil
 e (type png)
@@ -1733,7 +1733,7 @@ e (type png)
 Package pdftex.def Info: elementos de imagens fundamentos de gnuplot/screenshot
 007.png  used on input line 617.
 (pdftex.def)             Requested size: 370.2541pt x 268.3962pt.
-<elementos de imagens fundamentos de gnuplot/screenshot008.png, id=469, 606.014
+<elementos de imagens fundamentos de gnuplot/screenshot008.png, id=479, 606.014
 07pt x 545.78906pt>
 File: elementos de imagens fundamentos de gnuplot/screenshot008.png Graphic fil
 e (type png)
@@ -1743,7 +1743,7 @@ Package pdftex.def Info: elementos de imagens fundamentos de gnuplot/screenshot
 (pdftex.def)             Requested size: 370.2541pt x 246.54413pt.
 
 pdfTeX warning (ext1): too large image resolution ignored
-<elementos de imagens fundamentos de gnuplot/screenshot009.png, id=471, 808.018
+<elementos de imagens fundamentos de gnuplot/screenshot009.png, id=481, 808.018
 75pt x 728.7225pt>
 File: elementos de imagens fundamentos de gnuplot/screenshot009.png Graphic fil
 e (type png)
@@ -1751,7 +1751,7 @@ e (type png)
 Package pdftex.def Info: elementos de imagens fundamentos de gnuplot/screenshot
 009.png  used on input line 631.
 (pdftex.def)             Requested size: 370.2541pt x 268.7273pt.
-<elementos de imagens fundamentos de gnuplot/screenshot010.png, id=473, 606.766
+<elementos de imagens fundamentos de gnuplot/screenshot010.png, id=483, 606.766
 88pt x 546.54187pt>
 File: elementos de imagens fundamentos de gnuplot/screenshot010.png Graphic fil
 e (type png)
@@ -1766,7 +1766,7 @@ ot007.png (PNG copy)>] [24 <./elementos de imagens fundamentos de gnuplot/scree
 nshot008.png (PNG copy)> <./elementos de imagens fundamentos de gnuplot/screens
 hot009.png (PNG copy)>] [25 <./elementos de imagens fundamentos de gnuplot/scre
 enshot010.png (PNG copy)>]
-<elementos de imagens fundamentos de gnuplot/screenshot011.png, id=498, 813.790
+<elementos de imagens fundamentos de gnuplot/screenshot011.png, id=508, 813.790
 31pt x 546.54187pt>
 File: elementos de imagens fundamentos de gnuplot/screenshot011.png Graphic fil
 e (type png)
@@ -1776,7 +1776,7 @@ Package pdftex.def Info: elementos de imagens fundamentos de gnuplot/screenshot
 (pdftex.def)             Requested size: 370.2541pt x 183.93448pt.
 
 pdfTeX warning (ext1): too large image resolution ignored
-<elementos de imagens fundamentos de gnuplot/screenshot012.png, id=500, 1086.05
+<elementos de imagens fundamentos de gnuplot/screenshot012.png, id=510, 1086.05
 75pt x 727.71875pt>
 File: elementos de imagens fundamentos de gnuplot/screenshot012.png Graphic fil
 e (type png)
@@ -1786,7 +1786,7 @@ Package pdftex.def Info: elementos de imagens fundamentos de gnuplot/screenshot
 (pdftex.def)             Requested size: 370.2541pt x 199.58804pt.
 
 pdfTeX warning (ext1): too large image resolution ignored
-<elementos de imagens fundamentos de gnuplot/screenshot013.png, id=502, 1085.05
+<elementos de imagens fundamentos de gnuplot/screenshot013.png, id=512, 1085.05
 376pt x 728.7225pt>
 File: elementos de imagens fundamentos de gnuplot/screenshot013.png Graphic fil
 e (type png)
@@ -1801,7 +1801,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
  <./elementos de imagens fundamentos de gnuplot/screenshot011.png (PNG copy)> <
 ./elementos de imagens fundamentos de gnuplot/screenshot012.png (PNG copy)>]
-<elementos de imagens fundamentos de gnuplot/screenshot014.png, id=510, 843.902
+<elementos de imagens fundamentos de gnuplot/screenshot014.png, id=520, 843.902
 82pt x 521.69907pt>
 File: elementos de imagens fundamentos de gnuplot/screenshot014.png Graphic fil
 e (type png)
@@ -1834,7 +1834,7 @@ Overfull \hbox (49.6104pt too wide) in paragraph at lines 703--751
 [30
 
 ]
-<exemplo331.jpg, id=534, 540.51938pt x 913.16156pt>
+<exemplo331.jpg, id=544, 540.51938pt x 913.16156pt>
 File: exemplo331.jpg Graphic file (type jpg)
 <use exemplo331.jpg>
 Package pdftex.def Info: exemplo331.jpg  used on input line 758.
@@ -1845,7 +1845,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
  [31
 
  <./exemplo331.jpg>]
-<arcosoma.jpg, id=540, 227.34938pt x 56.46094pt>
+<arcosoma.jpg, id=550, 227.34938pt x 56.46094pt>
 File: arcosoma.jpg Graphic file (type jpg)
 <use arcosoma.jpg>
 Package pdftex.def Info: arcosoma.jpg  used on input line 796.
@@ -1860,7 +1860,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 812--819
 
  []
 
-<arcometade.jpg, id=541, 452.4403pt x 306.39468pt>
+<arcometade.jpg, id=551, 452.4403pt x 306.39468pt>
 File: arcometade.jpg Graphic file (type jpg)
 <use arcometade.jpg>
 Package pdftex.def Info: arcometade.jpg  used on input line 836.
@@ -1878,22 +1878,17 @@ Overfull \hbox (49.6104pt too wide) in paragraph at lines 844--866
 [] [] 
  []
 
-<arcoduplo.jpg, id=550, 388.45125pt x 273.27094pt>
+<arcoduplo.jpg, id=560, 388.45125pt x 273.27094pt>
 File: arcoduplo.jpg Graphic file (type jpg)
 <use arcoduplo.jpg>
 Package pdftex.def Info: arcoduplo.jpg  used on input line 873.
 (pdftex.def)             Requested size: 370.2541pt x 260.47737pt.
 [33 <./arcometade.jpg>] [34 <./arcoduplo.jpg>]
  4.
-
-Package amsmath Warning: Foreign command \over;
-(amsmath)                \frac or \genfrac should be used instead
-(amsmath)                 on input line 889.
-
-<sounds.jpg, id=560, 752.0597pt x 891.33pt>
+<sounds.jpg, id=570, 752.0597pt x 891.33pt>
 File: sounds.jpg Graphic file (type jpg)
 <use sounds.jpg>
-Package pdftex.def Info: sounds.jpg  used on input line 896.
+Package pdftex.def Info: sounds.jpg  used on input line 894.
 (pdftex.def)             Requested size: 502.50032pt x 647.10216pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
@@ -1901,75 +1896,70 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
  [35
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 900--901
-
- []
-
-
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [36 <./sounds.jpg>] [37]
-<geogebra-seno.png, id=575, 2725.18124pt x 2439.1125pt>
+<geogebra-seno.png, id=585, 2725.18124pt x 2439.1125pt>
 File: geogebra-seno.png Graphic file (type png)
 <use geogebra-seno.png>
-Package pdftex.def Info: geogebra-seno.png  used on input line 939.
+Package pdftex.def Info: geogebra-seno.png  used on input line 943.
 (pdftex.def)             Requested size: 190.78218pt x 170.75533pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 945--946
+Underfull \hbox (badness 10000) in paragraph at lines 947--948
 
  []
 
-<geogebra-seno-2.png, id=578, 5025.02344pt x 2481.27pt>
+<geogebra-seno-2.png, id=588, 5025.02344pt x 2481.27pt>
 File: geogebra-seno-2.png Graphic file (type png)
 <use geogebra-seno-2.png>
-Package pdftex.def Info: geogebra-seno-2.png  used on input line 954.
+Package pdftex.def Info: geogebra-seno-2.png  used on input line 956.
 (pdftex.def)             Requested size: 370.2541pt x 182.7933pt.
-<geogebra-seno-3.png, id=580, 5025.02344pt x 2481.27pt>
+<geogebra-seno-3.png, id=590, 5025.02344pt x 2481.27pt>
 File: geogebra-seno-3.png Graphic file (type png)
 <use geogebra-seno-3.png>
-Package pdftex.def Info: geogebra-seno-3.png  used on input line 961.
+Package pdftex.def Info: geogebra-seno-3.png  used on input line 963.
 (pdftex.def)             Requested size: 370.2541pt x 182.7933pt.
 [38 <./geogebra-seno.png> <./geogebra-seno-2.png>] [39 <./geogebra-seno-3.png>]
 [40]
-Underfull \hbox (badness 10000) in paragraph at lines 1034--1037
+Underfull \hbox (badness 10000) in paragraph at lines 1036--1039
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1044--1045
+Underfull \hbox (badness 10000) in paragraph at lines 1046--1047
 
  []
 
 [41]
-<exemplo422-sol.jpg, id=627, 472.01344pt x 377.91188pt>
+<exemplo422-sol.jpg, id=635, 472.01344pt x 377.91188pt>
 File: exemplo422-sol.jpg Graphic file (type jpg)
 <use exemplo422-sol.jpg>
-Package pdftex.def Info: exemplo422-sol.jpg  used on input line 1080.
+Package pdftex.def Info: exemplo422-sol.jpg  used on input line 1082.
 (pdftex.def)             Requested size: 370.2541pt x 296.44235pt.
 
-Overfull \hbox (49.6104pt too wide) in paragraph at lines 1061--1083
+Overfull \hbox (49.6104pt too wide) in paragraph at lines 1063--1085
 [] []
  []
 
 [42 <./exemplo422-sol.jpg>]
-Overfull \hbox (49.6104pt too wide) in paragraph at lines 1097--1127
+Overfull \hbox (49.6104pt too wide) in paragraph at lines 1099--1129
 [] [] 
  []
 
-<exemplo423-1.jpg, id=635, 671.50874pt x 852.18375pt>
+<exemplo423-1.jpg, id=643, 671.50874pt x 852.18375pt>
 File: exemplo423-1.jpg Graphic file (type jpg)
 <use exemplo423-1.jpg>
-Package pdftex.def Info: exemplo423-1.jpg  used on input line 1132.
+Package pdftex.def Info: exemplo423-1.jpg  used on input line 1134.
 (pdftex.def)             Requested size: 476.03984pt x 604.11845pt.
-<exemplo423-2.jpg, id=636, 652.68843pt x 451.6875pt>
+<exemplo423-2.jpg, id=644, 652.68843pt x 451.6875pt>
 File: exemplo423-2.jpg Graphic file (type jpg)
 <use exemplo423-2.jpg>
-Package pdftex.def Info: exemplo423-2.jpg  used on input line 1139.
+Package pdftex.def Info: exemplo423-2.jpg  used on input line 1141.
 (pdftex.def)             Requested size: 370.2541pt x 256.23773pt.
-<exemplo423-3.jpg, id=637, 653.44125pt x 468.24937pt>
+<exemplo423-3.jpg, id=645, 653.44125pt x 468.24937pt>
 File: exemplo423-3.jpg Graphic file (type jpg)
 <use exemplo423-3.jpg>
-Package pdftex.def Info: exemplo423-3.jpg  used on input line 1145.
+Package pdftex.def Info: exemplo423-3.jpg  used on input line 1147.
 (pdftex.def)             Requested size: 370.2541pt x 265.31874pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
@@ -1982,73 +1972,73 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 ]
  5.
+
+Package amsmath Warning: Foreign command \over;
+(amsmath)                \frac or \genfrac should be used instead
+(amsmath)                 on input line 1166.
+
 [47]
-Underfull \hbox (badness 10000) in paragraph at lines 1173--1175
+Underfull \hbox (badness 10000) in paragraph at lines 1181--1184
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1176--1179
+Underfull \hbox (badness 10000) in paragraph at lines 1185--1189
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1180--1184
+Underfull \hbox (badness 10000) in paragraph at lines 1190--1192
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1185--1187
+Underfull \hbox (badness 10000) in paragraph at lines 1200--1219
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1195--1214
+Underfull \hbox (badness 10000) in paragraph at lines 1223--1225
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1218--1220
+Underfull \hbox (badness 10000) in paragraph at lines 1229--1232
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1224--1227
+Underfull \hbox (badness 10000) in paragraph at lines 1236--1248
 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 1231--1243
-
- []
-
-<resultadosCat.png, id=663, 891.33pt x 549.55313pt>
+<resultadosCat.png, id=671, 891.33pt x 549.55313pt>
 File: resultadosCat.png Graphic file (type png)
 <use resultadosCat.png>
-Package pdftex.def Info: resultadosCat.png  used on input line 1269.
+Package pdftex.def Info: resultadosCat.png  used on input line 1274.
 (pdftex.def)             Requested size: 528.93675pt x 326.12027pt.
 
-Overfull \hbox (49.6104pt too wide) in paragraph at lines 1188--1271
+Overfull \hbox (49.6104pt too wide) in paragraph at lines 1193--1276
 [] []
  []
 
 
-Overfull \hbox (46.99933pt too wide) in paragraph at lines 1188--1271
+Overfull \hbox (46.99933pt too wide) in paragraph at lines 1193--1276
 [][]
  []
 
 
-Overfull \hbox (46.99933pt too wide) in paragraph at lines 1188--1271
+Overfull \hbox (46.99933pt too wide) in paragraph at lines 1193--1276
 [][]
  []
 
 
-Overfull \hbox (46.99933pt too wide) in paragraph at lines 1188--1271
+Overfull \hbox (46.99933pt too wide) in paragraph at lines 1193--1276
 [][]
  []
 
 
-Overfull \hbox (93.99866pt too wide) in paragraph at lines 1188--1271
+Overfull \hbox (93.99866pt too wide) in paragraph at lines 1193--1276
 [][] 
  []
 
@@ -2056,11 +2046,11 @@ Overfull \hbox (93.99866pt too wide) in paragraph at lines 1188--1271
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [49]
-[50 <./resultadosCat.png>]
- 6.
-[51
+[50 <./resultadosCat.png>] [51] [52
 
-] [52] [53] (./book-template.aux)
+]
+ 6.
+[53] [54] [55] (./book-template.aux)
 
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 4.98pt have occurred.
@@ -2071,49 +2061,44 @@ LaTeX Warning: There were undefined references.
 
 LaTeX Warning: There were multiply-defined labels.
 
-
-Package rerunfilecheck Warning: File `book-template.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `book-template.out':
-(rerunfilecheck)             Before: 34AE743144B66BDB1DDE2E87E7BF161A;3990
-(rerunfilecheck)             After:  52347ED07A7E8F77A2055AE4510C059E;4118.
+Package rerunfilecheck Info: File `book-template.out' has not changed.
+(rerunfilecheck)             Checksum: 3D1FDD0781BA3652C273D02AEB75B711;4297.
  ) 
 Here is how much of TeX's memory you used:
- 38167 strings out of 477529
- 752192 string characters out of 5829600
+ 38171 strings out of 477529
+ 752247 string characters out of 5829600
  1026507 words of memory out of 5000000
- 56171 multiletter control sequences out of 15000+600000
+ 56174 multiletter control sequences out of 15000+600000
  611436 words of font info for 209 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  88i,11n,96p,720b,875s stack positions out of 10000i,1000n,20000p,200000b,200000s
-{c:/texlive/2022/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}{c:/texlive/2022/tex
-mf-dist/fonts/enc/dvips/lm/lm-mathit.enc}{c:/texlive/2022/texmf-dist/fonts/enc/
-dvips/lm/lm-rm.enc}{c:/texlive/2022/texmf-dist/fonts/enc/dvips/mnsymbol/MnSymbo
-lE.enc}{c:/texlive/2022/texmf-dist/fonts/enc/dvips/mnsymbol/MnSymbolA.enc}{c:/t
-exlive/2022/texmf-dist/fonts/enc/dvips/lm/lm-ts1.enc}{c:/texlive/2022/texmf-dis
-t/fonts/enc/dvips/mnsymbol/MnSymbolD.enc}{c:/texlive/2022/texmf-dist/fonts/enc/
-dvips/mnsymbol/MnSymbolC.enc}<c:/texlive/2022/texmf-dist/fonts/type1/public/mns
-ymbol/MnSymbol12.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/doublestrok
-e/dsss12.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/lm/lmbx12.pfb><c:/t
-exlive/2022/texmf-dist/fonts/type1/public/lm/lmbxi10.pfb><c:/texlive/2022/texmf
--dist/fonts/type1/public/lm/lmcsc10.pfb><c:/texlive/2022/texmf-dist/fonts/type1
-/public/lm/lmmi12.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/lm/lmmi8.p
-fb><c:/texlive/2022/texmf-dist/fonts/type1/public/lm/lmr10.pfb><c:/texlive/2022
-/texmf-dist/fonts/type1/public/lm/lmr12.pfb><c:/texlive/2022/texmf-dist/fonts/t
-ype1/public/lm/lmr17.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/lm/lmr7
-.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/lm/lmr8.pfb><c:/texlive/202
-2/texmf-dist/fonts/type1/public/lm/lmri10.pfb><c:/texlive/2022/texmf-dist/fonts
-/type1/public/lm/lmri12.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/lm/l
-mro12.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/lm/lmss12.pfb><c:/texl
-ive/2022/texmf-dist/fonts/type1/public/lm/lmss17.pfb><c:/texlive/2022/texmf-dis
-t/fonts/type1/public/lm/lmtt10.pfb><c:/texlive/2022/texmf-dist/fonts/type1/publ
-ic/lm/lmtt12.pfb>
-Output written on book-template.pdf (59 pages, 8475460 bytes).
+{c:/texlive/2022/texmf-dist/fonts/enc/dvips/mnsymbol/MnSymbolC.enc}{c:/texliv
+e/2022/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}{c:/texlive/2022/texmf-dist/font
+s/enc/dvips/lm/lm-mathit.enc}{c:/texlive/2022/texmf-dist/fonts/enc/dvips/lm/lm-
+rm.enc}{c:/texlive/2022/texmf-dist/fonts/enc/dvips/mnsymbol/MnSymbolE.enc}{c:/t
+exlive/2022/texmf-dist/fonts/enc/dvips/mnsymbol/MnSymbolA.enc}{c:/texlive/2022/
+texmf-dist/fonts/enc/dvips/lm/lm-ts1.enc}{c:/texlive/2022/texmf-dist/fonts/enc/
+dvips/mnsymbol/MnSymbolD.enc}<c:/texlive/2022/texmf-dist/fonts/type1/public/mns
+ymbol/MnSymbol12.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/mnsymbol/Mn
+Symbol8.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/doublestroke/dsss12.
+pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/lm/lmbx12.pfb><c:/texlive/20
+22/texmf-dist/fonts/type1/public/lm/lmbxi10.pfb><c:/texlive/2022/texmf-dist/fon
+ts/type1/public/lm/lmcsc10.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/l
+m/lmmi12.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/lm/lmmi8.pfb><c:/te
+xlive/2022/texmf-dist/fonts/type1/public/lm/lmr10.pfb><c:/texlive/2022/texmf-di
+st/fonts/type1/public/lm/lmr12.pfb><c:/texlive/2022/texmf-dist/fonts/type1/publ
+ic/lm/lmr17.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/lm/lmr7.pfb><c:/
+texlive/2022/texmf-dist/fonts/type1/public/lm/lmr8.pfb><c:/texlive/2022/texmf-d
+ist/fonts/type1/public/lm/lmri10.pfb><c:/texlive/2022/texmf-dist/fonts/type1/pu
+blic/lm/lmri12.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/lm/lmro12.pfb
+><c:/texlive/2022/texmf-dist/fonts/type1/public/lm/lmss12.pfb><c:/texlive/2022/
+texmf-dist/fonts/type1/public/lm/lmss17.pfb><c:/texlive/2022/texmf-dist/fonts/t
+ype1/public/lm/lmtt10.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/lm/lmt
+t12.pfb>
+Output written on book-template.pdf (61 pages, 8480632 bytes).
 PDF statistics:
- 834 PDF objects out of 1000 (max. 8388607)
- 618 compressed objects within 7 object streams
- 164 named destinations out of 1000 (max. 500000)
- 704 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 855 PDF objects out of 1000 (max. 8388607)
+ 635 compressed objects within 7 object streams
+ 165 named destinations out of 1000 (max. 500000)
+ 720 words of extra memory for PDF output out of 10000 (max. 10000000)
 
