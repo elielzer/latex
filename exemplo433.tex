@@ -1,0 +1,95 @@
+\documentclass[fleqn]{article}
+
+%% Created with wxMaxima 23.05.1
+
+\setlength{\parskip}{\medskipamount}
+\setlength{\parindent}{0pt}
+\usepackage{iftex}
+\ifPDFTeX
+  % PDFLaTeX or LaTeX 
+  \usepackage[utf8]{inputenc}
+  \usepackage[T1]{fontenc}
+  \DeclareUnicodeCharacter{00B5}{\ensuremath{\mu}}
+\else
+  %  XeLaTeX or LuaLaTeX
+  \usepackage{fontspec}
+\fi
+\usepackage{graphicx}
+\usepackage{color}
+\usepackage{amsmath}
+\usepackage{grffile}
+\usepackage{ifthen}
+\newsavebox{\picturebox}
+\newlength{\pictureboxwidth}
+\newlength{\pictureboxheight}
+\newcommand{\includeimage}[1]{
+    \savebox{\picturebox}{\includegraphics{#1}}
+    \settoheight{\pictureboxheight}{\usebox{\picturebox}}
+    \settowidth{\pictureboxwidth}{\usebox{\picturebox}}
+    \ifthenelse{\lengthtest{\pictureboxwidth > .95\linewidth}}
+    {
+        \includegraphics[width=.95\linewidth,height=.80\textheight,keepaspectratio]{#1}
+    }
+    {
+        \ifthenelse{\lengthtest{\pictureboxheight>.80\textheight}}
+        {
+            \includegraphics[width=.95\linewidth,height=.80\textheight,keepaspectratio]{#1}
+            
+        }
+        {
+            \includegraphics{#1}
+        }
+    }
+}
+\newlength{\thislabelwidth}
+\DeclareMathOperator{\abs}{abs}
+
+\definecolor{labelcolor}{RGB}{100,0,0}
+
+\begin{document}
+
+
+\noindent
+%%%%%%%%
+%% INPUT:
+\begin{minipage}[t]{4.000000em}\color{red}\bfseries
+ --\ensuremath{\ensuremath{>}}	
+\end{minipage}
+\begin{minipage}[t]{\textwidth}\color{blue}
+/*\ Definição\ das\ funções\ trigonométricas\ */\ \ \\
+f(x):=sin(x)\$\ \ /*\ função\ seno\ */\\
+g(x):=cos(x)\$\ \ /*\ função\ cossseno\ */\\
+\\
+/*\ Configuração\ dos\ calculos\ simbólicos\ (não\ numérico)\ */\\
+/*\ Incremento\ de\ radianos\ para\ gerar\ lista\ de\ valores\ para\ “x”\ */\ \\
+\ \ \ \ arc:\ \ensuremath{\pi}/12\ \$\\
+/*\ Lista\ com\ os\ elementos\ para\ o\ cabeçalho\ de\ colunas\ */\\
+cabeçalhoDaTabela:\ ["Arco(rad)",\ arc,\ 2*arc,\ 3*arc,\ 4*arc\ ]\$\\
+\ \ \ \ \\
+numer:\ true\$\ /*\ a\ partir\ daqui\ o\ cálculo\ será\ numérico.\ */\ \\
+\\
+arc:\ \ensuremath{\pi}/12\ \$\ \ \ /*\ a\ variável\ agora\ recebe\ um\ valor\ numérico\ */\\
+\\
+/*\ Cálculo\ usando\ a\ função\ "f(x)"\ \ */\\
+/*\ lista\ */\ linha1:\ makelist(f(x),x,\ [arc,2*arc,3*arc,4*arc])\$\\
+linha1:\ ["Seno",\ linha1[1],\ linha1[2],\ linha1[3],\ linha1[4]]\$\\
+/*\ a\ lista\ "linha1"\ é\ alterada\ para\ incluir\ um\ cabeçalho\ de\ linha\ (à\ esquerda)\ */\\
+\\
+/*\ Cálculo\ usando\ a\ função\ "g(x)"\ \ */\\
+/*\ lista\ */\ \ linha2:\ makelist(g(x),x,\ [arc,2*arc,3*arc,4*arc])\$\\
+linha2:\ ["Cosseno",linha2[1],\ linha2[2],\ linha2[3],\ linha2[4]]\$\\
+/*\ a\ lista\ "linha2"\ é\ reconstruída\ para\ incluir\ nela\ um\ cabeçalho\ de\ linha\ */\\
+\\
+/*\ Gerar\ a\ tabela\ dos\ resultados\ */\\
+fpprintprec\ :\ 3\$\ \ /*definindo\ a\ precisão\ numérica.\ */\ \ \ \ \ \\
+\ \\
+table\_form([cabeçalhoDaTabela,\ linha1,\ linha2]);\\
+/*\ tabela\ com\ \ "table\_form()"\ */\\
+\ \\
+matrix(cabeçalhoDaTabela,\ linha1,\ linha2);\ \\
+/*\ tabela\ com\ a\ função\ "matrix()"\ */
+\end{minipage}
+
+\noindent%
+
+\end{document}

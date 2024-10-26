@@ -1,0 +1,119 @@
+\documentclass[fleqn]{article}
+
+%% Created with wxMaxima 23.05.1
+
+\setlength{\parskip}{\medskipamount}
+\setlength{\parindent}{0pt}
+\usepackage{iftex}
+\ifPDFTeX
+  % PDFLaTeX or LaTeX 
+  \usepackage[utf8]{inputenc}
+  \usepackage[T1]{fontenc}
+  \DeclareUnicodeCharacter{00B5}{\ensuremath{\mu}}
+\else
+  %  XeLaTeX or LuaLaTeX
+  \usepackage{fontspec}
+\fi
+\usepackage{graphicx}
+\usepackage{color}
+\usepackage{amsmath}
+\usepackage{grffile}
+\usepackage{ifthen}
+\newsavebox{\picturebox}
+\newlength{\pictureboxwidth}
+\newlength{\pictureboxheight}
+\newcommand{\includeimage}[1]{
+    \savebox{\picturebox}{\includegraphics{#1}}
+    \settoheight{\pictureboxheight}{\usebox{\picturebox}}
+    \settowidth{\pictureboxwidth}{\usebox{\picturebox}}
+    \ifthenelse{\lengthtest{\pictureboxwidth > .95\linewidth}}
+    {
+        \includegraphics[width=.95\linewidth,height=.80\textheight,keepaspectratio]{#1}
+    }
+    {
+        \ifthenelse{\lengthtest{\pictureboxheight>.80\textheight}}
+        {
+            \includegraphics[width=.95\linewidth,height=.80\textheight,keepaspectratio]{#1}
+            
+        }
+        {
+            \includegraphics{#1}
+        }
+    }
+}
+\newlength{\thislabelwidth}
+\DeclareMathOperator{\abs}{abs}
+
+\definecolor{labelcolor}{RGB}{100,0,0}
+
+\begin{document}
+
+
+\noindent
+%%%%%%%%
+%% INPUT:
+\begin{minipage}[t]{4.000000em}\color{red}\bfseries
+ --\ensuremath{\ensuremath{>}}	
+\end{minipage}
+\begin{minipage}[t]{\textwidth}\color{blue}
+/*\ Simulação\ do\ radar\ Doppler\ estacionário\ -\ movimento\ unidirecional\ */\\
+\\
+kill(all)\$\ \\
+fpprintprec\ :\ 4\ \$\\
+\\
+/*\ Dados\ de\ entrada\ */\\
+promptComum\ :\ "ou\ digite\ um\ valor."\$\\
+input\ :\ "A\ velocidade\ do\ pulso\ de\ saída\ enviado"\$\\
+input\ :\ concat(input,"\ pelo\ sonar\ está\ em"\ )\$\\
+v\ :\ 340\ \$\ read(input,\ v\ ,"m/s",\ promptComum)\$\\
+\\
+input\ :\ "A\ frequência\ do\ pulso\ de\ saída\ "\ \$\\
+input\ :\ concat(input,"\ enviado\ pelo\ sonar\ está\ em"\ )\$\\
+\ensuremath{\nu}\ :\ 20\$\ \ read(input,\ \ensuremath{\nu}\ ,\ "kHz",\ promptComum)\$\\
+\\
+input\ :\ "A\ frequência\ Doppler\ do\ pulso\ refletido\ "\ \$\\
+input\ :\ concat(input,"\ pelo\ alvo\ está\ em"\ )\$\\
+wxdeclare\_subscripted(\ensuremath{\nu}\_D)\$\ \\
+\ensuremath{\nu}\_D:\ 20.612\$\ \ read(input,\ \ensuremath{\nu}\_D,\ "kHz",\ promptComum)\$\\
+\\
+input\ :\ "O\ valor\ do\ tempo\ de\ retardo\ "\ \$\\
+input\ :\ concat(input,"está\ em"\ )\$\\
+\ensuremath{\tau}\ :\ 0.230\$\ \ read(input,\ \ensuremath{\tau},\ "s",\ promptComum)\$\\
+\ \ \\
+/*\ Velocidade\ do\ observador\ \ */\ \ wxdeclare\_subscripted(v\_O)\$\\
+v\_O\ :\ (\ensuremath{\nu}\_D\ -\ \ensuremath{\nu})/(\ensuremath{\nu}\_D\ +\ \ensuremath{\nu})\$\\
+v\_O\ :\ \%\ *\ v\$\\
+if\ \ensuremath{\nu}\_D\ \ensuremath{>}\ \ensuremath{\nu}\ then\ \ v\_O\ :\ v\_O*-1\ \$\\
+/*\ imposição\ de\ um\ sinal\ algébrico\ */\\
+/*\ para\ corresponder\ à\ situação\ de\ movimento\ relativo\ */\\
+\\
+/*\ Abscissa\ do\ ponto\ de\ reflexão\ do\ pulso\ */\ \ \ \ b:\ v\ *\ \ensuremath{\tau}/2\ \$\\
+\\
+/*\ Indicação\ de\ movimento\ do\ alvo\ */\ Ind:""\$\\
+block(\\
+\ \ \ \ if\ \ensuremath{\nu}\_D\ \ensuremath{>}\ \ensuremath{\nu}\ and\ v\_O\ensuremath{<}0\ \ then\ newline(),\\
+\ \ \ \ Ind:\ "alvo\ aproximando-se\ pela\ direita.",\ \ go(loop),\\
+\ \ \ \ if\ \ensuremath{\nu}\_D\ \ensuremath{>}\ \ensuremath{\nu}\ and\ v\_O\ensuremath{>}0\ \ then\ newline(),\\
+\ \ \ \ Ind:\ "alvo\ aproximando-se\ pela\ esquerda.",\ \ go(loop),\\
+\ \ \ \ if\ \ensuremath{\nu}\_D\ \ensuremath{<}\ \ensuremath{\nu}\ and\ v\_O\ensuremath{>}0\ \ then\ newlilne(),\\
+\ \ \ \ Ind:\ "alvo\ afastando-se\ para\ a\ direita.",\ go(loop),\\
+\ \ \ \ if\ \ensuremath{\nu}\_D\ \ensuremath{<}\ \ensuremath{\nu}\ and\ v\_O\ensuremath{<}0\ \ then\ newline(),\\
+\ \ \ \ Ind:\ "alvo\ afastando-se\ para\ a\ esquerda.",\ loop\\
+)\$\\
+\\
+/*\ Resultados\ da\ simulação\ */\\
+objetivo\ :\ "Sonar\ Doppler\ estacionário"\$\\
+caract\ :\ "A\ origem\ do\ sistema\ de\ referência\ estará\ "\$\\
+caract\ :\ concat(caract\ ,"na\ posição\ do\ sonar\ estacionário.")\$\\
+\\
+disp("RESULTADO\ DA\ SIMULAÇÃO")\$\\
+disp(objetivo)\$\\
+disp(caract)\$\\
+disp(concat("-\ Distância\ até\ o\ alvo:\ ",\ \ b,"m."\ )\ )\$\\
+disp(concat("-\ Velocidade\ do\ alvo:\ ",\ v\_O,"m/s."))\$\\
+disp(concat("-\ Indicação:\ ",Ind)\ \ \ )\$
+\end{minipage}
+
+\noindent%
+
+\end{document}

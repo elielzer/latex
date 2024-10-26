@@ -1,25 +1,24 @@
 \babel@toc {portuguese}{}\relax 
 \contentsline {chapter}{\numberline {1}INTRODUÇÃO}{3}{chapter.1}%
 \contentsline {section}{\numberline {1.1}Sobre o Maxima}{3}{section.1.1}%
-\contentsline {section}{\numberline {1.2}Como Instalar o wxMaxima\textregistered }{4}{section.1.2}%
-\contentsline {section}{\numberline {1.3}Conhecendo a \emph {Interface} Gráfica do wxMaxima}{9}{section.1.3}%
-\contentsline {section}{\numberline {1.4}Idioma da \emph {Interface}}{12}{section.1.4}%
-\contentsline {section}{\numberline {1.5}Selecão do Compilador}{14}{section.1.5}%
-\contentsline {chapter}{\numberline {2}TRABALHANDO COM O wxMAXIMA}{17}{chapter.2}%
-\contentsline {section}{\numberline {2.1}Construção de Gráficos}{22}{section.2.1}%
-\contentsline {chapter}{\numberline {3}ESTUDO DAS FUNÇÕES TRIGONOMÉTRICAS}{29}{chapter.3}%
-\contentsline {section}{\numberline {3.1}As Funções Trigonométricas no Maxima}{29}{section.3.1}%
-\contentsline {section}{\numberline {3.2}Manipulando Expressões Trigonométricas}{32}{section.3.2}%
-\contentsline {subsection}{\numberline {3.2.1}Soma de Arcos}{32}{subsection.3.2.1}%
-\contentsline {subsection}{\numberline {3.2.2}Arco Metade}{32}{subsection.3.2.2}%
-\contentsline {subsection}{\numberline {3.2.3}Arco Duplo}{33}{subsection.3.2.3}%
-\contentsline {chapter}{\numberline {4}DESCRIÇÕES DE MOVIMENTOS ONDULATÓRIOS}{35}{chapter.4}%
-\contentsline {section}{\numberline {4.1}Compreensão Geral acerca de Ondas}{35}{section.4.1}%
-\contentsline {section}{\numberline {4.2}O Movimento Ondulatório}{37}{section.4.2}%
-\contentsline {section}{\numberline {4.3}Abordagem Matemática}{38}{section.4.3}%
-\contentsline {section}{\numberline {4.4}Onda Harmônica como um Modelo Físico}{40}{section.4.4}%
-\contentsline {chapter}{\numberline {5}APLICAÇÕES ONDULATÓRIAS}{47}{chapter.5}%
-\contentsline {section}{\numberline {5.1}Corda Estendida}{47}{section.5.1}%
-\contentsline {section}{\numberline {5.2}Efeito Doppler}{50}{section.5.2}%
-\contentsline {chapter}{\numberline {6}DICAS SOBRE O MAXIMA}{53}{chapter.6}%
-\contentsline {section}{\numberline {6.1}Dicas de Maxima}{54}{section.6.1}%
+\contentsline {section}{\numberline {1.2}Trabalhando com o wxMaxima}{4}{section.1.2}%
+\contentsline {section}{\numberline {1.3}Listas e Matrizes}{10}{section.1.3}%
+\contentsline {section}{\numberline {1.4}Construção de Gráficos}{11}{section.1.4}%
+\contentsline {chapter}{\numberline {2}ESTUDO DAS FUNÇÕES TRIGONOMÉTRICAS}{17}{chapter.2}%
+\contentsline {section}{\numberline {2.1}As Funções Trigonométricas no Maxima}{17}{section.2.1}%
+\contentsline {section}{\numberline {2.2}Transformações Trigonométricas}{21}{section.2.2}%
+\contentsline {chapter}{\numberline {3}DESCRIÇÕES DE MOVIMENTOS ONDULATÓRIOS}{27}{chapter.3}%
+\contentsline {section}{\numberline {3.1}O Movimento Ondulatório}{27}{section.3.1}%
+\contentsline {section}{\numberline {3.2}Abordagem Matemática}{29}{section.3.2}%
+\contentsline {section}{\numberline {3.3}Onda Harmônica como um Modelo Físico}{35}{section.3.3}%
+\contentsline {chapter}{\numberline {4}APLICAÇÕES ONDULATÓRIAS}{47}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Corda Estendida}{47}{section.4.1}%
+\contentsline {section}{\numberline {4.2}Efeito Doppler}{50}{section.4.2}%
+\contentsline {chapter}{\numberline {A}DICAS SOBRE O MAXIMA}{57}{appendix.A}%
+\contentsline {section}{\numberline {A.1}Como Instalar o wxMaxima\textregistered }{57}{section.A.1}%
+\contentsline {section}{\numberline {A.2}Conhecendo a \emph {Interface} Gráfica do wxMaxima}{62}{section.A.2}%
+\contentsline {section}{\numberline {A.3}Idioma da \emph {Interface}}{65}{section.A.3}%
+\contentsline {section}{\numberline {A.4}Selecão do Compilador}{67}{section.A.4}%
+\contentsline {section}{\numberline {A.5}Dicas Diversas}{70}{section.A.5}%
+\contentsline {section}{\numberline {A.6}Dicas de Maxima}{71}{section.A.6}%
+\contentsline {chapter}{\numberline {B}\uppercase {Perspectiva Histórica sobre Ondas}}{73}{appendix.B}%

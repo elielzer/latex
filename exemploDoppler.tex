@@ -1,0 +1,75 @@
+\documentclass[fleqn]{article}
+
+%% Created with wxMaxima 23.05.1
+
+\setlength{\parskip}{\medskipamount}
+\setlength{\parindent}{0pt}
+\usepackage{iftex}
+\ifPDFTeX
+  % PDFLaTeX or LaTeX 
+  \usepackage[utf8]{inputenc}
+  \usepackage[T1]{fontenc}
+  \DeclareUnicodeCharacter{00B5}{\ensuremath{\mu}}
+\else
+  %  XeLaTeX or LuaLaTeX
+  \usepackage{fontspec}
+\fi
+\usepackage{graphicx}
+\usepackage{color}
+\usepackage{amsmath}
+\usepackage{grffile}
+\usepackage{ifthen}
+\newsavebox{\picturebox}
+\newlength{\pictureboxwidth}
+\newlength{\pictureboxheight}
+\newcommand{\includeimage}[1]{
+    \savebox{\picturebox}{\includegraphics{#1}}
+    \settoheight{\pictureboxheight}{\usebox{\picturebox}}
+    \settowidth{\pictureboxwidth}{\usebox{\picturebox}}
+    \ifthenelse{\lengthtest{\pictureboxwidth > .95\linewidth}}
+    {
+        \includegraphics[width=.95\linewidth,height=.80\textheight,keepaspectratio]{#1}
+    }
+    {
+        \ifthenelse{\lengthtest{\pictureboxheight>.80\textheight}}
+        {
+            \includegraphics[width=.95\linewidth,height=.80\textheight,keepaspectratio]{#1}
+            
+        }
+        {
+            \includegraphics{#1}
+        }
+    }
+}
+\newlength{\thislabelwidth}
+\DeclareMathOperator{\abs}{abs}
+
+\definecolor{labelcolor}{RGB}{100,0,0}
+
+\begin{document}
+
+
+\noindent
+%%%%%%%%
+%% INPUT:
+\begin{minipage}[t]{4.000000em}\color{red}\bfseries
+ --\ensuremath{\ensuremath{>}}	
+\end{minipage}
+\begin{minipage}[t]{\textwidth}\color{blue}
+kill(all)\$\\
+fpprintprec\ :\ 6\ \$\\
+\\
+/*\ velocidade\ do\ pulso\ enviado\ pelo\ sonar\ em\ SI\ \ */\ v\ :\ 340\$\\
+/*\ Frequência\ do\ pulso\ de\ saída\ emitido\ pelo\ sonar\ em\ kHz\ */\ \ \ensuremath{\nu}\ :\ 20\$\\
+/*\ Frequência\ Doppler\ do\ pulso\ refletido\ pelo\ alvo\ em\ kHz\ */\ wxdeclare\_subscripted(\ensuremath{\nu}\_D)\$\ \\
+\ensuremath{\nu}\_D:\ 20.612\$\\
+/*\ O\ valor\ do\ tempo\ de\ retardo\ \ */\ \ \ensuremath{\tau}\ :\ 0.230\$\\
+/*\ Velocidade\ do\ observador\ \ */\ \ wxdeclare\_subscripted(v\_O)\$\\
+\\
+v\_O\ :\ (\ensuremath{\nu}\_D\ -\ \ensuremath{\nu})/\ensuremath{\nu}\$\\
+v\_O\ :\ \%\ *\ v;
+\end{minipage}
+
+\noindent%
+
+\end{document}

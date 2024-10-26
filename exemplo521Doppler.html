@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>exemplo521Doppler</title>
+    <meta name="generator" content="wxMaxima"/>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <script type="text/x-mathjax-config">  MathJax.Hub.Config({
+    displayAlign: "left",
+    context: "MathJax",
+    TeX: {TagSide: "left"}
+  })
+</script>
+    <script id="MathJax-script" type="application/javascript" async="true" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">  // A comment that hinders wxWidgets from optimizing this tag too much.
+</script>
+    <link rel="stylesheet" type="text/css" href="exemplo521Doppler_htmlimg/exemplo521Doppler.css"/>
+  </head>
+  <body>
+    <!-- ****************************************************** -->
+    <!-- *        Created with wxMaxima version 23.05.1       * -->
+    <!-- ****************************************************** -->
+    <noscript>
+      <div class="error message">
+        <p>Please enable JavaScript in order to get a 2d display of the equations embedded in this web page.</p>
+      </div>
+    </noscript>
+    <p hidden="hidden">\(      \DeclareMathOperator{\abs}{abs}
+      \newcommand{\ensuremath}[1]{\mbox{$#1$}}
+\)</p>
+    <!-- Code cell -->
+    <table>
+      <tr>
+        <td>
+          <span class="prompt"> --&gt;	
+  </span>
+        </td>
+        <td>
+          <span class="input">
+            <span class="code_function">kill</span>
+            <span class="code_operator">(</span>
+            <span class="code_variable">all</span>
+            <span class="code_operator">)</span>
+            <span class="code_endofline">$</span>
+            <span class="code_endofline">
+              <br/>
+            </span>
+            <span class="code_variable">fpprintprec</span>
+            <span class="code_operator">:</span>
+            <span class="code_number">6</span>
+            <span class="code_endofline">$</span>
+            <span class="code_endofline">
+              <br/>
+            </span>
+            <span class="code_endofline">
+              <br/>
+            </span>
+            <span class="code_comment">/* velocidade do pulso enviado pelo sonar em SI  */</span>
+            <span class="code_variable">v</span>
+            <span class="code_operator">:</span>
+            <span class="code_number">340</span>
+            <span class="code_endofline">$</span>
+            <span class="code_endofline">
+              <br/>
+            </span>
+            <span class="code_comment">/* Frequência do pulso de saída emitido pelo sonar em kHz */</span>
+            <span class="code_variable">ν</span>
+            <span class="code_operator">:</span>
+            <span class="code_number">20</span>
+            <span class="code_endofline">$</span>
+            <span class="code_endofline">
+              <br/>
+            </span>
+            <span class="code_comment">/* Frequência Doppler do pulso refletido pelo alvo em kHz */</span>
+            <span class="code_function">wxdeclare_subscripted</span>
+            <span class="code_operator">(</span>
+            <span class="code_variable">ν_D</span>
+            <span class="code_operator">)</span>
+            <span class="code_endofline">$</span>
+            <span class="code_endofline">
+              <br/>
+            </span>
+            <span class="code_variable">ν_D</span>
+            <span class="code_operator">:</span>
+            <span class="code_number">20</span>
+            <span class="code_endofline">.</span>
+            <span class="code_number">612</span>
+            <span class="code_endofline">$</span>
+            <span class="code_endofline">
+              <br/>
+            </span>
+            <span class="code_comment">/* O valor do tempo de retardo  */</span>
+            <span class="code_variable">τ</span>
+            <span class="code_operator">:</span>
+            <span class="code_number">0</span>
+            <span class="code_endofline">.</span>
+            <span class="code_number">230</span>
+            <span class="code_endofline">$</span>
+            <span class="code_endofline">
+              <br/>
+            </span>
+            <span class="code_comment">/* Velocidade do observador  */</span>
+            <span class="code_function">wxdeclare_subscripted</span>
+            <span class="code_operator">(</span>
+            <span class="code_variable">v_O</span>
+            <span class="code_operator">)</span>
+            <span class="code_endofline">$</span>
+            <span class="code_endofline">
+              <br/>
+            </span>
+            <span class="code_endofline">
+              <br/>
+            </span>
+            <span class="code_variable">v_O</span>
+            <span class="code_operator">:</span>
+            <span class="code_operator">(</span>
+            <span class="code_variable">ν_D</span>
+            <span class="code_operator">−</span>
+            <span class="code_variable">ν</span>
+            <span class="code_operator">)</span>
+            <span class="code_operator">/</span>
+            <span class="code_variable">ν</span>
+            <span class="code_endofline">$</span>
+            <span class="code_endofline">
+              <br/>
+            </span>
+            <span class="code_variable">v_O</span>
+            <span class="code_operator">:</span>
+            <span class="code_variable">%</span>
+            <span class="code_operator">·</span>
+            <span class="code_variable">v</span>
+            <span class="code_endofline">;</span>
+          </span>
+        </td>
+      </tr>
+    </table>
+    <hr/>
+    <p>
+      <small> Created with 
+        <a href="https://wxMaxima-developers.github.io/wxmaxima/">wxMaxima</a>.</small>
+    </p>
+    <small> The source of this Maxima session can be downloaded 
+      <a href="exemplo521Doppler_htmlimg/exemplo521Doppler.wxmx">here</a>.</small>
+  </body>
+</html>
