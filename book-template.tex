@@ -6,10 +6,10 @@
 \documentclass[12pt]{book}
 \usepackage{iftex}
 \ifPDFTeX
-  % PDFLaTeX or LaTeX 
-  \usepackage[utf8]{inputenc}
-  \usepackage[T1]{fontenc}
-  \DeclareUnicodeCharacter{00B5}{\ensuremath{\mu}}
+	% PDFLaTeX or LaTeX 
+	\usepackage[utf8]{inputenc}
+	\usepackage[T1]{fontenc}
+	\DeclareUnicodeCharacter{00B5}{\ensuremath{\mu}}
 \else
   %  XeLaTeX or LuaLaTeX
   \usepackage{fontspec}
@@ -17,7 +17,7 @@
 \usepackage[left=2cm,right=1cm,top=2cm,bottom=2cm,headheight=1cm]{geometry}
 \usepackage{lmodern}
 \usepackage{amsmath}
-
+\usepackage[toc,page]{appendix}
 \usepackage{textcomp}
 \usepackage{multicol}
 \usepackage[]{ragged2e}
@@ -46,7 +46,7 @@
 \usepackage{booktabs}
 \usepackage{float}
 \usepackage{graphicx, nicefrac}
-\usepackage{scalefnt}
+\usepackage{fontscale}
 \usepackage{tikz}
 \usepackage[sans]{dsfont}
 \usetikzlibrary{decorations.pathmorphing}
@@ -60,7 +60,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Configurações para o Maxima %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\usepackage{upgreek}
+\usepackage{xgreek}
 \usepackage{xcolor}
 \usepackage{longtable,booktabs,array}
 \usepackage{calc} % for calculating minipage widths
@@ -172,9 +172,8 @@ Dedicated to Calvin and Hobbes.
 %%%%%%%%%%%
 \chapter*{Prefácio}
 Este livro foi concebido a partir de um \emph{insight} pessoal após eu ler um anúncio sobre uso do \emph{Maxima} no ensino da Física. Então veio-me a ideia de escrever algo nesse sentido.
-Escolhi sobre ondulatória. O Maxima é introduzido no contexto como ambiente de apoio no momento que seja necessário simular as proposições. Dentre as proposições abordaremos situações clássicas, pois o objetivo é justamente apresentar o cartel de ferramentas desse software adequadas para transcrever a linguagem da física para representar as situações problema.
 
-É provável que o leitor se defronte aqui com uma versão do wxMaxima diferente daquele que esteja instalada em seu computador, porém isso deve não impactar no entendimento do que é exposto no livro, pois o núcleo principal do Maxima mantém-se inalterado quanto a sua finalidade.
+
 
 %%%%%%%%%%%%%%%%
 % INTRODUÇÃO   %
@@ -182,7 +181,7 @@ Escolhi sobre ondulatória. O Maxima é introduzido no contexto como ambiente de
 \chapter{INTRODUÇÃO}
 \section{Sobre o Maxima}
 De acordo com descrição no site fabricante, o Maxima é um programa de computador do tipo multiplataforma, ou seja, ele está preparado para trabalhar (compilar) sob diversos sistemas operacionais ou plataformas computacionais.
-Ainda de acordo com esse site o Maxima é uma versão evoluída de software especialista Macsyma. Os sistemas especialistas foram criados com a finalidade de reproduzir o raciocínio ou expertise de um  profissional de alguma área de conhecimento específica.
+Ainda de acordo com esse site o Maxima é uma versão evoluída de software especialista Macsyma. Os sistemas especialistas foram criados com a finalidade de reproduzir o raciocínio ou expertise de um  profissional de alguma área específica do conhecimento.
 
 Assim,o Maxima é um sistema especialista para a manipulação de expressões matemáticas, tanto na forma simbólica como na forma numérica, incluindo:
 \begin{itemize}
@@ -832,15 +831,26 @@ Copie na memória do seu computador as linhas de comando desse exemplo \thesecti
 	\end{minipage}
 \end{tcolorbox}
 %%%
-
-
 \chapter{DESCRIÇÕES DE MOVIMENTOS ONDULATÓRIOS}
 Há várias situações no dia a dia nas quais as coisas acontecem repentinamente, ou inesperadamente, vindo, depois a cessar seus efeitos, ou, em outros casos, repercutem mais além. É comum nos referirmos a isso com a expressão: ``isso é apenas uma onda, logo passará''. Isso, claro, devido a que tais situações são transitórias, exemplos: pandemias, endemias, o preço de commodities, tsunamis, terremotos, até notícias ou eventos cotidianos. Algumas vezes tais situações apresentam comportamento oscilante, como na superfície de um líquido em uma piscina, ou mesmo em fontes naturais de água, como em rios, mares e oceanos durante a passagem de uma embarcação.
 
-É importante notar que existem características diferentes em tais situações. Alguns simplesmente oscilam ou vibram e em outros casos, além de oscilar ou vibrar, essa condição é posteriormente transmitida para outros locais do ambiente onde tais situações ocorrem. Neste segundo caso, diz-se que há uma propagação do fenômeno. De tal forma que, oscilação, onda, propagação são termos correlacionados e condicionam a natureza do movimento ondulatório de interesse da física.
+É importante notar que existem características diferentes em tais situações. Em algumas simplesmente há oscilações ou vibrações e, em outros casos, além de oscilar ou vibrar, essa condição é posteriormente transmitida para outros locais do ambiente longe de sua origem. Neste segundo caso, diz-se que há uma propagação do fenômeno. De tal forma que, \emph{oscilação}, \emph{onda}, \emph{propagação} são termos correlacionados e condicionam a natureza do movimento ondulatório de interesse da física.
 
+Etimologicamente, a palavra \emph{onda} teria a ver com o significado de algo que flutua na água. As descobertas e desenvolvimentos neste tema em seus primórdios derivaram do estudo dos sons musicais. As ondas foram abordadas pela filosofia clássica, onde predominou a Acústica. Diz-se que o estudo moderno de ondas se originou com \emph{Galileu Galilei}, passando então efetivamente para o domínio das ciências. 
+
+A figura \ref{fig:mapa.ondas} apresenta as contribuições de vários
+investigadores numa perspectiva histórica do conhecimento científico desta temática.
+\newpage
+\begin{figure}[H]
+	\centering
+	\caption{Representação da evolução do conhecimento sobre ondas.}
+	\label{fig:mapa.ondas}
+	%\begin{Center}
+	\includegraphics[width=0.95\textwidth,height=1\textheight]{sounds.jpg}
+	%\end{Center}
+\end{figure}
 \section{O Movimento Ondulatório}
-Vamos supor uma haste fina de metal em que alguém bata com uma ferramente sobre sua extremidade então outra pessoa oposta sentirá as vibrações dos impactos cujo efeito seria, dada sua elasticidade, devido a sucessão de pequenos movimentos MHS sobre extremidade observada. Porém, na medida em que as estocadas forem mais intensas parte da energia fornecida será acumulada localmente na haste originando uma sucessão de movimentos abruptos avançando pela extensão até isso ser percebido na extremidade oposta. Ou seja, nessa condição houve uma transferência de energia inicialmente acumulada na elasticidade de uma seção do material, na forma de um \emph{pacote} e que por efeito secundário entrou em propagação nas seções subsequente. Esse movimento da energia assim descrito é tipicamente ondulatório.
+Vamos supor uma haste fina de metal em que alguém bata com uma ferramente sobre sua extremidade então outra pessoa oposta sentirá as vibrações dos impactos cujo efeito seria, dada sua elasticidade, devido a sucessão de pequenos movimentos MHS sobre extremidade observada. Porém, na medida em que as estocadas forem mais intensas parte da energia fornecida será acumulada localmente na haste originando uma sucessão de movimentos abruptos avançando pela extensão até isso ser percebido na extremidade oposta. Ou seja, nessa condição houve uma transferência de energia inicialmente acumulada na elasticidade de uma seção do material, na forma de um \emph{pacote} e que, por efeito secundário, ela entrou em propagação nas seções subsequentes. Essa transferência da energia mecânica assim descrito é tipicamente um movimento ondulatório.
 
 O movimento ondulatório compreende tudo que ocorre como consequência de uma perturbação que se propaga além de seu local e com a condição de apresentar nisso inerentes efeitos de difração e interferência. Nesse sentido, e uma vez que se estabeleça um sistema de referência, então, um observador, sob a perspectiva de um experimento ou uma hipótese, descreverá seus resultados por meio de uma terminologia, a qual traduz, de certa forma, as propriedades do movimento ondulatório:
 \begin{itemize}
@@ -1113,15 +1123,15 @@ e, fazendo \( k= \frac{2\, \pi}{\lambda} \), temos
 \[ \xi\qty(x,t) = \xi_0\, \sin \qty(k\, x - \frac{2\,\pi}{\lambda}\,v\,t)\text{,}\]
 que reescrevendo fica,	
 \[ \xi\qty(x,t) \,=\, \xi_0\,  \sin \qty(k\, x - \frac{2\,\pi}{\frac{\lambda}{v}}\,t)\text{.}  \]
-O termo \(  \nicefrac{\lambda}{v} \) é denominado \emph{período de oscilação}, \( P \),  em cada ponto \( x \) sujeito ao efeito da onda (os vai e vens), é expresso em unidades de tempo. Consequentemente define-se a \emph{frequência angular} da onda, \( \omega \), em radianos por unidade de tempo
+O termo que aparece nessa última expressão, na forma \(  \nicefrac{\lambda}{v} \) é denominado \emph{período de oscilação}, \( P \), associado a cada cada ponto \( x \) sujeito ao efeito da onda ("os vaivéns"), é expresso em unidades de tempo. Consequentemente define-se a \emph{frequência angular} da onda, \( \omega \), em radianos por unidade de tempo
 \begin{equation}\label{freqAngular}
 	\omega\, =\, \frac{2\, \pi}{P}\text{.}
 \end{equation}
-Portanto, escreve-se, para um onda harmônica, movendo-se (propagando-se) para o sentido positivo do eixo X,
+Portanto, para um onda harmônica, movendo-se (propagando-se) no sentido positivo do eixo X escreve-se, suas função de onda na forma:
 \begin{equation}\label{harmonica}
 	\xi\qty(x,t) = \xi_0 \sin\qty(k\,x - \omega\,t)\text{.}
 \end{equation}
-Uma vez que ciclo de oscilação possui \( 2\, \pi\, \mathrm{rad}\), podemos definir uma grandeza $\nu$ por meio da expressão,
+Uma vez que ciclo completo de oscilação se associa o valor de \( 2\, \pi\, \mathrm{rad}\), podemos definir uma grandeza $\nu$ por meio da expressão,
 \begin{equation}\label{frequencia}
 	\nu = \frac{\omega}{ 2\,\pi}\text{,}
 \end{equation}
@@ -1336,20 +1346,21 @@ Ondas estacionárias podem ser produzidas em uma corda usando um gerador de puls
 \end{figure}
 
 \newpage 
-O campo elétrico e o campo magnético são grandezas acopladas formando o chamado de \emph{campo eletromagnético}. Isso é pode ser visto por meio da equação vetorial $\vec{B} \,=\, \mu_0 \, \varepsilon_0 \, \vec{v} \times \vec{E} $ para uma carga puntual em movimento (não acelerada).
+O campo elétrico e o campo magnético são grandezas acopladas formando o chamado de \emph{campo eletromagnético}. Isso é pode ser evidenciado mediante a equação vetorial $\vec{B} \,=\, \mu_0 \, \varepsilon_0 \, \vec{v} \times \vec{E} $ associada a uma carga puntual em movimento (não acelerada).
 
-Ao aplicar as equações de Maxwell a campos elétricos e magnéticos cruzados, ou seja o campo eletromagnético, chega-se a uma equação na forma:
+Ao aplicar as equações de Maxwell a campos elétricos e magnéticos cruzados, ou seja, o campo eletromagnético, chega-se a uma expressão na forma diferencial:
 \begin{equation*}
 	\label{frequencia}
 	{\partial^2 {E}\over \partial t^2 }  \, =\, {1 \over { \mu_0 \, \varepsilon_0} } \, { \partial^2 {E}\over \partial x^2  }  \text{,}
 \end{equation*}
-e esta indica que o campo eletromagnético se propaga, abstraindo-se das particularidades, como uma onda plana no espaço, pois tal expressão é compatível com a equação  diferencial da onda (o mesmo valerá para o vetor $\vec{B}$).
+e tal equação indica que o campo eletromagnético propaga-se, abstraindo-se das particularidades, como uma onda plana no espaço, isso porque tal expressão é compatível com a equação  diferencial da onda (o mesmo valerá para o vetor $\vec{B}$).
 
-Podemos também aqui fazer uso da função harmônica como solução da equação diferencial dessa propagação do campo eletromagnético. Assim temos duas expressões de funções harmônicas aplicáveis:
+Podemos também aqui fazer uso da função harmônica como solução da equação diferencial dessa propagação do campo eletromagnético. Assim, temos duas expressões de funções harmônicas aplicáveis:
 \begin{align}
 	E_y\, = \, E_0\, \sin\qty(k\, x - \omega\, t)  \text{,}  \\
-	B_z\, = \, B_0\, \sin\qty(k\, x - \omega\, t) \text{.}
+	B_z\, = \, B_0\, \sin\qty(k\, x - \omega\, t) \text{,}
 \end{align}
+as quais podem ser representadas graficamente.\\
 \begin{minipage}[t]{\textwidth}\color{blue}
 	\centering
 	\noindent
@@ -1364,7 +1375,7 @@ Podemos também aqui fazer uso da função harmônica como solução da equaçã
 \end{minipage}
 \begin{minipage}[t]{\textwidth}\color{blue}
 	A:[\ \ k:1,\ c:1\ ,\ \ E\_0:1\ ,\ B\_0:\ E\_0/c\ \ \ \ ]\$\ \ensuremath{\omega}:\ k*c\$\ t:0\ \$\\
-	wxdraw3d(\ xlabel="x",ylabel="y",\ zlabel="z",\ grid=true,\ \\
+	wxdraw3d(\ xlabel=\ensuremath{``x''},ylabel=``y'',\ zlabel=``z'',\ grid=true,\ \\
 	\ \ \ \ yrange\ =\ [-1,1],\ zrange\ =\ [-1,1],\ xrange\ =\ [0,20],\ \ nticks\ =\ 200,\\
 	\ \ \ \ view\ =\ [60,60],\ \ colorbox=\ false,\ \ line\_width\ =\ 2,\\
 	\ \ \ \ enhanced3d\ =\ [x,\ x,\ y,z],\ \ parametric(u,0,0,u,-1,11*\%pi),\\
@@ -1382,14 +1393,50 @@ Podemos também aqui fazer uso da função harmônica como solução da equaçã
 	)\ \$
 \end{minipage}
 \noindent%
-\begin{figure}[h]
+\begin{figure}[H]
 	\centering
 	\includegraphics[width=0.9\linewidth]{eletromagnética}
 	%\caption{}
 	\label{fig:eletromagnetica}
 \end{figure}
+
+Vamos considerar agora uma superfície, tal como uma membrana retangular com suas bordas fixadas, uma vez que essa superfície seja perturbada, são produzidas ondas que se propagam em todas as direções e refletidas nas bordas, acarretando uma interferência. A equação que governa essa situação na condição estacionária, correspondendo a um sistema de quatro ondas será:
+\begin{equation*}
+	\xi \,=\,-4\, \xi_0\, \sin k_1\,x \, \sin k_2\,y\, \sin \omega\,t \text{,}
+\end{equation*}
+onde \(k_1\,=\, {n_1\,\pi \over a }  \), \(k_2\,=\, {n_2\,\pi \over b }  \), \(n_1\), \(n_2\), são números inteiros, \(a\) e \(b\) correspondem às dimensões da membrana. Supondo-se ondas produzidas com uma única frequência esta será dada por \(\omega\,=\, \sqrt{k_1^2+k_2^2}\,c\).
+
+\noindent
+\begin{minipage}[t]{\textwidth}\color{blue}
+	\centering
+	\noindent
+	\texttt{CODE CELL MAXIMA}
+\end{minipage}
+\rule{\linewidth}{.1em}
+\noindent
+%%%%%%%%
+%% INPUT:
+\begin{minipage}[t]{4.000000em}\color{red}\bfseries
+	--\ensuremath{\ensuremath{>}}	
+\end{minipage}
+\begin{minipage}[t]{\textwidth}\color{blue}
+	A:\ [a:\ 2,\ b:\ 3,\ n\_1:\ 2,\ n\_2:\ 2,\ c:1,\ \ensuremath{\xi}\_0:\ 10\ ]\$\ k\_1:\ A[3]*\%pi/A[1]\$\ \ k\_2:\ A[4]*\%pi/A[2]\$\\
+	\ensuremath{\omega}:\ sqrt(k\_1\^\ 2+\ k\_2\^\ 2)*A[5]\$\ t:[0,4,8]\$\ \ensuremath{\xi}(x,y,t):=-4*A[3]*\ sin(k\_1*x)*sin(k\_2*y)*sin(\ensuremath{\omega}*t)\$\\
+	wxdraw3d(font\ \ =\ "Arial",\ font\_size\ =\ 20,\ title\ ="Ondas\ estacionárias\ em\ duas\ dimensões",\\
+	\ \ \ \ key\ =\ concat("t:"\ ,t[1]),\ color\ =\ gray,\ explicit(\ensuremath{\xi}(x,y,t[1]),x,0,a,y,0,b),\\
+	\ \ \ \ key\ =\ concat("t:",\ t[2]),\ color\ =\ red,\ \ explicit(\ensuremath{\xi}(x,y,t[2]),x,a/3,a,y,0,b),\\
+	\ \ \ \ key\ =\ concat("t:",\ t[3]),\ color\ =\ blue,\ explicit(\ensuremath{\xi}(x,y,t[3]),x,0,a,y,0,b),\ axis\_3d\ =\ false,\ \\
+	\ \ \ \ contour\ =\ none,\ surface\_hide\ \ =\ true,\ ip\_grid=[1,1])\$
+\end{minipage}
+\noindent%
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=0.85\linewidth]{estacionárias_3D}
+	\label{fig:estacionarias3d}
+\end{figure}
+
 \chapter{APLICAÇÕES ONDULATÓRIAS}
-De modo mais geral o estudo do movimento ondulatório é feito do ponto de vista a dinâmica do processo, ou seja, assumindo que haja uma perturbação em um ponto e essa é propagada até outro ponto, o que leva a ser descrito por uma equação dinâmica, ou diferencial.
+De modo mais geral, o estudo do movimento ondulatório é feito do ponto de vista da dinâmica do processo, ou seja, é assumindo que haja uma perturbação em um ponto e ela é propagada até outro ponto, o que conduz tal processo a ser descrito por uma equação dinâmica, ou diferencial.
 \section{Corda Estendida}
 Aqui consideramos uma corda como um meio sobre o qual se propagará um movimento oscilatório periódico. Por hipótese será uma corda ideal então ela será inextensível e perfeitamente homogênea, com densidade linear de valor \(m\) em unidades de massa por unidade de comprimento.
 
@@ -1674,15 +1721,45 @@ disp(concat("-\ Velocidade\ do\ alvo:\ ",\ v\_O,"m/s."))\$\\
 	disp(concat("-\ Indicação:\ ",Ind)\ \ \ )\$
 \end{minipage}
 
-
 \begin{figure}[H]
 	\centering
 	\caption{Resultado para a simulação do sonar Doppler estacionário.}
 	\label{fig:exemplo521-convergencia}
 	\includegraphics[width=1\linewidth]{exemplo521-convergência}
 \end{figure}
+\section{Radiação de um Dipolo Elétrico Oscilante}
+Um dipolo elétrico é um dispositivo  que representa o efeito físico de duas cargas elétricas simétricas e separadas a uma pequena distância. Polaridade é a propriedade que determina a intensidade de um dipolo e é representada pelo vetor momento de dipolo. 
+Uma forma de gerar ondas eletromagnéticas é fazendo oscilar o valor da polarização. O valor do campo elétrico irradiado é determinado pelas equações de Maxwell. Uma possível solução leva à expressão:
+\begin{align*}
+	\xi\,=\, {\Pi_0\, \sin\theta \over 4\,\pi\,\epsilon_0\,r}\,\qty(\omega\over c)^2 \, \sin\qty(k\,r-\omega\,t)	\text{,}
+\end{align*}
+onde \(\Pi_0\) corresponde ao valor de pico do momento de dipolo elétrico e \(\theta\) é a coordenada angular em relação ao eixo do dipolo.
+\newline
+
+\setcounter{exemplos}{1}
+{ {\scshape Exemplo \thesection.\theexemplos:}} Para manter um dipolo elétrico irradiando devemos fornecer-lhe energia. Tal energia é transportada pela onda irradiada que ter-lhe-á associada a grandeza \emph{intensidade de onda} à medida em que é estabelecida um distribuição espacial de sua potência. Represente graficamente a intensidade da onda irradiada em coordenadas polares. Considere a intensidade a partir da relação  \(I\qty(\theta)\,=\, c\, \mathtt{E}_{\mathrm{med}}\), onde corresponde à densidade média de energia irradiada por uma onda.
+
+\noindent
+Solução.\\
+A densidade total de energia de uma onda eletromagnética é dada por;
+\begin{align*}
+   \mathtt{E}\,=\, c\, \xi^2   	\text{.}
+\end{align*}
+Substituindo pela expressão sugerida para \(\xi\)
+\begin{align*}
+	\mathtt{E} \, =\, c\, \qty[{\Pi_0\, \sin\theta \over 4\,\pi\,\epsilon_0\,r}\,\qty(\omega\over c)^2 \, \sin\qty(k\,r-\omega\,t)]^2	\text{,}
+\end{align*}
+e aplicando o teorema do valor médio então obtêm-se
+\begin{align*}
+	 \mathtt{E}_{\mathrm{med}} \,= \,  {\Pi_0^2\,\omega^4 \over 32\,\pi^2\,c^4\,\epsilon_0\,r^2}\, \sin^2\theta	\text{,}
+\end{align*}
+para obter a expressão 
+\begin{align*}
+	I\qty(\theta)\, = \,   {\Pi_0^2\,\omega^4 \over 32\,\pi^2\,c^3\,\epsilon_0\,r^2}\, \sin^2\theta	\text{.}
+\end{align*}
+
 \appendix
-\chapter{DICAS SOBRE O MAXIMA}
+\chapter{\uppercase{Dicas Sobre o Maxima}}
 \section{Como Instalar o wxMaxima\textregistered}
 Instalar um software é uma tarefa que a maioria de usuários de PC já fizeram alguma vez, e instalar o Maxima é uma tarefa que não haverá muita dificuldade. O primeiro passo é obter o arquivo instalador. Uma opção é fazer o processo de \emph{download} do endereço da internet ou URL (sugestão do autor): maxima.sourceforge.io/windows-install.html (\ref{fig:site-maxima}). 
 \begin{figure}[htbp!]
@@ -1778,7 +1855,7 @@ Assim, localize o link, nessa página com o texto: \href{sourceforge.net/project
 	%\end{Center}
 \end{figure}
 \newpage
-\section{Conhecendo a \emph{Interface} Gráfica do wxMaxima}
+\section{Conhecendo o \emph{Interface} Gráfico do wxMaxima}
 A janela do aplicativo wxMaxima é idêntica a um editor de texto, e permite criar um arquivo, abrir um existente e salvar suas alterações, tudo a partir de um menu suspenso de comandos. Ao abrir o aplicativo, este já fornece de imediato, em sua janela, um prompt para a entrada de comandos, ou textos descritivos, figura \ref{fig:tela-inicial}. 
 \begin{figure}[H]
 	\centering
@@ -1852,8 +1929,8 @@ Um cursor, na forma de um traço horizontal intermitente, marca a posição inic
 
 Até agora nos ativemos a apresentar generalidades que subsidiarão o leitor durante sua jornada no aprendizado ou mesmo na utilização das técnicas de simulação aqui apresentadas no Maxima. Assunto que será objeto dos próximos capítulos.
 \newpage
-\section{Idioma da \emph{Interface}}
-Para alterar o idioma da interface acesse o comando "Configurações", e altere para o idioma conveniente para uso da interface. Os passos a seguir alteram para o idioma português.
+\section{Idioma do \emph{Interface}}
+Para alterar o idioma da interface acesse o comando "Configurações", e altere para o idioma conveniente para uso do interface. Os passos a seguir alteram para o idioma português.
 \begin{figure}[ht]
 	\centering
 	\caption{Passo inicial ao processo de configurar o idioma}
@@ -1995,19 +2072,6 @@ The rhs() (``right hand side'') command allows to retrieve the result of an equa
 	result_b:b=at(b,%);
 \end{verbatim}
 
-\chapter{\uppercase{Perspectiva Histórica sobre Ondas}}
-Etimologicamente, a palavra \emph{onda} teria a ver com o significado de algo que flutua na água. As descobertas e desenvolvimentos neste tema em seus primórdios derivaram do estudo dos sons musicais. As ondas foram abordadas pela filosofia clássica, onde predominou a Acústica. Diz-se que o estudo moderno de ondas se originou com \emph{Galileu Galilei}, passando então efetivamente para o domínio das ciências. 
 
-Com o advento do Cálculo houve uma grande contribuição para um formalismo da ondulatória por meio de equações diferenciais.  
 
-A figura \ref{fig:mapa.ondas} apresenta as contribuições de vários
- investigadores numa perspectiva histórica do conhecimento científico desta temática.
-\begin{figure}[ht]
-	\centering
-	\caption{Representação da evolução do conhecimento sobre ondas.}
-	\label{fig:mapa.ondas}
-	%\begin{Center}
-	\includegraphics[width=0.95\textwidth,height=1\textheight]{sounds.jpg}
-	%\end{Center}
-\end{figure}
 \end{document}

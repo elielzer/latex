@@ -8,17 +8,17 @@
 \contentsline {section}{\numberline {2.1}As Funções Trigonométricas no Maxima}{17}{section.2.1}%
 \contentsline {section}{\numberline {2.2}Transformações Trigonométricas}{21}{section.2.2}%
 \contentsline {chapter}{\numberline {3}DESCRIÇÕES DE MOVIMENTOS ONDULATÓRIOS}{27}{chapter.3}%
-\contentsline {section}{\numberline {3.1}O Movimento Ondulatório}{27}{section.3.1}%
-\contentsline {section}{\numberline {3.2}Abordagem Matemática}{29}{section.3.2}%
-\contentsline {section}{\numberline {3.3}Onda Harmônica como um Modelo Físico}{35}{section.3.3}%
-\contentsline {chapter}{\numberline {4}APLICAÇÕES ONDULATÓRIAS}{47}{chapter.4}%
-\contentsline {section}{\numberline {4.1}Corda Estendida}{47}{section.4.1}%
-\contentsline {section}{\numberline {4.2}Efeito Doppler}{50}{section.4.2}%
-\contentsline {chapter}{\numberline {A}DICAS SOBRE O MAXIMA}{57}{appendix.A}%
-\contentsline {section}{\numberline {A.1}Como Instalar o wxMaxima\textregistered }{57}{section.A.1}%
-\contentsline {section}{\numberline {A.2}Conhecendo a \emph {Interface} Gráfica do wxMaxima}{62}{section.A.2}%
-\contentsline {section}{\numberline {A.3}Idioma da \emph {Interface}}{65}{section.A.3}%
-\contentsline {section}{\numberline {A.4}Selecão do Compilador}{67}{section.A.4}%
-\contentsline {section}{\numberline {A.5}Dicas Diversas}{70}{section.A.5}%
-\contentsline {section}{\numberline {A.6}Dicas de Maxima}{71}{section.A.6}%
-\contentsline {chapter}{\numberline {B}\uppercase {Perspectiva Histórica sobre Ondas}}{73}{appendix.B}%
+\contentsline {section}{\numberline {3.1}O Movimento Ondulatório}{29}{section.3.1}%
+\contentsline {section}{\numberline {3.2}Abordagem Matemática}{31}{section.3.2}%
+\contentsline {section}{\numberline {3.3}Onda Harmônica como um Modelo Físico}{37}{section.3.3}%
+\contentsline {chapter}{\numberline {4}APLICAÇÕES ONDULATÓRIAS}{51}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Corda Estendida}{51}{section.4.1}%
+\contentsline {section}{\numberline {4.2}Efeito Doppler}{54}{section.4.2}%
+\contentsline {section}{\numberline {4.3}Radiação de um Dipolo Elétrico Oscilante}{59}{section.4.3}%
+\contentsline {chapter}{\numberline {A}\uppercase {Dicas Sobre o Maxima}}{61}{appendix.A}%
+\contentsline {section}{\numberline {A.1}Como Instalar o wxMaxima\textregistered }{61}{section.A.1}%
+\contentsline {section}{\numberline {A.2}Conhecendo o \emph {Interface} Gráfico do wxMaxima}{66}{section.A.2}%
+\contentsline {section}{\numberline {A.3}Idioma do \emph {Interface}}{69}{section.A.3}%
+\contentsline {section}{\numberline {A.4}Selecão do Compilador}{71}{section.A.4}%
+\contentsline {section}{\numberline {A.5}Dicas Diversas}{74}{section.A.5}%
+\contentsline {section}{\numberline {A.6}Dicas de Maxima}{75}{section.A.6}%
